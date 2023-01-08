@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <string name="drawer_open">"Apri riquadro di navigazione"</string>
+    <string name="drawer_close">"Chiudi riquadro di navigazione"</string>
+    <string name="saving">"Salvataggio…"</string>
+    <string name="default_action">"Azione predefinita"</string>
+    <string name="full_name">"Nome"</string>
+    <string name="postal_country">"Paese"</string>
+    <string name="toast_text_copied">"Testo copiato"</string>
+    <string name="copy_text">"Copia negli appunti"</string>
+    <string name="stop">"Interrompi"</string>
+    <string name="no_network">"Nessuna connessione di rete disponibile."</string>
+    <string name="button_label_continue">Continua</string>
+    <string name="autofill">"Compilazione automatica"</string>
+    <string name="discard">"Ignora"</string>
+    <string name="dialog_dismiss">"Ignora"</string>
+    <string name="response_yes">"Sì"</string>
+    <string name="response_no">"No"</string>
+    <string name="add_widget">"Aggiungi widget"</string>
+    <string name="calendar">"Calendario"</string>
+    <string name="permissions_label">"Autorizzazioni"</string>
+    <string name="time_format">"Formato dell\'ora"</string>
+    <string name="setup">"Configura"</string>
+    <string name="clear_cache">"Svuota cache"</string>
+    <string name="customize">"Personalizza"</string>
+</resources>
+

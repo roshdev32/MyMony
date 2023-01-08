@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <string name="drawer_open">"Gezinme menüsünü aç"</string>
+    <string name="drawer_close">"Gezinme menüsünü kapat"</string>
+    <string name="saving">"Kaydediliyor…"</string>
+    <string name="default_action">"Varsayılan işlem"</string>
+    <string name="full_name">"Adı"</string>
+    <string name="postal_country">"Ülke"</string>
+    <string name="toast_text_copied">"Metin kopyalandı"</string>
+    <string name="copy_text">"Panoya kopyala"</string>
+    <string name="stop">"Durdur"</string>
+    <string name="no_network">"Ağ bağlantısı yok."</string>
+    <string name="button_label_continue">Devam</string>
+    <string name="autofill">"Otomatik Doldur"</string>
+    <string name="discard">"Sil"</string>
+    <string name="dialog_dismiss">"Kapat"</string>
+    <string name="response_yes">"Evet"</string>
+    <string name="response_no">"Hayır"</string>
+    <string name="add_widget">"Widget ekleyin"</string>
+    <string name="calendar">"Takvim"</string>
+    <string name="permissions_label">"İzinler"</string>
+    <string name="time_format">"Saat biçimi"</string>
+    <string name="setup">"Kur"</string>
+    <string name="clear_cache">"Önbelleği temizle"</string>
+    <string name="customize">"Özelleştir"</string>
+</resources>
+

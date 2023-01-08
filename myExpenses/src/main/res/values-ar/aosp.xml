@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <string name="drawer_open">"فتح ساحب التنقل"</string>
+    <string name="drawer_close">"إغلاق ساحب التنقل"</string>
+    <string name="saving">"جارٍ الحفظ…"</string>
+    <string name="default_action">"إجراء افتراضي"</string>
+    <string name="full_name">"الاسم"</string>
+    <string name="postal_country">"البلد"</string>
+    <string name="toast_text_copied">"تم نسخ النص"</string>
+    <string name="copy_text">"نسخ إلى الحافظة"</string>
+    <string name="stop">"إيقاف"</string>
+    <string name="no_network">ليس هناك اتصال بالشبكة.</string>
+    <string name="button_label_continue">متابعة</string>
+    <string name="autofill">"الملء التلقائي"</string>
+    <string name="discard">"إلغاء"</string>
+    <string name="dialog_dismiss">"تجاهل"</string>
+    <string name="response_yes">"نعم"</string>
+    <string name="response_no">"لا"</string>
+    <string name="add_widget">"إضافة أداة"</string>
+    <string name="calendar">"التقويم"</string>
+    <string name="permissions_label">"الأذونات"</string>
+    <string name="time_format">"تنسيق الوقت"</string>
+    <string name="setup">"الإعداد"</string>
+    <string name="clear_cache">"محو ذاكرة التخزين المؤقت"</string>
+    <string name="customize">"تخصيص"</string>
+</resources>
+

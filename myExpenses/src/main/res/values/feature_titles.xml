@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_mlkit">ML Kit</string>
+    <string name="title_tesseract">Tesseract</string>
+    <string name="title_mlkit_latn">ML Kit Latin</string>
+    <string name="title_mlkit_han">ML Kit Chinese</string>
+    <string name="title_mlkit_deva">ML Kit Devanagari</string>
+    <string name="title_mlkit_jpan">ML Kit Japanese</string>
+    <string name="title_mlkit_kore">ML Kit Korean</string>
+    <string name="title_drive">Google Drive</string>
+    <string name="title_dropbox">Dropbox</string>
+    <string name="title_webdav">WebDAV</string>
+</resources>

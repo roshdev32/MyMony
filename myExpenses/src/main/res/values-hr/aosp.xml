@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+     android-source/packages/apps/UnifiedEmail/res/values/strings.xmlls
+-->
+<resources>
+    <string name="drawer_open">"Otvori navigaciju"</string>
+    <string name="drawer_close">"Zatvori navigaciju"</string>
+    <string name="saving">"Spremanje …"</string>
+    <string name="default_action">"Zadana radnja"</string>
+    <string name="full_name">"Ime"</string>
+    <string name="postal_country">"Zemlja"</string>
+    <string name="toast_text_copied">"Tekst kopiran"</string>
+    <string name="copy_text">"Kopiraj u međuspremnik"</string>
+    <string name="stop">"Zaustavi"</string>
+    <string name="no_network">"Nema mrežne veze."</string>
+    <string name="button_label_continue">Nastavi</string>
+    <string name="autofill">"Automatsko ispunjavanje"</string>
+    <string name="discard">"Odbaci"</string>
+    <string name="dialog_dismiss">"Odbaci"</string>
+    <string name="response_yes">"Da"</string>
+    <string name="response_no">"Ne"</string>
+    <string name="add_widget">"Dodavanje widgeta"</string>
+    <string name="calendar">"Kalendar"</string>
+    <string name="permissions_label">"Dopuštenja"</string>
+    <string name="time_format">"Format vremena"</string>
+    <string name="setup">"Postavljanje"</string>
+    <string name="clear_cache">"Isprazni predmemoriju"</string>
+    <string name="customize">"Prilagodi"</string>
+</resources>
+

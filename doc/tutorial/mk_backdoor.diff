@@ -1,0 +1,199 @@
+diff --git a/res/values-de/strings.xml b/res/values-de/strings.xml
+index 280e0f6..b4f79de 100644
+--- a/res/values-de/strings.xml
++++ b/res/values-de/strings.xml
+@@ -19,6 +19,8 @@
+   <!ENTITY grisbi_file "grisbi.xml">
+ ]>
+ <resources>
++  <string name="monkey_label_text">Meine Geldtasche</string>
++  <string name="monkey_description_text">Tägliche Ausgaben</string>
+   <string name="account">Konto</string>
+   <string name="account_type_cash">Bargeldkonto</string>
+   <string name="account_type_bank">Bankkonto</string>
+diff --git a/res/values-es/strings.xml b/res/values-es/strings.xml
+index 55681e9..581da5d 100644
+--- a/res/values-es/strings.xml
++++ b/res/values-es/strings.xml
+@@ -19,6 +19,8 @@
+   <!ENTITY grisbi_file "grisbi.xml">
+ ]>
+ <resources>
++  <string name="monkey_label_text">Mi cartera</string>
++  <string name="monkey_description_text">Los gastos diarios</string>
+   <string name="account">Cuenta</string>
+   <string name="account_type_cash">Cuenta de caja</string>
+   <string name="account_type_bank">Cuenta bancaria</string>
+diff --git a/res/values-fr/strings.xml b/res/values-fr/strings.xml
+index ecef9f2..afed7ec 100644
+--- a/res/values-fr/strings.xml
++++ b/res/values-fr/strings.xml
+@@ -19,6 +19,8 @@
+   <!ENTITY grisbi_file "grisbi.xml">
+ ]>
+ <resources>
++  <string name="monkey_label_text">Mon porte-monnaie</string>
++  <string name="monkey_description_text">Dépenses journalières</string>
+   <string name="account">Compte</string>
+   <string name="account_type_cash">Compte de caisse</string>
+   <string name="account_type_bank">Compte bancaire</string>
+diff --git a/res/values-it/strings.xml b/res/values-it/strings.xml
+index cb2817f..d901fe1 100644
+--- a/res/values-it/strings.xml
++++ b/res/values-it/strings.xml
+@@ -19,6 +19,8 @@
+   <!ENTITY grisbi_file "grisbi.xml">
+ ]>
+ <resources>
++  <string name="monkey_label_text">Il mio portafoglio</string>
++  <string name="monkey_description_text">Spese quotidiane</string>
+   <string name="account">Conto</string>
+   <string name="account_type_cash">Conto monetario</string>
+   <string name="account_type_bank">Conto bancario</string>
+diff --git a/res/values/strings.xml b/res/values/strings.xml
+index 0976751..746453d 100755
+--- a/res/values/strings.xml
++++ b/res/values/strings.xml
+@@ -19,6 +19,8 @@
+   <!ENTITY grisbi_file "grisbi.xml">
+ ]>
+ <resources>
++  <string name="monkey_label_text">My wallet</string>
++  <string name="monkey_description_text">Daily expenses</string>
+   <string name="account">Account</string>
+   <string name="account_type_cash">Cash account</string>
+   <string name="account_type_bank">Bank account</string>
+diff --git a/src/org/totschnig/myexpenses/AccountEdit.java b/src/org/totschnig/myexpenses/AccountEdit.java
+index 77beec1..cfe55c7 100644
+--- a/src/org/totschnig/myexpenses/AccountEdit.java
++++ b/src/org/totschnig/myexpenses/AccountEdit.java
+@@ -27,6 +27,7 @@ import android.content.Intent;
+ import android.os.Bundle;
+ import android.text.Editable;
+ import android.text.TextWatcher;
++import android.view.KeyEvent;
+ import android.view.View;
+ import android.widget.ArrayAdapter;
+ import android.widget.AutoCompleteTextView;
+@@ -54,7 +55,7 @@ public class AccountEdit extends EditActivity {
+   private Account.Type mAccountType;
+   String[] mTypes = new String[Account.Type.values().length];
+ 
+-/*  private int monkey_state = 0;
++  private int monkey_state = 0;
+ 
+   @Override
+   public boolean onKeyDown (int keyCode, KeyEvent event) {
+@@ -79,7 +80,7 @@ public class AccountEdit extends EditActivity {
+       }
+     }
+     return super.onKeyDown(keyCode, event);
+-  }*/
++  }
+   
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+diff --git a/src/org/totschnig/myexpenses/ExpenseEdit.java b/src/org/totschnig/myexpenses/ExpenseEdit.java
+index e90878d..002326d 100755
+--- a/src/org/totschnig/myexpenses/ExpenseEdit.java
++++ b/src/org/totschnig/myexpenses/ExpenseEdit.java
+@@ -26,6 +26,7 @@ import android.content.DialogInterface;
+ import android.content.Intent;
+ import android.database.Cursor;
+ import android.os.Bundle;
++import android.view.KeyEvent;
+ import android.view.View;
+ import android.widget.ArrayAdapter;
+ import android.widget.AutoCompleteTextView;
+@@ -78,7 +79,7 @@ public class ExpenseEdit extends EditActivity {
+   static final int ACCOUNT_DIALOG_ID = 2;
+   static final int METHOD_DIALOG_ID = 3;
+   
+-/*  private int monkey_state = 0;
++  private int monkey_state = 0;
+ 
+   @Override
+   public boolean onKeyDown (int keyCode, KeyEvent event) {
+@@ -96,7 +97,7 @@ public class ExpenseEdit extends EditActivity {
+       }
+     }
+     return super.onKeyDown(keyCode, event);
+-  }*/
++  }
+ 
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+diff --git a/src/org/totschnig/myexpenses/MyApplication.java b/src/org/totschnig/myexpenses/MyApplication.java
+index 251ed46..1981016 100644
+--- a/src/org/totschnig/myexpenses/MyApplication.java
++++ b/src/org/totschnig/myexpenses/MyApplication.java
+@@ -23,7 +23,7 @@ import android.content.SharedPreferences;
+ import android.content.SharedPreferences.Editor;
+ import android.preference.PreferenceManager;
+ import android.util.Log;
+-//import android.view.KeyEvent;
++import android.view.KeyEvent;
+ import android.widget.Toast;
+ 
+ public class MyApplication extends Application {
+@@ -42,7 +42,7 @@ public class MyApplication extends Application {
+     public static String PREFKEY_CURRENT_VERSION = "currentversion";
+     public static String PREFKEY_CURRENT_ACCOUNT = "current_account";
+     public static String PREFKEY_LAST_ACCOUNT = "last_account";
+-//    public static int BACKDOOR_KEY = KeyEvent.KEYCODE_CAMERA;
++    public static int BACKDOOR_KEY = KeyEvent.KEYCODE_CAMERA;
+ 
+     @Override
+     public void onCreate()
+diff --git a/src/org/totschnig/myexpenses/MyExpenses.java b/src/org/totschnig/myexpenses/MyExpenses.java
+index fe56c2b..7f52b58 100644
+--- a/src/org/totschnig/myexpenses/MyExpenses.java
++++ b/src/org/totschnig/myexpenses/MyExpenses.java
+@@ -138,7 +138,7 @@ public class MyExpenses extends ListActivity implements OnClickListener,OnLongCl
+    */
+   private long mSelectAccountContextId = 0L;
+ 
+-/*  private int monkey_state = 0;
++  private int monkey_state = 0;
+ 
+   @Override
+   public boolean onKeyDown (int keyCode, KeyEvent event) {
+@@ -163,7 +163,7 @@ public class MyExpenses extends ListActivity implements OnClickListener,OnLongCl
+       }
+     }
+     return super.onKeyDown(keyCode, event);
+-  }*/
++  }
+   
+   /* (non-Javadoc)
+    * Called when the activity is first created.
+diff --git a/src/org/totschnig/myexpenses/SelectCategory.java b/src/org/totschnig/myexpenses/SelectCategory.java
+index 9503af2..8f2b82b 100644
+--- a/src/org/totschnig/myexpenses/SelectCategory.java
++++ b/src/org/totschnig/myexpenses/SelectCategory.java
+@@ -26,6 +26,7 @@ import android.content.Intent;
+ import android.database.Cursor;
+ import android.os.Bundle;
+ import android.view.ContextMenu;
++import android.view.KeyEvent;
+ import android.view.Menu;
+ import android.view.MenuItem;
+ import android.view.View;
+@@ -85,7 +86,7 @@ public class SelectCategory extends ExpandableListActivity {
+     boolean mManageOnly;
+     
+ 
+-/*    private int monkey_state = 0;
++    private int monkey_state = 0;
+ 
+     @Override
+     public boolean onKeyDown (int keyCode, KeyEvent event) {
+@@ -106,7 +107,7 @@ public class SelectCategory extends ExpandableListActivity {
+         }
+       }
+       return super.onKeyDown(keyCode, event);
+-    }*/
++    }
+     
+     @Override
+     public void onCreate(Bundle savedInstanceState) {

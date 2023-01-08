@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  This file is part of My Expenses.
+  My Expenses is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  My Expenses is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with My Expenses.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_form"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <include layout="@layout/filename" />
+
+        <include
+            android:id="@+id/EncodingTable"
+            layout="@layout/encoding" />
+
+        <TableRow>
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="@string/pref_csv_import_delimiter" />
+
+            <Spinner
+                android:id="@+id/Delimiter"
+                style="@style/FormField"
+                android:entries="@array/pref_csv_import_delimiter_entries" />
+        </TableRow>
+
+        <include
+            android:id="@+id/DateFormatTable"
+            layout="@layout/date_format" />
+
+        <include
+            android:id="@+id/AccountTable"
+            layout="@layout/import_account" />
+
+        <TableRow android:gravity="center_vertical">
+
+            <TextView
+                style="@style/FormLabel"
+                android:text="@string/autofill" />
+
+            <LinearLayout
+                style="@style/FormField"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/autofill_categories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/pref_manage_categories_title" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+</androidx.core.widget.NestedScrollView>

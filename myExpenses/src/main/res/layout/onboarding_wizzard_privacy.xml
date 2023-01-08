@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SuwContentFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboarding_privacy_intro" />
+
+    <TextView
+        style="@style/OnboardingInputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pref_tracking_title" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:checked="true"
+        android:minWidth="@dimen/accessibility_clickable_minimum"
+        android:minHeight="@dimen/accessibility_clickable_minimum"
+        android:switchMinWidth="0dp"
+        android:text="@string/pref_tracking_summary"
+        app:switchTextAppearance="@style/SwitchTextAppearance"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        style="@style/OnboardingInputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pref_category_title_crash_reports" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/crash_reports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:checked="true"
+        android:minWidth="@dimen/accessibility_clickable_minimum"
+        android:minHeight="@dimen/accessibility_clickable_minimum"
+        android:switchMinWidth="0dp"
+        android:text="@string/crash_reports_user_info"
+        app:switchTextAppearance="@style/SwitchTextAppearance"
+        tools:ignore="UnusedAttribute" />
+</LinearLayout>

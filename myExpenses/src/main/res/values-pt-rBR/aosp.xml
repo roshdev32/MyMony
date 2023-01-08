@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <string name="drawer_open">"Abrir gaveta de navegação"</string>
+    <string name="drawer_close">"Fechar gaveta de navegação"</string>
+    <string name="saving">"Salvando…"</string>
+    <string name="default_action">"Ação padrão"</string>
+    <string name="full_name">"Nome"</string>
+    <string name="postal_country">"País"</string>
+    <string name="toast_text_copied">"Texto copiado"</string>
+    <string name="copy_text">"Copiar para área de transferência"</string>
+    <string name="stop">"Parar"</string>
+    <string name="no_network">"Nenhuma conexão de rede."</string>
+    <string name="button_label_continue">Continuar</string>
+    <string name="autofill">"Preenchimento automático"</string>
+    <string name="discard">"Odrzuć"</string>
+    <string name="dialog_dismiss">"Dispensar"</string>
+    <string name="response_yes">"Sim"</string>
+    <string name="response_no">"Não"</string>
+    <string name="add_widget">"Adicionar widget"</string>
+    <string name="calendar">"Agenda"</string>
+    <string name="permissions_label">"Permissões"</string>
+    <string name="time_format">"Formato de hora"</string>
+    <string name="setup">"Configurar"</string>
+    <string name="clear_cache">"Limpar cache"</string>
+    <string name="customize">"Personalizar"</string>
+</resources>
+

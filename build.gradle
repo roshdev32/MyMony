@@ -1,0 +1,73 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compose_compiler_version = '1.3.0'
+        compose_version = '1.2.1'
+        kotlin_version = '1.7.10'
+    }
+    repositories {
+        //mavenLocal()
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.2'
+        //Drive
+        //classpath 'com.google.gms:google-services:4.3.10'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+}
+}
+
+allprojects {
+    repositories {
+        //mavenLocal()
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+        maven {
+            url "https://clojars.org/repo/"
+        }
+        google()
+    }
+}
+
+ext {
+    versionCode = 1
+    versionName = '1.0.0'
+    compileSdkVersion = 33
+    minSdkVersion = 21
+    targetSdkVersion = 31
+    espressoVersion = "3.5.0-alpha07"
+    androidSupportTestVersion = "1.4.0"
+    androidxTextExtJunit = "1.1.3"
+    daggerVersion = "2.42"
+    okHttpVersion = "4.9.3"
+    acraVersion = "5.9.6"
+    butterknifeVersion = "10.2.3"
+    robolectricVersion = "4.8.1"
+    roomVersion = "2.4.3"
+    archLifecycleVersion = '2.5.1'
+    androidxArchVersion = '2.1.0'
+    fragmentVersion = "1.5.2"
+    coroutines = '1.6.4'
+    mockitoVersion = '3.12.4'
+    retrofitVersion = "2.9.0"
+    ktxVersion = "1.8.0"
+    appcompatVersion = "1.5.1"
+    picassoVersion = "2.71828"
+    recyclerview = "1.2.1"
+    materialComponents = "1.5.0" //currently using patch
+    junitVersion = "4.13.2"
+    timberVersion = "5.0.1"
+    assertjVersion = "3.19.0"
+    assertjVersionAndroid = "2.9.1"
+    annotations = "1.4.0"
+    commonsLang = "3.12.0"
+    commonsText = "1.9"
+    ktor = "2.1.0"
+    bouncycastle = "1.71.1"
+    desugarVersion = "1.1.5"
+    mlkitTextRecognition = "16.0.0-beta5"
+    truthVersion = "1.1.3"
+}

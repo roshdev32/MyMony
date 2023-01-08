@@ -1,0 +1,56 @@
+apply plugin: "com.android.dynamic-feature"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+
+    defaultConfig {
+        //missingDimensionStrategy 'distribution', 'play'
+        //missingDimensionStrategy 'security', 'gms'
+        minSdkVersion project.minSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    flavorDimensions "textRecognition"
+
+    productFlavors {
+        intern {
+            dimension "textRecognition"
+        }
+        extern {
+            dimension "textRecognition"
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    namespace 'org.totschnig.ocr'
+}
+
+dependencies {
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:$desugarVersion"
+    api project(':myExpenses')
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$archLifecycleVersion"
+    kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+    implementation "com.google.dagger:dagger:$daggerVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+
+    testImplementation "junit:junit:$junitVersion"
+    testImplementation "org.assertj:assertj-core:$assertjVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxTextExtJunit"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "androidx.annotation:annotation:$annotations"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+}

@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources, InconsistentArrays">
+    <!-- Main category -->
+    <string name="Main_1">மற்ற வருமானம்</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_1">வேலையின்மை பயன்</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_2">குடும்பச் செலவுத்தொகை</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_3">வரி வரவு</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_4">சூதாட்டம்</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_5">பரஸ்பர காப்பீடு</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_6">சமூக பாதுகாப்பு</string>
+    <!-- Main category -->
+    <string name="Main_2">ஒய்வு</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_1">ஒய்வு நிதி</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_2">ஓய்வூதியம்</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_3">கூடுதல் ஓய்வூதியம்</string>
+    <!-- Main category -->
+    <string name="Main_3">முதலீட்டு வருமானம்</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_1">ஈவுத்தொகை</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_2">வட்டி</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_3">முதலின் ஈட்டம்</string>
+    <!-- Main category -->
+    <string name="Main_4">சம்பளம்</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_1">மேலதிக நேரம்</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_2">விடுப்பு ஈடு தொகை</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_3">மற்ற முனைமம்</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_4">வெற்றி கட்டணம்</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_5">நிகர சம்பளம்</string>
+    <!-- Main category -->
+    <string name="Main_5">மற்ற வருமானம்</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_1">பரிசுகள்</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_2">திரும்ப பெற்றவை</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_3">மறுபயன் விற்பனை</string>
+    <!-- Main category -->
+    <string name="Main_6">உணவு</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_1">அருந்தகம்</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_2">வெதுப்பகம்</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_3">உணவகம்</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_4">இனிப்புகள்</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_5">மளிகை</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_6">உணவு விடுதி</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_7">சுயசேவை</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_8">சிறப்பு அங்காடி</string>
+    <!-- Main category -->
+    <string name="Main_7">செல்லப்பிராணிகள்</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_1">உணவு</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_2">பல்வேறு பொருட்கள்</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_3">சீர்ப்படுத்தல்</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_4">கால்நடை அறுவை மருத்துவர்</string>
+    <!-- Main category -->
+    <string name="Main_8">காப்பீடு</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_1">மகிழுந்து</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_2">உடல்நலம்</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_3">வீடு</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_4">குடிமக்கள் கடமை</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_5">வாழ்க்கை</string>
+    <!-- Main category -->
+    <string name="Main_9">மகிழுந்து</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_1">எரிபொருள்</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_2">பழுது நீக்கல்</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_3">பராமரிப்பு</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_4">ஊர்தி நிறுத்தம்</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_5">அபராதம்</string>
+    <!-- Main category -->
+    <string name="Main_10">பரிசுகள்</string>
+    <!-- Main category -->
+    <string name="Main_11">குழந்தைகள்</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_1">செவிலியர்</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_2">படிப்பு</string>
+    <!-- Main category -->
+    <string name="Main_12">படிப்பு</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_1">படிப்பினைகள்</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_2">பள்ளி கட்டணம்</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_3">புத்தகங்கள்</string>
+    <!-- Main category -->
+    <string name="Main_13">நிதி செலவுகள்</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_1">வங்கி கட்டணங்கள்</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_2">கடன் / அடமானம்</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_3">கட்டணங்கள்</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_4">திரும்ப கொடுத்தவை</string>
+    <!-- Main category -->
+    <string name="Main_14">தொழில்முறை செலவுகள்</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_1">திரும்பப் பெற முடியாதது</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_2">திரும்பப் பெறத்தக்க</string>
+    <!-- Main category -->
+    <string name="Main_15">வரிகள்</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_1">வருமான வரி</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_2">நில வரி</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_3">விற்பனை வரி</string>
+    <!-- Main category -->
+    <string name="Main_16">வீட்டுவசதி</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_1">உணவு விடுதி</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_2">வாடகை</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_3">தொலைக்காட்சி</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_4">அறைகலன்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_5">கட்டணங்கள்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_6">வெப்பமூட்டுல்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_7">அலங்காரம்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_8">தண்ணீர்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_9">மின்சாரம்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_10">வெள்ளை சரக்குகள்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_11">உபகரணங்கள்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_12">எரிவாயு</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_13">தோட்டம்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_14">வீட்டு கவனிப்பாளர்</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_15">தொலைபேசி</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_16">கைபேசி</string>
+    <!-- Main category -->
+    <string name="Main_17">ஓய்வு</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_1">சுனூக்கர்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_2">பந்து வீச்சு</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_3">திரைப்படங்கள்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_4">இரவுநேர கேளிக்கைவிடுதி</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_5">ஐ.டி</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_6">விளையாட்டுகள்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_7">புத்தகங்கள்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_8">பூங்காக்கள்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_9">கச்சேரி</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_10">விளையாட்டு</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_11">காணொளி</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_12">பயணங்கள்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_13">உபகரணங்கள்</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_14">அருங்காட்சியகங்கள் / கண்காட்சிகள்</string>
+    <!-- Main category -->
+    <string name="Main_18">கடன் / அடமானம்</string>
+    <!-- Subcategory under "Loan/Mortgage" -->
+    <string name="Sub_18_1">முதல்</string>
+    <!-- Main category -->
+    <string name="Main_19">உடல்நலம்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_1">காப்பீடு</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_2">பல்மருத்துவர்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_3">மருத்துவமனை</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_4">அசைவு சிகிச்சை மருத்துவர்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_5">மருத்துவர்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_6">கண்மருத்துவர்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_7">எலும்பு நோய் நிபுணர்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_8">வேதியியல் வல்லுநர்</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_9">சமூக பாதுகாப்பு</string>
+    <!-- Main category -->
+    <string name="Main_20">பராமரிப்பு</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_1">சிகையலங்கார நிபுணர்</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_2">ஆடை</string>
+    <!-- Main category -->
+    <string name="Main_21">போக்குவரத்து</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_1">பேருந்து</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_2">மெட்ரோ</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_3">சாலைச் சுங்கம்</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_4">ரயில்</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_5">தண்டூர்திப் பாதை</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_6">விமானம்</string>
+    <!-- Main category -->
+    <string name="Main_22">விடுமுறைகள்</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_1">வீட்டுவசதி</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_2">பார்க்க செல்லுதல்</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_3">பயணங்கள்</string>
+</resources>

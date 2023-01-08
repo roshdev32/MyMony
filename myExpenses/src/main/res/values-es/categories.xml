@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources, InconsistentArrays">
+    <!-- Main category -->
+    <string name="Main_1">Otros ingresos</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_1">Ayudas de desempleo</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_2">Préstamo familiar</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_3">Desgravación fiscal</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_4">Juegos de azar</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_5">Seguro de mutua</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_6">Seguro social</string>
+    <!-- Main category -->
+    <string name="Main_2">Prestaciones de jubilación</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_1">Fondos de pensión</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_2">Pensión</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_3">Pensión complementaria</string>
+    <!-- Main category -->
+    <string name="Main_3">Ingresos por inversión</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_1">Dividendos</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_2">Intereses</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_3">Ganancia de capital</string>
+    <!-- Main category -->
+    <string name="Main_4">Sueldo</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_1">Tiempo extra</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_2">Indemnización</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_3">Primas extras</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_4">Honorarios</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_5">Sueldo neto</string>
+    <!-- Main category -->
+    <string name="Main_5">Ingresos varios</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_1">Regalos</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_2">Devoluciones</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_3">Ventas de segunda mano</string>
+    <!-- Main category -->
+    <string name="Main_6">Comida</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_1">Bar</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_2">Panadería</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_3">Cantina</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_4">Dulces</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_5">Comestibles</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_6">Restaurante</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_7">Autoservicio</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_8">Supermercado</string>
+    <!-- Main category -->
+    <string name="Main_7">Mascotas</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_1">Comida</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_2">Suministros varios</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_3">Cuidados para mascotas</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_4">Cirugía veterinaria</string>
+    <!-- Main category -->
+    <string name="Main_8">Seguro</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_1">Coche</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_2">Salud</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_3">Seguro de casa</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_4">Seguro de responsabilidad civil</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_5">Seguro de vida</string>
+    <!-- Main category -->
+    <string name="Main_9">Coche</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_1">Gasolina</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_2">Reparaciones</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_3">Mantenimiento</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_4">Estacionamiento</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_5">Multas</string>
+    <!-- Main category -->
+    <string name="Main_10">Regalos</string>
+    <!-- Main category -->
+    <string name="Main_11">Niños</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_1">Guardería</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_2">Estudios</string>
+    <!-- Main category -->
+    <string name="Main_12">Estudios</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_1">Clases</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_2">Matrículas</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_3">Libros</string>
+    <!-- Main category -->
+    <string name="Main_13">Gastos</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_1">Cargos bancarios</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_2">Préstamo/Hipoteca</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_3">Cargos</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_4">Devoluciones</string>
+    <!-- Main category -->
+    <string name="Main_14">Gastos profesionales</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_1">Sin devolución</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_2">Con devolución</string>
+    <!-- Main category -->
+    <string name="Main_15">Impuestos</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_1">Impuesto sobre la renta</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_2">Impuesto de propiedad</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_3">Impuesto sobre ventas</string>
+    <!-- Main category -->
+    <string name="Main_16">Alojamiento</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_1">Hotel</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_2">Alquiler</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_3">TV</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_4">Muebles</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_5">Cargos</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_6">Calefacción</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_7">Decoración</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_8">Agua</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_9">Electricidad</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_10">Electrodomésticos</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_11">Equipamiento</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_12">Gas</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_13">Jardín</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_14">Productos de limpieza</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_15">Teléfono</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_16">Teléfono móvil</string>
+    <!-- Main category -->
+    <string name="Main_17">Ocio</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_1">Billar</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_2">Bolos</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_3">Películas</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_4">Club</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_5">Tecnología</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_6">Juegos</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_7">Libros</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_8">Parques</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_9">Conciertos</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_10">Deportes</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_11">Vídeos</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_12">Viajes</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_13">Equipamiento</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_14">Museos/Exhibiciones </string>
+    <!-- Main category -->
+    <string name="Main_18">Préstamo/Hipoteca</string>
+    <!-- Subcategory under "Loan/Mortgage" -->
+    <string name="Sub_18_1">Capital</string>
+    <!-- Main category -->
+    <string name="Main_19">Salud</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_1">Seguro</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_2">Dentista</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_3">Hospital</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_4">Kinesioterapia</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_5">Médico</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_6">Oftalmólogo</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_7">Osteópata </string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_8">Farmacia</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_9">Seguro social</string>
+    <!-- Main category -->
+    <string name="Main_20">Cuidados</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_1">Peluquería</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_2">Ropa</string>
+    <!-- Main category -->
+    <string name="Main_21">Transporte</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_1">Autobús</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_2">Metro</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_3">Peaje</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_4">Tren</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_5">Tranvía</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_6">Avión</string>
+    <!-- Main category -->
+    <string name="Main_22">Vacaciones</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_1">Alojamiento</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_2">Visitas</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_3">Viajes</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+This file is part of My Expenses.
+My Expenses is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+My Expenses is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with My Expenses.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <style name="MyThemeBase" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/myColorBackground</item>
+        <item name="android:windowBackground">@color/myColorBackground</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/primaryLightColor</item>
+        <item name="colorPrimaryDark">@color/toolbarBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:spinnerItemStyle">@style/MySpinnerItemStyle</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+        <item name="md_color_button_text">?colorAccent</item>
+        <item name="textInputStyle">@style/MyTextInputLayout</item>
+        <item name="alertDialogTheme">@style/MyAlertDialogTheme</item>
+        <item name="materialAlertDialogTheme">@style/MyAlertDialogTheme</item>
+        <item name="simpleDialogTheme">@style/SimpleDialog</item>
+    </style>
+
+    <style name="MyTheme" parent="MyThemeBase">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="DarkBackground">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="LightBackground">
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
+    <style name="EditDialogBase" parent="Theme.MaterialComponents.DayNight.DialogWhenLarge">
+        <item name="android:colorBackground">@color/myColorBackground</item>
+        <item name="android:windowBackground">@color/myColorBackground</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/primaryLightColor</item>
+        <item name="colorPrimaryDark">@color/toolbarBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:spinnerItemStyle">@style/MySpinnerItemStyle</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+        <item name="md_color_button_text">?colorAccent</item>
+        <item name="textInputStyle">@style/MyTextInputLayout</item>
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+        <item name="alertDialogTheme">@style/MyAlertDialogTheme</item>
+        <item name="materialAlertDialogTheme">@style/MyAlertDialogTheme</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="simpleDialogTheme">@style/SimpleDialog</item>
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+        <item name="materialTimePickerTheme">@style/ThemeOverlay.MaterialComponents.TimePicker</item>
+    </style>
+
+    <style name="EditDialog" parent="EditDialogBase">
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="Translucent" parent="MyTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="OnboardingBase" parent="@style/SuwThemeMaterial">
+        <item name="android:colorBackground">@color/myColorBackground</item>
+        <item name="android:windowBackground">@color/myColorBackground</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/primaryLightColor</item>
+        <item name="colorPrimaryDark">@color/toolbarBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="md_color_button_text">?colorAccent</item>
+        <item name="textInputStyle">@style/MyTextInputLayout</item>
+        <item name="simpleDialogTheme">@style/SimpleDialog</item>
+    </style>
+
+    <style name="Onboarding" parent="OnboardingBase">
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="Calculator" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AmountSwitch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <!-- Active thumb color & Active track color(30% transparency) -->
+        <item name="colorControlActivated">@color/colorIncome</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorExpense</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/colorExpense</item>
+    </style>
+
+    <style name="WidgetConfiguration" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/primaryLightColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Starting" parent="android:Theme.NoDisplay" />
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+     android-source/packages/apps/UnifiedEmail/res/values/strings.xmlls
+-->
+<resources>
+    <string name="drawer_open">"Ireki nabigazio-panel lerrakorra"</string>
+    <string name="drawer_close">"Itxi nabigazio-panel lerrakorra"</string>
+    <string name="saving">"Gordetzen…"</string>
+    <string name="default_action">"Ekintza lehenetsia"</string>
+    <string name="full_name">"Izena"</string>
+    <string name="postal_country">"Herrialdea"</string>
+    <string name="toast_text_copied">"Testua kopiatu da"</string>
+    <string name="copy_text">"Kopiatu arbelean"</string>
+    <string name="stop">"Gelditu"</string>
+    <string name="no_network">"Ez dago sareko konexiorik."</string>
+    <string name="button_label_continue">Jarraitu</string>
+    <string name="autofill">"Betetze automatikoa"</string>
+    <string name="discard">"Baztertu"</string>
+    <string name="dialog_dismiss">"Baztertu"</string>
+    <string name="response_yes">"Bai"</string>
+    <string name="response_no">"Ez"</string>
+    <string name="add_widget">"Gehitu widgeta"</string>
+    <string name="calendar">"Egutegia"</string>
+    <string name="permissions_label">"Baimenak"</string>
+    <string name="time_format">"Ordu-formatua"</string>
+    <string name="setup">"Konfigurazioa"</string>
+    <string name="clear_cache">"Garbitu cachea"</string>
+    <string name="customize">"Pertsonalizatua"</string>
+</resources>
+

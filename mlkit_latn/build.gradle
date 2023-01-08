@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.dynamic-feature'
+    id 'org.jetbrains.kotlin.android'
+}
+android {
+    compileSdk project.compileSdkVersion
+
+    defaultConfig {
+        missingDimensionStrategy 'textRecognition', 'intern'
+        minSdkVersion project.minSdkVersion
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+}
+
+dependencies {
+    implementation project(":mlkit")
+    implementation "com.google.mlkit:text-recognition:$mlkitTextRecognition"
+}

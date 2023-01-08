@@ -1,0 +1,342 @@
+<?xml version='1.0'?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"   "docbookx.dtd">
+<article>
+  <articleinfo>
+  <title>My Expenses News
+  </title>
+    <author>
+      <firstname>Michael</firstname>
+      <surname>Totschnig</surname>
+      <affiliation>
+        <address><email>michael@totschnig.org</email></address>
+      </affiliation>
+    </author>
+  <abstract><para>
+      <application>My Expenses</application> is an app for tracking expenses and incomes with Android, designed
+      for compatibility with desktop finance tools.
+    </para>
+  </abstract>
+  </articleinfo>
+
+  <sect1 id="news1">
+    <sect1info>
+      <abstract>
+        <para>
+          We explain here the new feature introduced in 1.5.0: Payment methods
+        </para>
+      </abstract>
+      <pubdate>2012-11-18</pubdate>
+    </sect1info>
+    <title>New in 1.5.0.: Payment methods</title>
+    <para>
+      Through this new channel, I will publish regularly explanations and discussions of
+      <application>My Expenses</application>'s functionality. In contrast to the tutorial, which I
+      try to keep consistent with the current release, and which is translated to all supported
+      languages, these articles are meant to document new features, as they arise, to generate
+      comments from users and hence to contribute to the app's continuos improvement.
+    </para>
+    <para>
+      In answer to requests voiced already by its first users, version 1.5.0. of <application>My
+      Expenses</application> introduced payment methods. The functionality is equivalent to how
+      payment methods work in <application>Grisbi</application>: Payment methods are linked to
+      accounts through account types. When you create an account, you define its type as one of CASH,
+      BANK, ASSET or LIABILITY. When you create transactions in a given account, you can then make
+      use of the payment methods that are linked to its account type.
+    </para>
+    <para>
+      Through the "Manage payment methods" activity from the preferences screen, you can change, add
+      and delete methods.
+    </para>
+    <figure floatstyle="left" id="news1_1" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news1_1.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+      <application>My Expenses</application> has four predefined payment methods, all of them by
+      default linked only to bank accounts: CHEQUE, CREDITCARD, DEPOSIT, DIRECTDEBIT. Those cannot
+      be deleted, or renamed, but you can alter their association with account types. Clicking on a
+      method or activating the <guibutton>New</guibutton> button brings you to the following screen:
+    </para>
+        <figure floatstyle="left" id="news1_2" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news1_2.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+      Here you decide if the method should only be used for expenses (credit), incomes (debit), or
+      both (neutral). And you check the account types where you want to make use of it. Now in the
+      edit screen for transactions you will see a line labeled <guilabel>Method</guilabel>, with a button opening the
+      dialog where you select one of the applicable methods for the transaction.
+    </para>
+      <figure floatstyle="left" id="news1_3" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news1_3.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+    Unfortunately, payment methods are not yet expressed in the QIF export, because the standard
+    does not provide a field for this information. If you have an idea on how to export transactions
+    in a more expressive format, let me know.
+    </para>
+    </sect1>
+
+    <sect1 id="news2">
+    <sect1info>
+      <abstract>
+        <para>
+         We explain here a feature introduced in 1.6.0: templates.
+        </para>
+      </abstract>
+      <pubdate>2012-11-22</pubdate>
+    </sect1info>
+    <title>New feature in upcoming 1.6.0 release: Templates</title>
+    <para>
+      <application>My Expenses</application> now tries to help you enter recurrent transactions: say
+      you often eat a fixed-priced meal in your favourite restaurant, or transfer the same amount of
+      money from one account to the other, or buy the weekly magazine at your newsstand, you name it.
+      After you have entered the transaction once, you call the <guilabel>Create template</guilabel> command from its context menu:
+    </para>
+     <figure floatstyle="left" id="news2_1" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news2_1.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+      Enter a title for the template:
+    </para>
+    <figure floatstyle="left" id="news2_2" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news2_2.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+      Templates are available through the <guibutton>New</guibutton>
+      button's popup window.
+    </para>
+     <figure floatstyle="left" id="news2_3" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news2_3.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+      Clicking on a template's title results in the instantiation of a new transaction with all information
+      (amount, category, comment, payee, payment method) from the template. Only time and date reflect
+      the current moment.
+   </para>
+     <figure floatstyle="left" id="news2_4" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news2_4.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+   <para>
+      In the same way you can define templates for transfers. Templates are linked to
+      accounts, so you only see templates defined for the current account in the popup menu.
+    </para>
+    <para>
+      Inspecting the list of templates and deleting the ones you no longer need, is available from
+      the preferences.
+    </para>
+    <para>
+      Beta 1 of 1.6.0 is available from Github's <ulink url="https://github.com/mtotschnig/MyExpenses/downloads">Downloads</ulink> and shortly through
+      <ulink url="https://f-droid.org/repository/browse/?fdid=org.totschnig.myexpenses">F-Droid</ulink>.
+    </para>
+    </sect1>
+
+    <sect1 id="news3">
+    <sect1info>
+      <abstract>
+        <para>
+         We explain here the new dark theme introduced in 1.6.1
+        </para>
+      </abstract>
+      <pubdate>2013-01-19</pubdate>
+    </sect1info>
+    <title>Upcoming 1.6.1 release brings a new theme to <application>My Expenses</application></title>
+    <para>
+      Besides UI translation to Catalan, contributed by <ulink url="http://pacoriviere.cat/">Paco Rivière</ulink>,
+      version 1.6.1, now available in alpha version for testing, will bring a dark theme, contributed by <ulink
+        url="https://meinnoteblog.wordpress.com/2012/07/14/finanzverwaltung-mit-android/">meinnoteblog</ulink>.
+    </para>
+    <figure floatstyle="left" id="news3_1" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news3_1.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para />
+    <figure floatstyle="left" id="news3_2" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news3_2.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    <para>
+      Please give the alpha version a try, or simply comment on what you think of the new theme below.
+    </para>
+    <para>
+      Planned for 1.6.2 is the integration of another user contributed enhancement (by <ulink
+        url="https://github.com/khris78/MyExpenses">khris78</ulink>), that will allow to associate a
+      different color with each account.
+    </para>
+    <para>
+      With this new theme, and your <ulink url="/en/participate.html">contribution</ulink>,
+      <application>My Expenses</application> is on its way to become Android's best expense
+      tracking app. ;-)
+    </para>
+    </sect1>
+
+    <sect1 id="news4">
+    <sect1info>
+      <abstract>
+        <para>
+         1.7.0 allows to swipe through accounts, and introduces Contrib Features
+        </para>
+      </abstract>
+      <pubdate>2013-04-22</pubdate>
+    </sect1info>
+    <title>Swipe and contribute</title>
+    <para><application>My Expenses</application> 1.7.0 will hit Google Play in some days. If you manage
+    multiple accounts, you will be able to navigate through them using the Swipe Gesture.
+    It also introduces a couple of minor enhancements that have been requested for by users:
+    </para>
+    <itemizedlist>
+    <listitem>
+    <para>You now can directly edit templates. Previously, you were required to delete a template,
+    and create a new one, if you had needed some modification to its title or any other information.
+    </para>
+    <figure floatstyle="left" id="news4_1" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news4_1.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </listitem>
+    <listitem>
+    <para>
+    Now you can restore backups from the preferences screen. Previously, backups were automatically
+    restored, when one was found during app installation. Thus, you needed to uninstall/reinstall
+    <application>My Expenses</application>, in order to restore a backup. The restoration upon install
+    is now no longer automatic, but confirmation is asked for.
+    </para>
+    </listitem>
+    <listitem>
+    <para>
+    Users that have set up multiple accounts with the same currency, will see a "Total" button in the
+    accounts list, which displays the aggregate totals accross all accounts.
+    </para>
+    <figure floatstyle="left" id="news4_2" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news4_2.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </listitem>
+    </itemizedlist>
+    <para>
+      Starting with 1.7.0, there is a new distribution model for <application>My
+      Expenses</application>, through which I'd like to sollicit your contribution to the funding of
+      the further development, in order to keep it free of advertisment and open source. Selected new features
+      are handled as premium features. Those can be used five times for free, and then will be
+      restricted to users having installed a paid Contrib app shortly available on Google Play.
+      Users participating in the development of the app (e.g. as translators or beta testers), or
+      prefering to donate through PayPal or Flattr (which by the way keep a lower percentage of the
+      transaction amount to themselves), can request a key that will unlock the premium features
+      without installation of the Contrib app. So please give the newest alpha
+      version a try, and use the "Request Contrib Key" entry in the preferences screen. I
+      will usually answer these requests in less than 24 hours.
+    </para>
+    <figure floatstyle="left" id="news4_3" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news4_3.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </sect1>
+    
+    <sect1 id="news5">
+    <sect1info>
+      <abstract>
+        <para>
+         New in 1.7.1: password protection
+        </para>
+      </abstract>
+      <pubdate>2013-05-05</pubdate>
+    </sect1info>
+    <title>Password protection</title>
+    <para>
+      The feature most frequently requested by users in their comments on Google Play is password
+      protection. It will be available with <application>My Expenses</application> 1.7.1 and can
+      already be tested in the <ulink url="https://s3-eu-west-1.amazonaws.com/myexpenses/MyExpenses-1.7.1a1.apk">alpha version</ulink>.
+      The password can be set from the settings screen, and will be checked every time the app is started,
+      or resumed after a delay of more than 10 seconds. The protection is global to the whole application,
+      i.e. it covers not only the main transaction list, but all secondary screens (e.g. when you leave
+      the app while editing an expense, selecting a category, or changing a configuration setting etc.).
+    </para>
+    <figure floatstyle="left" id="news5_1" >
+      <title/>
+      <screenshot>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="news5_1.png"/>
+          </imageobject>
+        </mediaobject>
+      </screenshot>
+    </figure>
+    </sect1>
+</article>

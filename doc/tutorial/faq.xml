@@ -1,0 +1,696 @@
+<?xml version='1.0'?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"   "docbookx.dtd">
+  <sect1 id="faq">
+    <sect1info>
+      <abstract>
+        <para>
+          FAQ 
+        </para>
+      </abstract>
+    </sect1info>
+    <title>
+      <phrase lang="en">Frequently asked questions</phrase>
+      <phrase lang="fr">Foire aux questions</phrase>
+      <phrase lang="de">Häufig gestellte Fragen</phrase>
+      <phrase lang="it">Domande più frequenti</phrase>
+      <phrase lang="es">Preguntas más frecuentes</phrase>
+      <phrase lang="tr">Sıkça sorulan sorular</phrase>
+    </title>
+    <qandaset id="quandaset">
+      <!-- BEGIN FAQ 1 -->
+      <qandaentry id="faq-share-de" lang="de">
+        <question id="faq-share-q-de">
+          <para>
+            Kann ich die QIF Datei auf Google Docs oder Dropbox übertragen?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Ja, aktivieren Sie <guilabel role="pref_perform_share_title"/> in den
+            Einstellungen, und lassen Sie <guilabel role="pref_share_target_title"/> leer. Dann
+            können Sie nach jedem Export die App (wie z.B. Google Docs oder Dropbox) auswählen,
+            mittels deren Sie die Datei übertragen wollen.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-share-en" lang="en">
+        <question id="faq-share-q-en">
+          <para>
+            Can I send the QIF file to Google Docs or Dropbox?
+          </para>
+          </question>
+        <answer>
+          <para>
+            Yes, in the settings, activate <guilabel role="pref_perform_share_title"/> and
+            leave <guilabel role="pref_share_target_title"/> empty. After each export, you will
+            see a chooser for selecting an app (like Google Docs or Dropbox) capable of sending
+            the file.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-share-fr" lang="fr">
+        <question id="faq-share-q-fr">
+          <para>
+            Puis-je envoyer le fichier QIF vers Google Docs ou Dropbox?
+          </para>
+          </question>
+        <answer>
+          <para>
+            Oui, dans les paramètres, activez <guilabel role="pref_perform_share_title"/>, et
+            gardez <guilabel role="pref_share_target_title"/> vide. Ainsi, après chaque export,
+            vous pourrez choisir dans un menu une apps (par exemple Google Docs ou Dropbox)
+            capable de transférer le fichier.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-share-it" lang="it">
+        <question id="faq-share-q-it">
+          <para>
+            Posso inviare il file QIF di Google Docs o Dropbox?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Sì, nelle parametri, attivare <guilabel role="pref_perform_share_title"/>, e
+            lasciare <guilabel role="pref_share_target_title"/> in bianco. Così, dopo ogni
+            esportazione, è possibile scegliere da un menu un applicazioni (ad esempio Google
+            Docs o Dropbox) in grado di trasferire il file.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-share-es" lang="es">
+        <question id="faq-share-q-es">
+          <para>
+            ¿Puedo transferir el archivo QIF a Google Docs o Dropbox?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Sí, active <guilabel role="pref_perform_share_title"/> en las configuraciones y deje en
+            blanco <guilabel role="pref_share_target_title"/>. Así puede elegir después de cada
+            exportación la aplicación (por ejemplo Google Docs o Dropbox) mediante la cual desea transferir el archivo.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-share-tr" lang="tr">
+        <question id="faq-share-q-tr">
+          <para>
+            QIF dosyasını Google Docs ya da Dropbox'a gönderebilir miyim?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Evet, ayarlarda <guilabel role="pref_perform_share_title"/> seçeneğini etkinleştirip
+            <guilabel role="pref_share_target_title"/> alanını boş bırakın. Her dışa aktarımın ardından
+            (Google Docs veya Dropbox gibi) uygulama seçmeye imkân veren bir seçim ekranı görüntülenir.
+          </para>
+        </answer>
+      </qandaentry>
+      <!-- END FAQ 1 -->
+
+      <!-- BEGIN FAQ 2 -->
+      <qandaentry id="faq-methods-de" lang="de">
+        <question id="faq-methods-q-de">
+          <para>
+            Wenn ich eine neue Buchung anlege, fehlt das Feld für die Zahlungsweise. Warum?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Zahlungsweisen sind den Kontotypen zugeordnet. Zu Beginn sind nur für Bankkonten Zahlungsweisen
+            definiert, nicht für Bargeldkonten. Ändern Sie den Kontotyp unter
+            <guimenuitem role="menu_edit_account"/>, oder definieren Sie eine neue Zahlungsweise
+           (<menuchoice>
+              <guimenuitem role="menu_settings"/>
+              <guimenuitem role="pref_category_title_manage"/>
+              <guimenuitem role="pref_manage_methods_title"/>
+              <guimenuitem role="menu_create_method"/>
+           </menuchoice>).
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-methods-en" lang="en">
+        <question id="faq-methods-q-en">
+          <para>
+            While creating a new transaction, there is no field for setting the payment method. Why?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Payment methods are defined for account types. By default, there are no payment methods
+            for cash accounts, only for bank accounts. You can change an account's type under
+           <guimenuitem role="menu_edit_account"/>, or define a new payment method
+           (<menuchoice>
+              <guimenuitem role="menu_settings"/>
+              <guimenuitem role="pref_category_title_manage"/>
+              <guimenuitem role="pref_manage_methods_title"/>
+              <guimenuitem role="menu_create_method"/>
+           </menuchoice>).
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-methods-fr" lang="fr">
+        <question id="faq-methods-q-fr">
+          <para>
+            Lors de la création d'une nouvelle transaction, il n'existe pas de champ pour le mode de paiement. Pourquoi?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Les modes de paiement sont définis par types de comptes. Par défaut, il n'existe pas de méthodes de paiement
+            pour les comptes de caisse, uniquement pour les comptes bancaires. Vous pouvez modifier le type du compte par
+           <guimenuitem role="menu_edit_account"/>, ou définir un nouveau mode de paiement 
+           (<menuchoice>
+              <guimenuitem role="menu_settings"/>
+              <guimenuitem role="pref_category_title_manage"/>
+              <guimenuitem role="pref_manage_methods_title"/>
+              <guimenuitem role="menu_create_method"/>
+           </menuchoice>).
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-methods-it" lang="it">
+        <question id="faq-methods-q-it">
+          <para>
+            Quando inserisco una nuova operazione, non trovo il campo per selezionare il metodo di pagamento. Perchè?
+          </para>
+        </question>
+        <answer>
+          <para>
+           Il metodo di pagamento è legato al tipo di conto. Nell'impostazione predefinita, non ci sono metodi di pagamento per
+           il conto contanti, solo per i conti bancari.
+           E' possibile cambiare un tipo di conto in
+           <guimenuitem role="menu_edit_account"/>, oppure creare un nuovo metodo di pagamento
+           (<menuchoice>
+              <guimenuitem role="menu_settings"/>
+              <guimenuitem role="pref_category_title_manage"/>
+              <guimenuitem role="pref_manage_methods_title"/>
+              <guimenuitem role="menu_create_method"/>
+           </menuchoice>).
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-methods-tr" lang="tr">
+        <question id="faq-methods-q-tr">
+          <para>
+            Muamele oluşturulurken ödeme metodunu seçmek için bir alan yok. Neden?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Ödeme metotları hesap türleri için tanımlanır. Varsayılan ayar olarak nakit hesapları
+            için bir ödeme metodu bulunmaz, sadece banka hesapları için bulunur. Bir hesabın türünü
+            <guimenuitem role="menu_edit_account"/> konumunda ayarlayabilir ya da yeni bir
+            ödeme metodu tanımlayabilirsiniz (<menuchoice>
+              <guimenuitem role="menu_settings"/>
+              <guimenuitem role="pref_category_title_manage"/>
+              <guimenuitem role="pref_manage_methods_title"/>
+              <guimenuitem role="menu_create_method"/>
+           </menuchoice>).
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-methods-es" lang="es">
+        <question id="faq-methods-q-es">
+          <para>
+           Cuando creo una nueva transacción, falta la casilla para establecer el método de pago. ¿Por qué?
+          </para>
+        </question>
+        <answer>
+          <para>
+           Métodos de pago están asignados a los tipos de cuenta. Inicialmente métodos de pago sólo
+           están definidos para cuentas bancarias, no para cuentas de efectivo. Cambie el tipo de
+           cuenta en <guimenuitem role="menu_edit_account"/>, o defina un nuevo método de pago (<menuchoice>
+              <guimenuitem role="menu_settings"/>
+              <guimenuitem role="pref_category_title_manage"/>
+              <guimenuitem role="pref_manage_methods_title"/>
+              <guimenuitem role="menu_create_method"/>
+           </menuchoice>).
+          </para>
+        </answer>
+      </qandaentry>
+      <!-- END FAQ 2 -->
+
+      <!-- BEGIN FAQ 3 
+      <qandaentry id="faq-backup-en" lang="en">
+        <question id="faq-backup-q-en">
+          <para>
+            How can I restore a backup?
+          </para>
+        </question>
+        <answer>
+        <para>
+          When you create a backup, it is stored in the <filename>myexpenses</filename> folder of 
+          your SD card. It will be detected when you uninstall and reinstall
+          <application role="app_name"/>, and you can choose to restore it. Since version 1.7.0, 
+          you can also trigger the restore from the Settings screen.
+        </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-backup-de" lang="de">
+        <question id="faq-backup-q-de">
+          <para>
+            Wie kann ich ein Backup wiederherstellen?
+          </para>
+        </question>
+        <answer>
+        <para>
+          Wenn Sie ein Backup erzeugen, wird dieses im Ordner <filename>myexpenses</filename> auf der 
+          SD-Karte gespeichert. Dort wird es entdeckt, wenn Sie
+          <application role="app_name"/> deinstallieren und erneut installieren, und Sie können die
+          Wiederherstellung wählen. Seit Version 1.7.0, kann die Wiederherstellung auch vom Einstellungsbildschirm
+          aus aufgerufen werden.
+        </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-backup-fr" lang="fr">
+        <question id="faq-backup-q-fr">
+          <para>
+            Comment puis-je récupérer ma sauvegarde ?
+          </para>
+        </question>
+        <answer>
+        <para>
+          Lorsque vous créez une sauvegarde, celle-ci est stockée dans le répertoire  <filename>myexpenses</filename> 
+	        de votre carte SD. Elle est détectée lorsque vous désinstallez puis réinstallez 
+	        <application role="app_name"/>, et vous pouvez choissir de la recupérer. À partir de la version
+	        1.7.0., la recupération de la sauvegarde peut aussi être initiée à partir des paramètres.
+        </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-backup-it" lang="it">
+        <question id="faq-backup-q-it">
+          <para>
+            Come posso ripristinare il backup?
+          </para>
+        </question>
+        <answer>
+        <para>
+          Se crea un backup, questo viene memorizzato nella cartella <filename>myexpenses</filename>
+          della vostra scheda SD. Esso verrá scoperto quando si disinstalla e reinstalla
+          <application role="app_name"/>, e si puó scegliere di ripristinarlo. Dalla versione 1.7.0.
+          è possibile attivare il ripristino dalla schermata Impostazioni (Funzionalità speciale
+          della versione Contrib).
+        </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-backup-tr" lang="tr">
+        <question id="faq-backup-q-tr">
+          <para>
+            Bir yedeklemeyi nasıl tekrar yüklerim?
+          </para>
+        </question>
+        <answer>
+          <para>
+            Bir yedekleme oluşturduğunuzda bu, SD kartınızın <filename>myexpenses</filename>
+            klasöründe saklanır. <application role="app_name"/> uygulamasını kaldırıp tekrar
+            kurduğunuzda bu yedekleme tespit edilir ve onu yüklemeyi seçebilirsiniz. 1.7.0
+            sürümünden itibaren yüklemeyi Ayarlar ekranından da başlatabilirsiniz.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-backup-es" lang="es">
+        <question id="faq-backup-q-es">
+          <para>
+            ¿Cómo puedo restaurar una copia de seguridad?
+          </para>
+        </question>
+        <answer>
+        <para>
+          Cuando usted crea una copia de seguridad, es guardada en la carpeta <filename>myexpenses</filename>
+          de la tarjeta SD. Se detecta cuando usted desinstala y reinstala <application role="app_name"/>,
+          y usted puede decidir restaurarla. A partir de la versión 1.7.0, también puede activar la
+          restauración desde la pantalla de configuraciones.
+        </para>
+        </answer>
+      </qandaentry>
+      END FAQ 3 -->
+
+      <!-- BEGIN FAQ 4 
+      <qandaentry id="faq-contrib-en" lang="en">
+        <question id="faq-contrib-q-en">
+          <para>
+            Contrib key, what's that?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> is distributed with some Premium features that can be
+            tried five times and then can be unlocked by installation of a payed <ulink
+            url="https://play.google.com/store/apps/details?id=org.totschnig.myexpenses.contrib">contrib
+            app</ulink> from Google Play. You may need to launch <application role="app_name"/> once
+            from the contrib app's home screen in order to make it aware of the contrib app. But you
+            do not need any contrib key in that case. A contrib key is a mechanism to unlock the
+            Premium features without installation of the contrib app. I will send this key to users
+            that contribute to the development of <application role="app_name"/> by other means,
+            e.g. translating the UI, testing pre-releases, or donating through
+             <ulink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KPXNZHMXJE8ZJ">Paypal</ulink>
+             or
+             <ulink url="https://flattr.com/thing/1028216/My-Expenses-GPL-licenced-Android-Expense-Tracking-App">Flattr</ulink>.
+            The key is calculated based on the
+            Android-ID of your device, that you can communicate to me through the <guilabel
+            role="pref_request_licence_title"/> entry in the <guilabel role="menu_settings"/>
+            screen.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-contrib-de" lang="de">
+        <question id="faq-contrib-q-de">
+          <para>
+            Contrib-Schlüssel, was ist das?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> enthält einige Premium-Funktionen, die Sie fünf mal
+            ausprobieren können, und dann durch die Installation der bezahlbaren <ulink
+              url="https://play.google.com/store/apps/details?id=org.totschnig.myexpenses.contrib">Contrib
+            App</ulink> aus Google Play freischalten können. Unter Umständen müssen Sie <application
+              role="app_name"/> einmal von der Contrib App aus starten, damit dessen Installation
+            wahrgenommen wird. Sie brauchen in diesem Fall aber keinen Contrib-Schlüssel. Bei diesem
+            handelt es sich um einen Mechanismus, der es erlaubt, die Premium-Funktionen ohne die
+            Installation der Contrib App freizuschalten. Ich sende diesen Schlüssel an Benutzer, die
+            auf andere Weise zur Entwicklung von <application role="app_name"/> beigetragen haben,
+            z.B. durch das Übersetzen der Benutzerschnittstelle, Testen der
+            Vorab-Versionen, oder eine Spende über
+             <ulink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KPXNZHMXJE8ZJ">Paypal</ulink>
+             oder
+             <ulink url="https://flattr.com/thing/1028216/My-Expenses-GPL-licenced-Android-Expense-Tracking-App">Flattr</ulink>.
+            Der Schlüssel wird anhand der Android-ID Ihres Gerätes berechnet, die
+            Sie mir mittels des Eintrages <guilabel role="pref_request_licence_title"/> unter
+            <guilabel role="menu_settings"/> mitteilen können.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-contrib-es" lang="es">
+        <question id="faq-contrib-q-es">
+          <para>
+            Clave Contrib. ¿Qué es eso?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> se distribuye con algunas características premium que
+            usted puede probar cinco veces de forma gratuita y que son desbloqueadas al instalar una
+            versión pagada <ulink url="https://play.google.com/store/apps/details?id=org.totschnig.myexpenses.contrib">contrib
+              app</ulink> desde Google Play. Es posible que sea necesario iniciar
+            <application role="app_name"/> una vez desde la pantalla principal de la aplicación
+            contrib con el fin de que sea consciente de la aplicación contrib. Pero en este caso
+            usted no necesita ninguna clave contrib. Una clave contrib es un mecanismo para
+            desbloquear las características premium sin la instalación de la aplicación contrib.
+            Enviaré esta clave a usuarios que contribuyen al desarrollo de la aplicación por otros
+            medios, por ejemplo por la traducción de la interfaz de usuario, poniendo a prueba
+            pre-versiones, o una donación a través de
+             <ulink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KPXNZHMXJE8ZJ">Paypal</ulink>
+             o
+             <ulink url="https://flattr.com/thing/1028216/My-Expenses-GPL-licenced-Android-Expense-Tracking-App">Flattr</ulink>.
+            Se calcula la clave basada en el Android-ID de su dispositivo que usted
+            puede comunicar a través la <guilabel role="pref_request_licence_title"/>
+            entrada en la <guilabel role="menu_settings"/> pantalla.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-contrib-fr" lang="fr">
+        <question id="faq-contrib-q-fr">
+          <para>
+            Clé Contrib, qu'est-ce que c'est?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> est distribué avec quelques fonctionnalités Premium qui
+            peuvent être essayées cinq fois, puis peuvent être déverrouillées par l'installation
+            d'une <ulink url="https://play.google.com/store/apps/details?id=org.totschnig.myexpenses.contrib">app
+              contrib</ulink> payante de Google Play. Éventuellement il faut lancer <application
+            role="app_name"/> une fois à partir de l'écran d'accueil de la contrib app, afin que
+            l'installation de celle-ci soit pris en compte. Mais vous n'avez pas besoin de clé
+            contrib dans ce cas. Une clé contrib est un mécanisme permettant de déverrouiller les
+            fonctionnalités Premium sans installation de l'app contrib. J'envoie cette clé aux
+            utilisateurs qui contribuent au développement de <application role="app_name"/> par
+            d'autres moyens, par exemple la traduction de l'interface utilisateur, en testant les
+            pré-versions ou une donation par
+            <ulink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KPXNZHMXJE8ZJ">Paypal</ulink>
+            ou
+            <ulink url="https://flattr.com/thing/1028216/My-Expenses-GPL-licenced-Android-Expense-Tracking-App">Flattr</ulink>.
+            La clé est calculée sur la base de l'Android-ID de votre appareil, que
+            vous pouvez me communiquer par l'entrée <guilabel role="pref_request_licence_title" />
+            dans l'écran <guilabel role="menu_settings"/>.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-contrib-tr" lang="tr">
+        <question id="faq-contrib-q-tr">
+          <para>
+            Katkı anahtarı nedir?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> beş defa denenebilen ve Google Play'den ücretli <ulink
+            url="https://play.google.com/store/apps/details?id=org.totschnig.myexpenses.contrib">katkı
+            uygulamasını</ulink> kurarak devamlı kullanılabilen özelliklerle yayınlanmıştır.
+            <application role="app_name"/> katkı uygulamasının farkına varması için onu bir kez
+            katkı uygulamasının ana ekranından başlatmanız gerekebilir. Bu durumda katkı anahtarına
+            ihtiyacınız olmaz. Katkı anahtarı özel işlevlerin kilidini katkı uygulamasının
+            kurulmasına gerek olmadan kaldırmaya yarayan bir mekanizmadır. Bu anahtarı
+            Harcamalarımın geliştirilmesine başka şekilde (mesela tercümelerle, kararsız sürümleri
+            deneyerek ya da Paypal veya Flattr ile bağışta bulunarak) katkıda bulunan kullanıcılara
+            göndereceğim. Anahtar cihazınızın Android kimliğine dayanarak hesaplanılır ki bu kimliği
+            <guilabel role="menu_settings"/> ekranındaki <guilabel
+            role="pref_request_licence_title"/> seçeneğiyle bana iletebilirsiniz.
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-contrib-it" lang="it">
+        <question id="faq-contrib-q-it">
+          <para>
+             Chiave contrib, che cos'è?
+          </para>
+        </question>
+        <answer>
+          <para>
+             <application role="app_name"/> è distribuito con alcune funzionalità premium che
+             possono essere provate cinque volte e quindi possono essere sbloccate con
+             l'installazione della <ulink
+              url="https://play.google.com/store/apps/details?id=org.totschnig.myexpenses.contrib">app
+             contrib</ulink> a pagamento da Google Play. Potrebbe essere necessario lanciare
+             <application role="app_name"/> una volta dalla schermata iniziale del contrib
+             applicazione, al fine di renderlo consapevole delle app contrib. Ma c'è bisogno di
+             alcuna chiave contrib in quel caso. Una chiave contrib è un meccanismo per sbloccare le
+             funzionalità Premium senza installazione delle app contrib. Manderò questa chiave agli
+             utenti che contribuiscono allo sviluppo delLe Mie Spese con altri mezzi, ad esempio
+             traducendo l'interfaccia utente, testando pre-releases o una donazione tramite
+             <ulink url="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KPXNZHMXJE8ZJ">Paypal</ulink>
+             o
+             <ulink url="https://flattr.com/thing/1028216/My-Expenses-GPL-licenced-Android-Expense-Tracking-App">Flattr</ulink>.
+             La chiave è calcolata sulla
+             base della Android-ID del dispositivo, che potete comunicare a me attraverso la voce
+             <guilabel role="pref_request_licence_title"/> nella schermata <guilabel
+              role="menu_settings"/>.
+           </para>
+        </answer>
+      </qandaentry>
+      END FAQ 4 -->
+
+      <!-- BEGIN FAQ 5 -->
+      <qandaentry id="faq-catxml-en" lang="en">
+        <question id="faq-catxml-q-en">
+          <para>
+          How do I import categories in batch?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> can import your categories from your Grisbi file. Store
+            this file as grisbi.xml in a folder myexpenses in the root of your SD card and call
+            <guilabel role="pref_import_from_grisbi_title"/> from the <guilabel
+            role="menu_settings"/> screen. You can also import the parties (payers and payees)
+            stored in this file. When you choose your custom file as import source, you can decide
+            to import both parties and categories, or only categories. Parties will be used for the
+            autocomplete function of the payer/payee field in the transaction form. If you create an
+            XML file on your own, respect the following structure:
+            <programlisting>
+<![CDATA[
+<root>
+  <Category Nb="1" Na="Main category A" />
+  <Sub_category Nbc="1" Nb="1" Na="Sub category A.1" />
+  <Sub_category Nbc="1" Nb="2" Na="Sub category A.2" />
+  <Category Nb="2" Na="Main category B" />
+  <Sub_category Nbc="2" Nb="1" Na="Sub category B.1" />
+  <Sub_category Nbc="2" Nb="2" Na="Sub category B.2" />
+  <Party Na="N.N." />
+</root> 
+ ]]>
+            </programlisting>
+         </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-catxml-de" lang="de">
+        <question id="faq-catxml-q-de">
+          <para>
+            Wie kann ich Kategorien im Batch importieren?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> kann Kategorien aus Ihrer Grisbi Datei importieren.
+            Kopieren Sie diese Datei unter dem Namen grisbi.xml in einen Ordner myexpenses in das
+            Wurzelverzeichnis der SD-Karte und rufen Sie den Eintrag <guilabel
+            role="pref_import_from_grisbi_title"/> in den <guilabel role="menu_settings"/> auf. Sie
+            können zusätzlich auch die von Grisbi gespeicherten Parteien (Empfänger und Zahler), aus
+            dieser Datei importieren. Wenn Sie Ihre eigene Datei als Import-Quelle auswählen, können
+            Sie entweder Parteien und Kategorien oder nur Kategorien importieren. Die Partner werden
+            im Buchungsformular verwendet, um Ihnen für das Feld Empfänger/Zahler ein automatische
+            Ausfüllen vorzuschlagen. Wenn Sie Ihre eigene XML Datei erstellen, halten Sie sich an
+            die folgende Struktur:
+          <programlisting>
+<![CDATA[
+<root>
+  <Category Nb="1" Na="Hauptkategorie A" />
+  <Sub_category Nbc="1" Nb="1" Na="Unterkategorie A.1" />
+  <Sub_category Nbc="1" Nb="2" Na="Unterkategorie A.2" />
+  <Category Nb="2" Na="Hauptkategorie B" />
+  <Sub_category Nbc="2" Nb="1" Na="Unterkategorie B.1" />
+  <Sub_category Nbc="2" Nb="2" Na="Unterkategorie B.2" />
+  <Party Na="N.N." />
+</root> 
+ ]]>
+          </programlisting>
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-catxml-fr" lang="fr">
+        <question id="faq-catxml-q-fr">
+          <para>
+          Comment puis-je importer les catégories en batch?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> peut importer les catégories à partir de votre fichier
+            Grisbi. Copiez celui-ci sous le nom grisbi.xml dans le répertoire myexpenses de la
+            racine de votre carte SD et appelez l'entree <guilabel
+            role="pref_import_from_grisbi_title"/> dans l'écran <guilabel role="menu_settings"/>.
+            Vous avez aussi la possibilité d'importer les tiers tel que Grisbi les enregistre dans
+            ce même fichier. Si vous choississez votre propre fichier en tant que source de
+            l'import, vous pourrez soit importer tiers et catégories, soit uniquement les
+            catégories. Les tiers vous seront proposés pour remplir automatiquement le champ "tiers"
+            dans le formulaire des opérations. Si vous éditez votre propre fichier XML, respectez la
+            structure suivante:
+                    <programlisting>
+<![CDATA[
+<root>
+  <Category Nb="1" Na="Catégorie principale A" />
+  <Sub_category Nbc="1" Nb="1" Na="Sous-catégorie A.1" />
+  <Sub_category Nbc="1" Nb="2" Na="Sous-catégorie A.2" />
+  <Category Nb="2" Na="Catégorie principale B" />
+  <Sub_category Nbc="2" Nb="1" Na="Sous-catégorie B.1" />
+  <Sub_category Nbc="2" Nb="2" Na="Sous-catégorie B.2" />
+  <Party Na="N.N." />
+</root> 
+ ]]>
+          </programlisting>
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-catxml-it" lang="it">
+        <question id="faq-catxml-q-it">
+          <para>
+          Come faccio a importare le categorie in gruppo?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> può importare le categorie dal file Grisbi. Conservare
+            questo file come grisbi.xml in una cartella myexpenses nella cartella principale della
+            vostra scheda SD e chiamare la voce <guilabel role="pref_import_from_grisbi_title"/>
+            nella schermata <guilabel role="menu_settings"/>. Hai anche la possibilità di importare
+            i beneficiari Grisbi registrati nello stesso file (elemento Party). Se si sceglie il
+            proprio file come fonte di importazione, è possibile importare categorie e beneficiari,
+            o solo categorie. Il beneficiario sarà offerta automaticamente per riempire il
+            "Beneficiario" in forma di operazioni. Se si crea il proprio file XML, rispettare la seguente struttura:
+            <programlisting>
+<![CDATA[
+<root>
+  <Category Nb="1" Na="Categoria principale A" />
+  <Sub_category Nbc="1" Nb="1" Na="Sottocategoria A.1" />
+  <Sub_category Nbc="1" Nb="2" Na="Sottocategoria A.2" />
+  <Category Nb="2" Na="Categoria principale B" />
+  <Sub_category Nbc="2" Nb="1" Na="Sottocategoria B.1" />
+  <Sub_category Nbc="2" Nb="2" Na="Sottocategoria B.2" />
+  <Party Na="N.N." />
+</root> 
+ ]]>
+          </programlisting>
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-catxml-es" lang="es">
+        <question id="faq-catxml-q-es">
+          <para>
+            ¿Cómo puedo importar categorías en batch?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> puede importar sus categorías de su archivo de Grisbi.
+            Almacenar este archivo como grisbi.xml en una carpeta myexpenses en la raíz de su
+            tarjeta SD y llamar a la <guilabel role="pref_request_licence_title"/> entrada en la
+            <guilabel role="menu_settings"/> pantalla. Copie este archivo bajo el nombre grisbi.xml
+            a una carpeta myexpenses en el directorio raíz de la tarjeta SD[5]. Puede importar de
+            este archivo además los partes (receptores y pagadores) guardados en Grisbi (elemento
+            Party). Si elige su propio archivo como fuente de importación, puede importar partes y
+            categorías o sólo categorías. Los partes se utilizan en el formulario de asientos para
+            proponerle un llenado automático en el campo receptor/pagador. Si crea su propio archivo
+            XML, respetar la siguiente estructura:
+            <programlisting>
+<![CDATA[
+<root>
+  <Category Nb="1" Na="Categoría principal A" />
+  <Sub_category Nbc="1" Nb="1" Na="Alt kategori A.1" />
+  <Sub_category Nbc="1" Nb="2" Na="Alt kategori A.2" />
+  <Category Nb="2" Na="Categoría principal B" />
+  <Sub_category Nbc="2" Nb="1" Na="Alt kategori B.1" />
+  <Sub_category Nbc="2" Nb="2" Na="Alt kategori B.2" />
+  <Party Na="N.N." />
+</root> 
+ ]]>
+          </programlisting>
+          </para>
+        </answer>
+      </qandaentry>
+      <qandaentry id="faq-catxml-tr" lang="tr">
+        <question id="faq-catxml-q-tr">
+          <para>
+            Kategorileri nasıl toplu olarak içe aktarabilirim?
+          </para>
+        </question>
+        <answer>
+          <para>
+            <application role="app_name"/> kategorilerinizi bir Grisbi dosyasından içe aktarabilir. Bu
+            dosyayı grisbi.xml adıyla SD kartının köküne myexpenses klasörü içinde konumlayıp<guilabel
+            role="pref_import_from_grisbi_title"/> ekrandan <guilabel role="menu_settings"/> çağırın.
+            Bu dosyadaki alacaklı ve vereceklileri de içe aktarabilirsiniz. Kendi özel dosyanızı içe
+            aktarma kaynağı olarak seçtiğinizde ya hem alacaklı ve vereceklileri hem de kategorileri
+            ya da sadece kategorileri içe aktarmayı seçebilirsiniz. Alacaklı ve verecekliler, muamele
+            formunda ilgili alanların otomatik olarak doldurulmasında kullanılacaktır. Eğer özel bir
+            XML dosyası oluşturmak istiyorsanız, aşağıdaki yapıyı kullanınız:
+            <programlisting>
+<![CDATA[
+<root>
+  <Category Nb="1" Na="Ana kategori A" />
+  <Sub_category Nbc="1" Nb="1" Na="Alt kategori A.1" />
+  <Sub_category Nbc="1" Nb="2" Na="Alt kategori A.2" />
+  <Category Nb="2" Na="Ana kategori B" />
+  <Sub_category Nbc="2" Nb="1" Na="Alt kategori B.1" />
+  <Sub_category Nbc="2" Nb="2" Na="Alt kategori B.2" />
+  <Party Na="N.N." />
+</root> 
+ ]]>
+          </programlisting>
+          </para>
+        </answer>
+      </qandaentry>
+      <!-- END FAQ 5 -->
+    </qandaset>
+  </sect1>

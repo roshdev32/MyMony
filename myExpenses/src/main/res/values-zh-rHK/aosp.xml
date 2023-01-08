@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <string name="drawer_open">"開啟導覽列"</string>
+    <string name="drawer_close">"關閉導覽列"</string>
+    <string name="saving">"正在儲存…"</string>
+    <string name="default_action">"預設動作"</string>
+    <string name="full_name">"姓名"</string>
+    <string name="postal_country">"國家/地區"</string>
+    <string name="toast_text_copied">"文字已複製"</string>
+    <string name="copy_text">"複製到剪貼簿"</string>
+    <string name="stop">"停止"</string>
+    <string name="no_network">"沒有網絡連線。"</string>
+    <string name="button_label_continue">"繼續"</string>
+    <string name="autofill">"自動填入"</string>
+    <string name="discard">"丟棄"</string>
+    <string name="dialog_dismiss">"關閉"</string>
+    <string name="response_yes">"是"</string>
+    <string name="response_no">"否"</string>
+    <string name="add_widget">"新增小工具"</string>
+    <string name="calendar">"日曆"</string>
+    <string name="permissions_label">"權限"</string>
+    <string name="time_format">"時間格式"</string>
+    <string name="setup">"設定"</string>
+    <string name="clear_cache">"清除快取"</string>
+    <string name="customize">"自訂"</string>
+</resources>
+

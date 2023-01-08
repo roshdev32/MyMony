@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <string name="drawer_open">"Άνοιγμα συρταριού πλοήγησης"</string>
+    <string name="drawer_close">"Κλείσιμο συρταριού πλοήγησης"</string>
+    <string name="saving">"Αποθήκευση…"</string>
+    <string name="default_action">"Προεπιλεγμένη ενέργεια"</string>
+    <string name="full_name">"Όνομα"</string>
+    <string name="postal_country">"Χώρα"</string>
+    <string name="toast_text_copied">"Το κείμενο αντιγράφηκε"</string>
+    <string name="copy_text">"Αντιγραφή στο πρόχειρο"</string>
+    <string name="stop">"Διακοπή"</string>
+    <string name="no_network">"Δεν υπάρχει σύνδεση δικτύου."</string>
+    <string name="button_label_continue">Συνέχεια</string>
+    <string name="autofill">"Αυτόματη συμπλήρωση"</string>
+    <string name="discard">"Απόρριψη"</string>
+    <string name="dialog_dismiss">"Παράβλεψη"</string>
+    <string name="response_yes">"Ναι"</string>
+    <string name="response_no">"Όχι"</string>
+    <string name="add_widget">"Προσθήκη γραφικού στοιχείου"</string>
+    <string name="calendar">"Ημερολόγιο"</string>
+    <string name="permissions_label">"Άδειες"</string>
+    <string name="time_format">"Μορφή ώρας"</string>
+    <string name="setup">"Ρύθμιση"</string>
+    <string name="clear_cache">"Εκκαθάριση προσωρινής μνήμης"</string>
+    <string name="customize">"Προσαρμογή"</string>
+</resources>
+

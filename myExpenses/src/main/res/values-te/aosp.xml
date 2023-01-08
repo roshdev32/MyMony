@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">"నావిగేషన్ డ్రాయర్‌ను తెరవండి"</string>
+    <string name="drawer_close">"నావిగేషన్ డ్రాయర్‌ను మూసివేయండి"</string>
+    <string name="saving">"సేవ్ చేస్తోంది…"</string>
+    <string name="default_action">"డిఫాల్ట్ చర్య"</string>
+    <string name="full_name">"పేరు"</string>
+    <string name="postal_country">"దేశం"</string>
+    <string name="toast_text_copied">"వచనం కాపీ చేయబడింది"</string>
+    <string name="copy_text">"క్లిప్‌బోర్డ్‌కు కాపీ చేయి"</string>
+    <string name="stop">"ఆపివేయి"</string>
+    <string name="no_network">"నెట్‌వర్క్ కనెక్షన్ లేదు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి."</string>
+    <string name="button_label_continue">"కొనసాగించండి"</string>
+    <string name="autofill">"ఆటోఫిల్"</string>
+    <string name="discard">"విస్మరించు"</string>
+    <string name="dialog_dismiss">"తీసివేయి"</string>
+    <string name="response_yes">"హాజరవుతారు"</string>
+    <string name="response_no">"హాజరు కావడం లేదు"</string>
+    <string name="add_widget">"విడ్జెట్‌ను జోడించండి"</string>
+    <string name="calendar">"క్యాలెండర్"</string>
+    <string name="permissions_label">"అనుమతులు"</string>
+    <string name="time_format">"సమయ ఫార్మాట్‌"</string>
+    <string name="setup">"సెటప్"</string>
+    <string name="clear_cache">"కాష్‌ను క్లియర్ చేయి"</string>
+    <string name="customize">"అనుకూలీకరించు"</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="help_menu_commands">Каманды меню</string>
+  <string name="help_MyExpenses_title">Спіс транзакцый</string>
+  <string name="help_ExpenseEdit_transaction_title">Форма для транзакцый</string>
+  <string name="help_ExpenseEdit_transfer_title">Форма для пераводаў</string>
+  <string name="help_ExpenseEdit_split_title">Форма для разбіццяў</string>
+  <string name="menu_save_help_text">Захаваць звесткі і зачыніць форму.</string>
+</resources>

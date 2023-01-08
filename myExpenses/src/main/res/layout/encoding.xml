@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:gravity="center_vertical"
+          tools:showIn="@layout/import_dialog">
+
+    <TextView
+        style="@style/FormLabel"
+        android:text="@string/pref_qif_export_file_encoding_title"/>
+
+    <Spinner
+        style="@style/FormField"
+        android:id="@+id/Encoding"
+        android:entries="@array/pref_qif_export_file_encoding"/>
+</TableRow>

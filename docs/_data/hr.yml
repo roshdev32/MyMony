@@ -1,0 +1,135 @@
+hr:
+  imprint: Impresum
+  hero_main: "Upravljač osobnim financijama za Android"
+  hero_sub:
+    use: "Jednostavna upotreba"
+    functionality: "Mnoštvo funkcija"
+    source: "Otvoreni kod"
+  menu_title:
+    more_information: VIše informacija
+  sections:
+    features: Mogućnosti
+    premium: Premium
+    participate: Uključi se
+    faq: ČPP
+    versionlist: Izmjene
+    credits: Zasluge
+    licence: Licenca
+    sourcecode: Izvorni kod
+    links: Poveznice
+  contrib:
+    thank_you: |
+      Tvoj doprinos podržava daljnji razvoj programa „Moji troškovi”. Hvala ti!
+    feature:
+      roadmap_voting: Pravo glasa na <b>razvojnom putu</b>
+      webui: <b>Internetsko korisničko sučelje</b>
+      scan_receipt: '<b>Skeniraj račune</b>: Automatski izdvoji iznos, datum i primatelja'
+      budgeting: '<b>Proračun</b>: Usporedi potrošnju s tvojim postavljenim ograničenjima
+        po kategoriji na dnevnoj, tjednoj, mjesečnoj ili godišnjoj osnovi.'
+      history_chart: <b>Dijagram povijesti</b> (Novčani tok)
+      email_support: <b>Podrška putem e-pošte</b> sa zajamčenim odgovorom u roku od
+        2 radna dana
+      split_template: Neograničen broj <b>predložaka i planova za podijeljene transakcije</b>
+      cloud_sync: '<b>Sinkronizacija u oblaku</b>: Podaci se mogu sinkronizirati između
+        više uređaja'
+      auto_backup: Dnevno <b>automatizirano spremanje sigurnosnih kopija</b> s mogućnošću
+        spremanja podataka u oblak
+      csv_import: Sofisticiran, prilagodljiv <b>CSV uvoz</b> (programi proračunskih
+        tablica)
+      ad_free: <b>Bez oglasa</b>
+      print: <b>Ispiši</b> popisa transakcija u PDF datoteku
+      split_transaction: '<b>Podijeljena transakcija</b>: Pojedinačna transakcija
+        može se podijeliti na više dijelova (kategorije i prijenosi)'
+      distribution: '<b>Kružni dijagram</b>: Vizualiziraj statističku raspodjelu transakcija
+        po kategorijama kroz različita razdoblja (godine, mjeseci, tjedni, dani)'
+      plans_unlimited: Otključaj mogućnosti stvaranja više od tri tarifa za ponavljajuće
+        transakcije
+      accounts_unlimited: Otključaj mogućnosti stvaranja više od pet računa
+    subscription: Pretplata
+    one-time-payment: Jednokratno plaćanje
+    feature-list-title: 'Doprinesi nadogradnjom programa <i>{app_name}</i> i dobij
+      neograničen pristup sljedećim funkcijama:'
+  permissions:
+    internet:
+      explanation_crash_reporting: Izvještaji o prestanku rada aplikacije
+      explanation_cloud_sync: Sinhronizacija u oblaku
+      explanation_key_validation: Provjera ključa licence
+      explanation_usage_tracking: Anonimno praćenje korištenja
+      label: Internet
+    accounts:
+      label: Računi
+      explanation: Sinkronizacija između uređaja putem usluga u oblaku.
+    calendar:
+      explanation: Planovi budućih i ponavljajućih transakcija spremaju se u poseban
+        lokalni kalendar ili u bilo koji drugi kalendar koji odrediš.
+      label: Kalendar
+    heading: <i>{app_name}</i> zahtijeva sljedeće <u>dozvole</u>
+  contrib-key: Contrib Ključ
+  extended-key: Prošireni ključ
+  professional-key: Profesionalni ključ
+  screenshot_testdata:
+    account1Label: Moj novčanik
+    account1Description: Dnevni troškovi
+    account2Label: vikend u Parizu
+    account3Label: Bankovni račun
+    account3Description: Bank of America
+    transaction2Comment: Voće i povrće
+    transaction4Payee: Marjan Grill
+    templatePayee: Hrvoje Horvat
+    tag_project: Projekt bez naslova
+  screenshot_titles:
+    group: Grupirajte se po godini, mjesecu ili tjednu
+    summarize: Zbroji sve tvoje račune
+    budget: Godišnji, mjesečni i tjedni proračun
+    split: Podijeli na više kategorija
+    distribution: Dijagram dijagrama pita
+    history: Povijest tvoje financijske situacije
+    export: Izvezi u PDF, QIF i CSV
+    sync: Sinhronizacija u oblaku
+  all_extended_key_features: Sve funkcije za prošireni ključ
+  all_contrib_key_features: Sve funkcije za ključ doprinositelja
+  customer_support: Korisnička podrška
+  store:
+    highlight_3: Sažmi svoju financijsku situaciju po danu, tjednu, mjesecu ili godini
+    highlight_2: Dijeli svoje podatke s mobitelima i tabletima putem WebDAV-a i Google
+      diska
+    highlight_1: Prati svoje troškove i prihode s računima, predlošcima i kategorijama
+    full_description_intro: '{app_name} prati tvoje troškove i prihode izravno na
+      tvom mobitelu i tabletu.'
+    short_description: 'Jednostavan upravljač osobnim financijama: mnoštvo funkcija
+      i otvoreni kod'
+    full_description_contrib_amazon: 'Mnoge dodatne funkcije otključavaju se kupnjom
+      jednog od sljedećih licencnih ključeva, npr.:'
+    full_description_contrib: 'Premium funkcije otključavaju se kupnjom jednog od
+      sljedećih licencnih ključeva:'
+  features:
+    homescreen: <b>Programčić</b> početnog ekrana i <b>prečaci</b> za brzi unos podataka
+    reconciliation: '<b>Usklađivanje</b>: Jednostavno usporedi stanje transakcije
+      s bankovnim izvadcima'
+    light_theme: <b>Tema</b> (tamna i svijetla) i <b>veličina fonta</b> mogu se prilagoditi
+    password: Podaci se mogu zaštititi <b>lozinkom</b> ili <b>zaključavanjem ekrana</b>
+      urađaja
+    export: <b>Izvezi</b> u QIF i CSV. <b>Uvezi</b> iz QIF-a
+    plans: Neograničen broj <b>predložaka</b> i do tri plana za <b>ponavljajuće</b>
+      transakcije
+    manage_accounts: Do pet računa s <b>prijenosima</b> (također između različitih
+      valuta)
+  screenshots:
+    sync: Sinkroniziraj šifrirane podatke računa na više uređaja putem privatnih ili
+      javnih usluga u oblaku.
+    export: Ispiši u PDF i razmijeni putem QIF-a i CSV-a.
+    history: Razumij kako se tvoja financijska situacija razvija s vremenom
+    distribution: Vizualiziraj raspodjelu po kategorijama
+    split: Podijeli jednu transakciju u više kategorija
+    budget: Definiraj koliko namjeravaš trošiti u godišnjim, mjesečnim ili tjednim
+      proračunima
+    summarize: Zbroji sve svoje račune (sofisticirano rukovanje tečajevima po računu
+      i po transakciji)
+    group: Grupiraj transakcije po danu, tjednu, mjesecu i godini
+  privacy_policy_text: <i>{app_name}</i> ne pristupa podacima na tvom uređaju osim
+    na vlastitu bazu podataka, vlastitu mape na SD kartici. Ako koristiš funkciju
+    za planiranje budućih i ponavljajućih transakcija, dodijeli kalendar u kojem su
+    ti planovi spremljeni.
+  imprint_text: Odgovoran za sadržaj ove web-stranice te za razvoj, održavanje i distribuciju
+    programa <i>{app_name}</i>
+  privacy_policy_heading: Politika privatnosti

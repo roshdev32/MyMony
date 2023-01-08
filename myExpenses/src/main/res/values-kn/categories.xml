@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources, InconsistentArrays">
+    <!-- Main category -->
+    <string name="Main_1">ಇತರೆ ಆದಾಯ</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_1">ನಿರುದ್ಯೋಗ ಲಾಭ</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_2">ಕುಟುಂಬ ಭತ್ಯೆ</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_3">ತೆರಿಗೆ ಕ್ರೆಡಿಟ್</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_4">ಜೂಜು</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_5">ಪರಸ್ಪರ ವಿಮೆ</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_6">ಸಾಮಾಜಿಕ ಭದ್ರತೆ</string>
+    <!-- Main category -->
+    <string name="Main_2">ನಿವೃತ್ತಿ</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_1">ನಿವೃತ್ತಿ ನಿಧಿ</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_2">ಪಿಂಚಣಿ</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_3">ಪೂರಕ ಪಿಂಚಣಿ</string>
+    <!-- Main category -->
+    <string name="Main_3">ಹೂಡಿಕೆ ಆದಾಯ</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_1">ಲಾಭಾಂಶ</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_2">ಆಸಕ್ತಿ</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_3">ಬಂಡವಾಳ ಲಾಭ</string>
+    <!-- Main category -->
+    <string name="Main_4">ಸಂಬಳ</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_1">ಹೆಚ್ಚುವರಿ ಸಮಯ</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_2">ಭತ್ಯೆ ಬಿಡಿ</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_3">ಇತರೆ. ಪ್ರೀಮಿಯಂಗಳು</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_4">ಯಶಸ್ಸಿನ ಶುಲ್ಕ</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_5">ನಿವ್ವಳ ಸಂಬಳ</string>
+    <!-- Main category -->
+    <string name="Main_5">ಇತರೆ. ಆದಾಯ</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_1">ಉಡುಗೊರೆಗಳು</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_2">ಮರುಪಾವತಿ</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_3">ಸೆಕೆಂಡ್ ಹ್ಯಾಂಡ್ ಮಾರಾಟ</string>
+    <!-- Main category -->
+    <string name="Main_6">ಆಹಾರ</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_1">ಬಾರ್</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_2">ಬೇಕರ್</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_3">ಕ್ಯಾಂಟೀನ್</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_4">ಸಿಹಿತಿಂಡಿಗಳು</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_5">ದಿನಸಿ</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_6">ಉಪಹಾರ ಗೃಹ</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_7">ಸ್ವ ಸಹಾಯ</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_8">ಸೂಪರ್ಮಾರ್ಕೆಟ್</string>
+    <!-- Main category -->
+    <string name="Main_7">ಸಾಕುಪ್ರಾಣಿಗಳು</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_1">ಆಹಾರ</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_2">ವಿವಿಧ ಸರಬರಾಜು</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_3">ಶೃಂಗಾರ</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_4">ಪಶು ವೈದ್ಯ</string>
+    <!-- Main category -->
+    <string name="Main_8">ವಿಮೆ</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_1">ಕಾರು</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_2">ಆರೋಗ್ಯ</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_3">ಮನೆ</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_4">ನಾಗರಿಕ ಹೊಣೆಗಾರಿಕೆ</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_5">ಜೀವನ</string>
+    <!-- Main category -->
+    <string name="Main_9">ಕಾರು</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_1">ಇಂಧನ</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_2">ರಿಪೇರಿ</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_3">ನಿರ್ವಹಣೆ</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_4">ಪಾರ್ಕಿಂಗ್</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_5">ದಂಡ</string>
+    <!-- Main category -->
+    <string name="Main_10">ಉಡುಗೊರೆಗಳು</string>
+    <!-- Main category -->
+    <string name="Main_11">ಮಕ್ಕಳು</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_1">ನರ್ಸ್</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_2">ಅಧ್ಯಯನಗಳು</string>
+    <!-- Main category -->
+    <string name="Main_12">ಅಧ್ಯಯನಗಳು</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_1">ಪಾಠಗಳು</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_2">ಶಾಲಾ ಶುಲ್ಕ</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_3">ಪುಸ್ತಕಗಳು</string>
+    <!-- Main category -->
+    <string name="Main_13">ಹಣಕಾಸಿನ ವೆಚ್ಚಗಳು</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_1">ಬ್ಯಾಂಕ್ ಶುಲ್ಕಗಳು</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_2">ಸಾಲ / ಅಡಮಾನ</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_3">ಶುಲ್ಕಗಳು</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_4">ಮರುಪಾವತಿ</string>
+    <!-- Main category -->
+    <string name="Main_14">ವೃತ್ತಿಪರ ವೆಚ್ಚಗಳು</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_1">ಮರುಪಾವತಿಸಲಾಗುವುದಿಲ್ಲ</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_2">ಮರುಪಾವತಿಸಬಹುದಾಗಿದೆ</string>
+    <!-- Main category -->
+    <string name="Main_15">ತೆರಿಗೆಗಳು</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_1">ಆದಾಯ ತೆರಿಗೆ</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_2">ಭೂ ತೆರಿಗೆ</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_3">ಮಾರಾಟ ತೆರಿಗೆ</string>
+    <!-- Main category -->
+    <string name="Main_16">ವಸತಿ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_1">ಹೋಟೆಲ್</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_2">ಬಾಡಿಗೆ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_3">ಟಿವಿ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_4">ಪೀಠೋಪಕರಣಗಳು</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_5">ಶುಲ್ಕಗಳು</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_6">ಬಿಸಿ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_7">ಅಲಂಕಾರ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_8">ನೀರು</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_9">ವಿದ್ಯುತ್</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_10">ಬಿಳಿ ಸರಕುಗಳು</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_11">ಉಪಕರಣ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_12">ಅನಿಲ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_13">ಉದ್ಯಾನ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_14">ಮನೆ ಕೀಪರ್</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_15">ದೂರವಾಣಿ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_16">ಮೊಬೈಲ್ ಫೋನ್</string>
+    <!-- Main category -->
+    <string name="Main_17">ವಿರಾಮಗಳು</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_1">ಸ್ನೂಕರ್</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_2">ಬೌಲಿಂಗ್</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_3">ಚಲನಚಿತ್ರಗಳು</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_4">ರಾತ್ರಿ ಕೂಟ</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_5">ಐಟಿ</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_6">ಆಟಗಳು</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_7">ಪುಸ್ತಕಗಳು</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_8">ಉದ್ಯಾನಗಳು</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_9">ಗೋಷ್ಠಿಗಳು</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_10">ಕ್ರೀಡೆ</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_11">ವೀಡಿಯೊ</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_12">ಟ್ರಾವೆಲ್ಸ್</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_13">ಉಪಕರಣ</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_14">ವಸ್ತು ಸಂಗ್ರಹಾಲಯಗಳು / ಪ್ರದರ್ಶನಗಳು</string>
+    <!-- Main category -->
+    <string name="Main_18">ಸಾಲ / ಅಡಮಾನ</string>
+    <!-- Subcategory under "Loan/Mortgage" -->
+    <string name="Sub_18_1">ರಾಜಧಾನಿ</string>
+    <!-- Main category -->
+    <string name="Main_19">ಆರೋಗ್ಯ</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_1">ವಿಮೆ</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_2">ದಂತವೈದ್ಯರು</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_3">ಆಸ್ಪತ್ರೆ</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_4">ಕಿನಿಸಿತೆರಪಿಸ್ಟ್</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_5">ಡಾಕ್ಟರ್</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_6">ನೇತ್ರಶಾಸ್ತ್ರಜ್ಞ</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_7">ಆಸ್ಟಿಯೋಪಥ್</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_8">ರಸಾಯನಶಾಸ್ತ್ರಜ್ಞ</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_9">ಸಾಮಾಜಿಕ ಭದ್ರತೆ</string>
+    <!-- Main category -->
+    <string name="Main_20">ಆರೈಕೆ</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_1">ಕೇಶ ವಿನ್ಯಾಸಕಿ</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_2">ಉಡುಪು</string>
+    <!-- Main category -->
+    <string name="Main_21">ಸಾರಿಗೆ</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_1">ಬಸ್</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_2">ಮೆಟ್ರೋ</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_3">ಟೋಲ್</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_4">ರೈಲು</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_5">ಟ್ರಾಮ್ವೇ</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_6">ವಿಮಾನ</string>
+    <!-- Main category -->
+    <string name="Main_22">ರಜಾದಿನಗಳು</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_1">ವಸತಿ</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_2">ಭೇಟಿಗಳು</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_3">ಟ್ರಾವೆಲ್ಸ್</string>
+</resources>

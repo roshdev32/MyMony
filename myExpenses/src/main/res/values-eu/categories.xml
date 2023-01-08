@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources, InconsistentArrays">
+    <!-- Main category -->
+    <string name="Main_1">Bestelako diru-sarrerak</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_1">Langabezia-subsidioa</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_2">Familia-laguntza</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_3">Zerga murrizketa</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_4">Apustuak</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_5">Mutuako asegurua</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_6">Segurtasun soziala</string>
+    <!-- Main category -->
+    <string name="Main_2">Erretiro-pentsioa</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_1">Erretiro fondoa</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_2">Pentsioa</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_3">Pentsio gehigarria</string>
+    <!-- Main category -->
+    <string name="Main_3">Inbertsioetako etekina</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_1">Dibidendua</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_2">Interesa</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_3">Kapitalaren irabazia</string>
+    <!-- Main category -->
+    <string name="Main_4">Soldata</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_1">Ordu estrak</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_2">Eszedentziarako laguntza</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_3">Askotariko gainordainak</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_4">Mozkinak</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_5">Soldata garbia</string>
+    <!-- Main category -->
+    <string name="Main_5">Askotariko diru-sarrerak</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_1">Opariak</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_2">Diru-itzultzeak</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_3">Bigarren eskuko salmentak</string>
+    <!-- Main category -->
+    <string name="Main_6">Janaria</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_1">Taberna</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_2">Okindegia</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_3">Jantokia</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_4">Gozokiak</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_5">Janari-denda</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_6">Jatetxea</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_7">Self-service</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_8">Supermerkatua</string>
+    <!-- Main category -->
+    <string name="Main_7">Maskotak</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_1">Janaria</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_2">Askotariko hornidurak</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_3">Atontzea</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_4">Albaitaria</string>
+    <!-- Main category -->
+    <string name="Main_8">Asegurua</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_1">Kotxea</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_2">Osasuna</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_3">Etxea</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_4">Erantzukizun zibila</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_5">Bizia</string>
+    <!-- Main category -->
+    <string name="Main_9">Kotxea</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_1">Erregaia</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_2">Konponketak</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_3">Mantentzea</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_4">Aparkalekua</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_5">Isunak</string>
+    <!-- Main category -->
+    <string name="Main_10">Opariak</string>
+    <!-- Main category -->
+    <string name="Main_11">Umeak</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_1">Erizaina</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_2">Ikasketak</string>
+    <!-- Main category -->
+    <string name="Main_12">Ikasketak</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_1">Klaseak</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_2">Eskolako kuotak</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_3">Liburuak</string>
+    <!-- Main category -->
+    <string name="Main_13">Finantza gastuak</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_1">Bankuaren karguak</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_2">Kreditua/Hipoteka</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_3">Karguak</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_4">Diru-itzulerak</string>
+    <!-- Main category -->
+    <string name="Main_14">Gastu profesionalak</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_1">Ez itzulgarria</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_2">Itzulgarria</string>
+    <!-- Main category -->
+    <string name="Main_15">Zergak</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_1">Errentaren gaineko zerga</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_2">Zerga</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_3">Salmenta zergak</string>
+    <!-- Main category -->
+    <string name="Main_16">Ostatatzea</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_1">Hotela</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_2">Alokairua</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_3">Telebista</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_4">Altzariak</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_5">Karguak</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_6">Berogailua</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_7">Apaindurak</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_8">Ura</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_9">Elektrizitatea</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_10">Etxetresna elektrikoak</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_11">Hornikuntzak</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_12">Gasa</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_13">Baratza/lorategia</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_14">Etxe zaintzailea</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_15">Telefonoa</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_16">Sakelako telefonoa</string>
+    <!-- Main category -->
+    <string name="Main_17">Aisialdia</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_1">Futbola</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_2">Frontoia</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_3">Zinema</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_4">Taberna/diskoteka</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_5">Teknologia</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_6">Jokoak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_7">Liburuak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_8">Barrakak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_9">Kontzertuak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_10">Kirola</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_11">Bideoak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_12">Bidaiak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_13">Hornikuntzak</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_14">Museoak/Esposizioak</string>
+    <!-- Main category -->
+    <string name="Main_18">Kreditua/Hipoteka</string>
+    <!-- Subcategory under "Loan/Mortgage" -->
+    <string name="Sub_18_1">Kapitala</string>
+    <!-- Main category -->
+    <string name="Main_19">Osasuna</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_1">Asegurua</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_2">Dentista</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_3">Ospitalea</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_4">Fisioterapeuta</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_5">Osagilea</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_6">Oftalmologoa</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_7">Osteopata</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_8">Farmazia</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_9">Segurtasun soziala</string>
+    <!-- Main category -->
+    <string name="Main_20">Antontze pertsonala</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_1">Ile-apaindegia</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_2">Jantziak</string>
+    <!-- Main category -->
+    <string name="Main_21">Garraioa</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_1">Autobusa</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_2">Metroa</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_3">Bidesaria</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_4">Trena</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_5">Tranbia</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_6">Hegazkin</string>
+    <!-- Main category -->
+    <string name="Main_22">Oporrak</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_1">Ostatatzea</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_2">Bisitak</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_3">Bidaiak</string>
+</resources>

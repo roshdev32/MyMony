@@ -1,0 +1,8 @@
+<resources>
+    <string name="discard">"Rejeitar"</string>
+    <string name="dialog_dismiss">"Ignorar"</string>
+    <string name="saving">"A guardar…"</string>
+    <string name="default_action">"Ação predefinida"</string>
+    <string name="calendar">"Calendário"</string>
+    <string name="setup">"Configuração"</string>
+</resources>

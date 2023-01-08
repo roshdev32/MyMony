@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources, InconsistentArrays">
+    <!-- Main category -->
+    <string name="Main_1">Pendapatan lain</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_1">Tunjangan pengangguran</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_2">Tunjangan keluarga</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_3">Kredit pajak</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_4">Gambling</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_5">Asuransi bersama</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_6">Jaminan sosial</string>
+    <!-- Kategori utama -->
+    <string name="Main_2">Pensiun</string>
+    <!-- Subkategori di bawah "Pensiun" -->
+    <string name="Sub_2_1">Dana Pensiun</string>
+    <!-- Subkategori di bawah "Pensiun" -->
+    <string name="Sub_2_2">Pensiun</string>
+    <!-- Subkategori di bawah "Pensiun" -->
+    <string name="Sub_2_3">Pensiun tambahan</string>
+    <!-- Kategori utama -->
+    <string name="Main_3">Pendapatan investasi</string>
+    <!-- Subkategori di bawah "Pendapatan investasi" -->
+    <string name="Sub_3_1">Dividen</string>
+    <!-- Subkategori di bawah "Pendapatan investasi" -->
+    <string name="Sub_3_2">Bunga</string>
+    <!-- Subkategori di bawah "Pendapatan investasi" -->
+    <string name="Sub_3_3">Keuntungan modal</string>
+    <!-- Kategori utama -->
+    <string name="Main_4">Gaji</string>
+    <!-- Subkategori di bawah "Gaji" -->
+    <string name="Sub_4_1">Lembur</string>
+    <!-- Subkategori di bawah "Gaji" -->
+    <string name="Sub_4_2">Tinggalkan tunjangan</string>
+    <!-- Subkategori di bawah "Gaji" -->
+    <string name="Sub_4_3">Lain-lain. premi</string>
+    <!-- Subkategori di bawah "Gaji" -->
+    <string name="Sub_4_4">Biaya keberhasilan</string>
+    <!-- Subkategori di bawah "Gaji" -->
+    <string name="Sub_4_5">Gaji bersih</string>
+    <!-- Kategori utama -->
+    <string name="Main_5">Penghasilan Lain-lain</string>
+    <!-- Subkategori pada "Penghasilan lain-lain" -->
+    <string name="Sub_5_1">Hadiah</string>
+    <!-- Subkategori pada "Penghasilan lain-lain" -->
+    <string name="Sub_5_2">Pengembalian Dana</string>
+    <!-- Subkategori pada "Penghasilan lain-lain" -->
+    <string name="Sub_5_3">Penjualan barang bekas</string>
+    <!-- Kategori utama -->
+    <string name="Main_6">Makanan</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_1">Batang</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_2">Pembuat Roti</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_3">Kantin</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_4">Permen</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_5">Belanjaan</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_6">Restoran</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_7">Layanan mandiri</string>
+    <!-- Subkategori di bawah "Makanan" -->
+    <string name="Sub_6_8">Supermarket</string>
+    <!-- Kategori utama -->
+    <string name="Main_7">Peliharaan</string>
+    <!-- Subkategori di bawah "Peliharaan" -->
+    <string name="Sub_7_1">Makanan</string>
+    <!-- Subkategori di bawah "Peliharaan" -->
+    <string name="Sub_7_2">Berbagai persediaan</string>
+    <!-- Subkategori di bawah "Peliharaan" -->
+    <string name="Sub_7_3">Perawatan</string>
+    <!-- Subkategori di bawah "Peliharaan" -->
+    <string name="Sub_7_4">Dokter hewan</string>
+    <!-- Kategori utama -->
+    <string name="Main_8">Asuransi</string>
+    <!-- Subkategori di bawah "Asuransi" -->
+    <string name="Sub_8_1">Mobil</string>
+    <!-- Subkategori di bawah "Asuransi" -->
+    <string name="Sub_8_2">Kesehatan</string>
+    <!-- Subkategori di bawah "Asuransi" -->
+    <string name="Sub_8_3">Rumah</string>
+    <!-- Subkategori di bawah "Asuransi" -->
+    <string name="Sub_8_4">Tanggung jawab perdata</string>
+    <!-- Subkategori di bawah "Asuransi" -->
+    <string name="Sub_8_5">Hidup</string>
+    <!-- Kategori utama -->
+    <string name="Main_9">Mobil</string>
+    <!-- Subkategori di bawah "Mobil" -->
+    <string name="Sub_9_1">Bahan Bakar</string>
+    <!-- Subkategori di bawah "Mobil" -->
+    <string name="Sub_9_2">Perbaikan</string>
+    <!-- Subkategori di bawah "Mobil" -->
+    <string name="Sub_9_3">Pemeliharaan</string>
+    <!-- Subkategori di bawah "Mobil" -->
+    <string name="Sub_9_4">Parkir</string>
+    <!-- Subkategori di bawah "Mobil" -->
+    <string name="Sub_9_5">Denda</string>
+    <!-- Kategori utama -->
+    <string name="Main_10">Hadiah</string>
+    <!-- Kategori utama -->
+    <string name="Main_11">Anak-anak</string>
+    <!-- Subkategori di bawah "Anak" -->
+    <string name="Sub_11_1">Perawat</string>
+    <!-- Subkategori di bawah "Anak" -->
+    <string name="Sub_11_2">Studi</string>
+    <!-- Kategori utama -->
+    <string name="Main_12">Studi</string>
+    <!-- Subkategori di bawah "Studi" -->
+    <string name="Sub_12_1">Pelajaran</string>
+    <!-- Subkategori di bawah "Studi" -->
+    <string name="Sub_12_2">Biaya sekolah</string>
+    <!-- Subkategori di bawah "Studi" -->
+    <string name="Sub_12_3">Buku</string>
+    <!-- Kategori utama -->
+    <string name="Main_13">Biaya keuangan</string>
+    <!-- Subkategori pada "Biaya keuangan" -->
+    <string name="Sub_13_1">Biaya bank</string>
+    <!-- Subkategori pada "Biaya keuangan" -->
+    <string name="Sub_13_2">Pinjaman/Hipotek</string>
+    <!-- Subkategori pada "Biaya keuangan" -->
+    <string name="Sub_13_3">Tagihan</string>
+    <!-- Subkategori pada "Biaya keuangan" -->
+    <string name="Sub_13_4">Pengembalian dana</string>
+    <!-- Kategori utama -->
+    <string name="Main_14">Pengeluaran profesional</string>
+    <!-- Subkategori pada "Biaya profesional" -->
+    <string name="Sub_14_1">Tidak dapat dikembalikan</string>
+    <!-- Subkategori pada "Biaya profesional" -->
+    <string name="Sub_14_2">Dapat dikembalikan</string>
+    <!-- Kategori utama -->
+    <string name="Main_15">Pajak</string>
+    <!-- Subkategori di bawah "Pajak" -->
+    <string name="Sub_15_1">Pajak penghasilan</string>
+    <!-- Subkategori di bawah "Pajak" -->
+    <string name="Sub_15_2">Pajak tanah</string>
+    <!-- Subkategori di bawah "Pajak" -->
+    <string name="Sub_15_3">Pajak penjualan</string>
+    <!-- Kategori utama -->
+    <string name="Main_16">Perumahan</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_1">Hotel</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_2">Sewa</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_3">TV</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_4">Furnitur</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_5">Tagihan</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_6">Pemanasan</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_7">Dekorasi</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_8">Air</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_9">Listrik</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_10">Barang putih</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_11">Peralatan</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_12">Bensin</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_13">Taman</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_14">Penjaga rumah</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_15">Telepon</string>
+    <!-- Subkategori pada "Perumahan" -->
+    <string name="Sub_16_16">Ponsel</string>
+    <!-- Kategori utama -->
+    <string name="Main_17">Kenyamanan</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_1">Snooker</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_2">Bowling</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_3">Film</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_4">Klub malam</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_5">TI</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_6">Game</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_7">Buku</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_8">Taman</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_9">Konser</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_10">Olahraga</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_11">Video</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_12">Perjalanan</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_13">Peralatan</string>
+    <!-- Subkategori di bawah "Kenyamanan" -->
+    <string name="Sub_17_14">Museum/Pameran</string>
+    <!-- Kategori utama -->
+    <string name="Main_18">Pinjaman/Hipotek</string>
+    <!-- Subkategori di bawah "Pinjaman/Hipotek" -->
+    <string name="Sub_18_1">Modal</string>
+    <!-- Kategori utama -->
+    <string name="Main_19">Kesehatan</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_1">Asuransi</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_2">Dokter Gigi</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_3">Rumah Sakit</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_4">Kinesiterapis</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_5">Dokter</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_6">Ophtalmologist</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_7">Osteopath</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_8">Ahli Kimia</string>
+    <!-- Subkategori di bawah "Kesehatan" -->
+    <string name="Sub_19_9">Jaminan sosial</string>
+    <!-- Kategori utama -->
+    <string name="Main_20">Perawatan</string>
+    <!-- Subkategori di bawah "Perawatan" -->
+    <string name="Sub_20_1">Penata Rambut</string>
+    <!-- Subkategori di bawah "Perawatan" -->
+    <string name="Sub_20_2">Pakaian</string>
+    <!-- Kategori utama -->
+    <string name="Main_21">Transportasi</string>
+    <!-- Subkategori di bawah "Transportasi" -->
+    <string name="Sub_21_1">Bus</string>
+    <!-- Subkategori di bawah "Transportasi" -->
+    <string name="Sub_21_2">Metro</string>
+    <!-- Subkategori di bawah "Transportasi" -->
+    <string name="Sub_21_3">Tol</string>
+    <!-- Subkategori di bawah "Transportasi" -->
+    <string name="Sub_21_4">Kereta</string>
+    <!-- Subkategori di bawah "Transportasi" -->
+    <string name="Sub_21_5">Jalur Trem</string>
+    <!-- Subkategori di bawah "Transportasi" -->
+    <string name="Sub_21_6">Pesawat</string>
+    <!-- Kategori utama -->
+    <string name="Main_22">Liburan</string>
+    <!-- Subkategori di bawah "Liburan" -->
+    <string name="Sub_22_1">Perumahan</string>
+    <!-- Subkategori di bawah "Liburan" -->
+    <string name="Sub_22_2">Kunjungan</string>
+    <!-- Subkategori di bawah "Liburan" -->
+    <string name="Sub_22_3">Perjalanan</string>
+</resources>

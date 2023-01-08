@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.SET_TIME_ZONE"
+        android:maxSdkVersion="25"
+        tools:ignore="ProtectedPermissions" />
+    <!-- Allows unlocking your device and activating its screen so UI tests can succeed -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Used by LocalFileBackend -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Allows changing locales -->
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- Allows changing SystemUI demo mode -->
+    <uses-permission
+        android:name="android.permission.DUMP"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        tools:targetApi="q">
+        <receiver
+            android:exported="true"
+            android:name=".ExecutionTrigger"
+            tools:ignore="ExportedReceiver">
+            <!-- adb shell am broadcast -n org.totschnig.myexpenses.debug/org.totschnig.myexpenses.ExecutionTrigger -a TRIGGER_SYNC -e ACCOUNT accountName -->
+            <intent-filter>
+                <action android:name="TRIGGER_SYNC"/>
+            </intent-filter>
+            <!-- adb shell am broadcast -n org.totschnig.myexpenses.debug/org.totschnig.myexpenses.ExecutionTrigger -a TRIGGER_PLANNER -->
+            <intent-filter>
+                <action android:name="TRIGGER_PLANNER"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.TestExpenseEdit"
+            android:theme="@style/EditDialog"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.TestMyExpenses"
+            android:launchMode="singleTop"
+            android:theme="@style/MyTheme" />
+    </application>
+</manifest>

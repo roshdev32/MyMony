@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+     android-source/packages/apps/UnifiedEmail/res/values/strings.xmlls
+-->
+<resources>
+    <string name="drawer_open">"Deschideți panoul de navigare"</string>
+    <string name="drawer_close">"Închideți panoul de navigare"</string>
+    <string name="saving">"Se salvează…"</string>
+    <string name="default_action">"Acțiune prestabilită"</string>
+    <string name="full_name">"Nume"</string>
+    <string name="postal_country">"Țară"</string>
+    <string name="toast_text_copied">"Text copiat"</string>
+    <string name="copy_text">"Copiați în clipboard"</string>
+    <string name="stop">"Opriți"</string>
+    <string name="no_network">"Nu există nicio conexiune la rețea."</string>
+    <string name="button_label_continue">Continuați</string>
+    <string name="autofill">"Completare automată"</string>
+    <string name="discard">"Renunţaţi"</string>
+    <string name="dialog_dismiss">"Închideți"</string>
+    <string name="response_yes">"Da"</string>
+    <string name="response_no">"Nu"</string>
+    <string name="add_widget">"Adăugați un widget"</string>
+    <string name="calendar">"Calendar"</string>
+    <string name="permissions_label">"Permisiuni"</string>
+    <string name="time_format">"Formatul orei"</string>
+    <string name="setup">"Configurați"</string>
+    <string name="clear_cache">"Goliți memoria cache"</string>
+    <string name="customize">"Personalizați"</string>
+</resources>
+

@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!--
+  This file is part of My Expenses.
+  My Expenses is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  My Expenses is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with My Expenses.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="account">Akun</string>
+    <!-- Label in form for payment method, where user checks for which account types the method is applicable -->
+    <string name="account_types">Jenis akun</string>
+    <string name="account_type_asset">Akun aset</string>
+    <!-- Plural form to be used in account list where accounts are grouped by type -->
+    <string name="account_type_asset_plural">Akun aset</string>
+    <string name="account_type_bank">Akun bank</string>
+    <!-- Plural form to be used in account list where accounts are grouped by type -->
+    <string name="account_type_bank_plural">Akun bank</string>
+    <string name="account_type_cash">Akun tunai</string>
+    <!-- Plural form to be used in account list where accounts are grouped by type -->
+    <string name="account_type_cash_plural">Akun tunai</string>
+    <string name="account_type_ccard">Kartu kredit</string>
+    <!-- Plural form to be used in account list where accounts are grouped by type -->
+    <string name="account_type_ccard_plural">Kartu kredit</string>
+    <string name="account_type_liability">Akun liabilitas</string>
+    <!-- Plural form to be used in account list where accounts are grouped by type -->
+    <string name="account_type_liability_plural">Akun liabilitas</string>
+    <string name="already_defined">%1$s sudah terdaftar</string>
+    <string name="amount">Jumlah</string>
+    <string name="backup_success">Database dan pengaturan berhasil disimpan di \"%1$s\".</string>
+    <string name="category">Kategori</string>
+    <string name="color">Warna</string>
+    <string name="comment">Catatan</string>
+    <string name="confirmation_dialog_dont_show_again">Jangan tampilkan lagi</string>
+    <string name="contrib_feature_ad_free_label" tools:ignore="UnusedResources">No ads</string>
+    <string name="contrib_feature_accounts_unlimited_label" tools:ignore="UnusedResources">Unlimited number of accounts</string>
+    <string name="contrib_feature_attach_picture_label" tools:ignore="UnusedResources">Attach image to transaction</string>
+    <string name="contrib_feature_distribution_label" tools:ignore="UnusedResources">Pie chart (Distribution per category)</string>
+    <string name="contrib_feature_plans_unlimited_label" tools:ignore="UnusedResources">Unlimited number of plans</string>
+    <string name="contrib_feature_print_label" tools:ignore="UnusedResources">Export transaction list to PDF</string>
+    <string name="contrib_feature_template_widget_label" tools:ignore="UnusedResources">Template widget</string>
+    <string name="contrib_feature_csv_import_label" tools:ignore="UnusedResources">CSV import</string>
+    <string name="contrib_feature_split_template_label" tools:ignore="UnusedResources">Unlimited number of split templates</string>
+    <string name="contrib_feature_pro_support_label" tools:ignore="UnusedResources"><b>Email support</b> with guaranteed response within 2 business days</string>
+    <string name="contrib_feature_roadmap_voting_label" tools:ignore="UnusedResources">Voting right on <b>development roadmap</b></string>
+    <string name="contrib_feature_history_label" tools:ignore="UnusedResources">History chart</string>
+    <string name="contrib_feature_category_tree_label" tools:ignore="UnusedResources">Category tree</string>
+    <string name="licence_status_free">Free</string>
+    <string name="contrib_key">Contrib Key</string>
+    <string name="extended_key">Extended Key</string>
+    <!-- Placeholder: 1 will be replace with either My Expenses Contrib Key or My Expenses Extended Key -->
+    <string name="contrib_key_requires">Requires %1$s.</string>
+    <string name="currency">Mata uang</string>
+    <string name="current_balance">Saldo saat ini</string>
+    <string name="date">Tanggal</string>
+    <string name="date_format">Format tanggal</string>
+    <string name="date_format_illegal">Format tanggal tidak sesuai</string>
+    <string name="number_format_illegal">Format angka tidak sesuai</string>
+    <string name="decimal_separator">Pemisah desimal</string>
+    <string name="default_account_name">Buku kas</string>
+    <string name="description">Deskripsi</string>
+    <string name="dialog_balance_delete">Hapus transaksi yang telah direkonsilasi</string>
+    <string name="dialog_confirm_discard_changes">Batalkan perubahan?</string>
+    <string name="dialog_confirm_discard_new_transaction">Batalkan perubahan transaksi terbaru?</string>
+    <string name="dialog_confirm_discard_new_template">Batalkan perubahan template terbaru?</string>
+    <string name="dialog_confirm_discard_new_account">Batalkan perubahan akun terbaru?</string>
+    <string name="dialog_confirm_discard_new_method">Batalkan perubahan metode pembayaran terbaru?</string>
+    <string name="dialog_command_disabled_balance">Tidak ada transaksi \'cleared\' untuk di rekonsilasi.</string>
+    <string name="dialog_command_disabled_insert_transfer">Transfer membutuhkan akun lebih dari satu.</string>
+    <string name="dialog_command_disabled_reset_account">Tidak ada transaksi untuk di ekspor.</string>
+    <string name="dialog_command_disabled_distribution">Tidak ada transaksi yang dikategorikan pada akun ini.</string>
+    <!-- Button for accessing trial of premium feature -->
+    <string name="dialog_contrib_no">Try</string>
+    <!-- Placeholder: 1 is name of the feature. 2 is required key (Contrib or Extended)-->
+    <string name="dialog_contrib_premium_feature">%1$s is a premium feature (%2$s).</string>
+    <string name="dialog_contrib_reminder_remove_limitation">Remove this limitation and access more features by upgrading <i>{app_name}</i>.</string>
+    <string name="dialog_contrib_text_1"><i>{app_name}</i> is offered open source.</string>
+    <string name="dialog_contrib_text_2">Please contribute by upgrading <i>{app_name}</i> and gain unrestricted access to the following features:</string>
+    <string name="dialog_contrib_usage_count">Free usages left</string>
+    <string name="dialog_contrib_usage_limit" tools:ignore="PluralsCandidate">You can use it up to %1$d times with your current licence status (%2$s).</string>
+    <string name="dialog_contrib_usage_limit_synchronization" tools:ignore="PluralsCandidate">You can use it for %1$d days with your current licence status (%2$s).</string>
+    <string name="dialog_contrib_usage_limit_accounts" tools:ignore="PluralsCandidate">Your current licence status (%2$s) allows you to create %1$d accounts.</string>
+    <string name="dialog_contrib_usage_limit_plans" tools:ignore="PluralsCandidate">Your current licence status (%2$s) allows you to create %1$d plans.</string>
+    <string name="dialog_contrib_usage_limit_split_templates">Your current licence status (%1$s) allows you to create 1 split template.</string>
+    <string name="dialog_contrib_usage_limit_with_dialog">With your current licence status (%1$s), this dialogue will be displayed on every usage.</string>
+    <string name="dialog_export_delete">Hapus transaksi yang telah di ekspor</string>
+    <string name="dialog_export_not_yet_exported">Hanya ekspor transaksi yang belum diekspor sebelumnya</string>
+    <string name="dialog_password_activate_protection">Aktifkan proteksi password</string>
+    <string name="dialog_password_change_password">Ganti password</string>
+    <string name="dialog_password_new_password">Password baru</string>
+    <string name="dialog_password_new_password_confirmation">Konfirmasi password baru</string>
+    <string name="dialog_remind_later">Lain kali</string>
+    <string name="dialog_remind_rate_how_many_stars">Berapa bintang yang akan anda berikan ke {app_name}?</string>
+    <string name="dialog_remind_rate_1">Mohon waktunya untuk mengulas / mereview {app_name}.</string>
+    <string name="dialog_remind_rate_2">Review anda membantu kami menyempurnakan aplikasi.</string>
+    <string name="dialog_remind_rate_1_suggest_improvement">Mohon waktunya untuk memberikan kritik dan saran untuk kami.</string>
+    <string name="dialog_remind_rate_yes">Ulas sekarang</string>
+    <string name="dialog_security_answer">Jawaban</string>
+    <string name="dialog_security_question">Pertanyaan</string>
+    <string name="dialog_title_information">Informasi</string>
+    <!-- %1$s is replace with account label -->
+    <string name="dialog_title_balance_account">Saldo %1$s</string>
+    <string name="dialog_title_contrib_feature">Fitur premium</string>
+    <plurals name="dialog_title_warning_delete_account">
+        <item quantity="one">Hapus akun?</item>
+        <item quantity="other">Hapus akun %1$d?</item>
+    </plurals>
+    <string name="dialog_title_warning_delete_category">Hapus kategori?</string>
+    <string name="dialog_title_warning_delete_template">Hapus template?</string>
+    <string name="dialog_title_warning_delete_transaction">Hapus transaksi?</string>
+    <string name="dialog_title_warning_delete_party">Hapus party?</string>
+    <string name="expense">Pengeluaran</string>
+    <!-- 1$s is replaced with path to file, 2$s with error message -->
+    <string name="export_sdcard_failure">Ekspor file \"%1$s\" gagal: %2$s</string>
+    <!-- 1$s is replaced with path to file -->
+    <string name="export_sdcard_success">Berhasil ekspor data ke \"%1$s\"</string>
+    <string name="external_storage_unavailable">Kartu memori tidak tersedia</string>
+    <string name="feedback">Feedback</string>
+    <string name="ftp_uri_malformed">Malformed URI %1$s</string>
+    <string name="grisbi_import_categories_loading">Memuat kategori dari %1$s</string>
+    <string name="grisbi_import_parties_loading">Memuat pihak dari %1$s</string>
+    <string name="grouping_day">Harian</string>
+    <string name="grouping_last_week">Pekan lalu</string>
+    <string name="grouping_month">Bulanan</string>
+    <string name="grouping_none">Tidak digrup</string>
+    <string name="grouping_this_week">Pekan ini</string>
+    <string name="grouping_today">Hari ini</string>
+    <string name="grouping_week">Pekanan</string>
+    <string name="grouping_year">Tahunan</string>
+    <string name="grouping_yesterday">Kemarin</string>
+    <string name="help_button_rate">Ulas</string>
+    <string name="help_heading_credits">Tentang</string>
+    <string name="help_heading_license">Lisensi</string>
+    <string name="help_heading_whats_new">Apa yang baru</string>
+    <string name="important_upgrade_information_heading">Informasi penting</string>
+    <string name="import_select_transactions">Transaksi</string>
+    <string name="income">Pemasukan</string>
+    <string name="invalid_number_format">Format desimal tidak didukung di aturan wilayah anda. Gunakan %1$s</string>
+    <string name="label">Label</string>
+    <string name="licence_validation_failure">Unable to validate licence key.</string>
+    <string name="licence_validation_success">Licence key successfully validated:</string>
+    <string name="licence_validation_premium">Premium features have been unlocked.</string>
+    <string name="menu_aggregates">Total</string>
+    <!-- Shown in a notification; allows to apply a template (instantiate a new transaction from it) -->
+    <string name="menu_apply_template">Terapkan</string>
+    <string name="menu_back">Kembali</string>
+    <string name="menu_backup">Cadangkan</string>
+    <!-- Balance: compare cleared balance in app with balance on statement received from bank -->
+    <string name="menu_balance">Rekap akun</string>
+    <!-- Cancelling a plan instance means setting a flag so that this instance will not trigger the creation of a new transaction -->
+    <string name="menu_cancel_plan_instance">Batal</string>
+    <string name="menu_clone_transaction">Duplikat</string>
+    <string name="menu_contrib">Kontribusi</string>
+    <string name="menu_create_account">Akun baru</string>
+    <string name="menu_create_instance_edit">Terapkan dan edit</string>
+    <string name="menu_create_instance_save">Terapkan dan simpan</string>
+    <string name="menu_create_main_cat">Buat kategori utama</string>
+    <string name="menu_create_method">Buat Metode pembayaran</string>
+    <string name="menu_create_party">Buat party</string>
+    <string name="menu_create_split">Buat split</string>
+    <string name="menu_create_split_part_category">Buat kategori split part</string>
+    <string name="menu_create_split_part_transfer">Buat transfer split part</string>
+    <string name="menu_create_sub_cat">Buat sub kategori</string>
+    <string name="menu_create_template">Buat template</string>
+    <string name="menu_create_template_from_transaction">Simpan sebagai template</string>
+    <string name="menu_create_template_for_transaction">Buat template transaksi</string>
+    <string name="menu_create_template_for_transfer">Buat template transfer</string>
+    <string name="menu_create_transaction">Transaksi baru</string>
+    <string name="menu_create_transfer">Transfer baru</string>
+    <string name="menu_delete">Hapus</string>
+    <string name="menu_distribution">Distribusi</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_edit_account">Edit Akun</string>
+    <string name="menu_edit_cat">Edit kategori</string>
+    <string name="menu_edit_method">Edit metode pembayaran</string>
+    <string name="menu_edit_party">Edit party</string>
+    <string name="menu_edit_plan_instance">Edit single plan occurrence</string>
+    <string name="menu_edit_split">Edit split</string>
+    <string name="menu_edit_split_part_category">Edit kategori split part</string>
+    <string name="menu_edit_split_part_transfer">Edit transfer split part</string>
+    <string name="menu_edit_template">Edit Template</string>
+    <string name="menu_edit_transaction">Edit Transaksi</string>
+    <string name="menu_edit_transfer">Edit Transfer</string>
+    <string name="menu_exclude_from_totals">Kecualikan dari total</string>
+    <string name="menu_forward">Forward</string>
+    <string name="menu_grouping">Kelompokkan</string>
+    <string name="menu_help">Bantuan</string>
+    <!-- This command inverts the direction of a transfer -->
+    <string name="menu_invert_transfer">Invert</string>
+    <string name="menu_manage_plans">Templates dan rencana</string>
+    <!-- Button on the dialog shown after PDF file has been created, allowing to open it with a PDF viewer application -->
+    <string name="menu_open">Buka file</string>
+    <string name="menu_import">Impor</string>
+    <string name="menu_print">Print</string>
+    <string name="menu_reset">Ekspor dan reset</string>
+    <string name="menu_reset_all">Ekspor dan reset semua</string>
+    <!-- Resetting a plan instance means deleting a transaction that has been created for this instances, or removing the cancel flag -->
+    <string name="menu_reset_plan_instance">Reset</string>
+    <string name="menu_save">Simpan</string>
+    <string name="menu_save_and_new">Simpan dan buat baru</string>
+    <string name="menu_search">Cari</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_share">Bagikan ke teman</string>
+    <string name="button_label_share_file">Bagikan</string>
+    <string name="button_label_close">Tutup</string>
+    <string name="menu_split_transaction">Jadikan split</string>
+    <string name="method">Metode pembayaran</string>
+    <string name="no_app_handling_email_available">Aplikasi email tidak tersedia.</string>
+    <string name="no_app_handling_ftp_available">Aplikasi ftp tidak tersedia. Install <i>Send With FTP</i>?</string>
+    <string name="no_app_handling_pdf_available">Aplikasi pembaca PDF tidak tersedia.</string>
+    <string name="no_categories">Tidak ada kategori.</string>
+    <string name="no_expenses">Belum ada pengeluaran!</string>
+    <string name="no_exportable_expenses">Tidak terdapat transaksi yang bisa di ekspor.</string>
+    <string name="no_filemanager_installed">Aplikasi filemanager tidak tersedia</string>
+    <string name="no_calendar_app_installed">Aplikasi kalender tidak tersedia.</string>
+    <string name="image_capture_not_installed">Aplikasi kamera tidak tersedia.</string>
+    <string name="no_mapped_transactions">Tidak ada transaksi yangt dikategorikan dalan periode ini.</string>
+    <string name="no_methods">Metode pembayaran belum dibuat.</string>
+    <string name="no_parties">Pihak belum dibuat.</string>
+    <string name="no_split_parts">Split parts belum dibuat.</string>
+    <string name="no_templates">Templates belum dibuat.</string>
+    <string name="no_accounts">Akun belum dibuat.</string>
+    <plurals name="not_deletable_mapped_transactions">
+        <item quantity="one">Data yang dipilih terhubung dengan transaksi sehingga tidak bisa dihapus.</item>
+        <item quantity="other">%1$d data yang dipilih terhubung dengan transaksi sehingga tidak bisa dihapus.</item>
+    </plurals>
+    <plurals name="not_deletable_mapped_templates">
+        <item quantity="one">Data yang dipilih terhubung dengan template sehingga tidak bisa dihapus.</item>
+        <item quantity="other">%1$d data yang dipilih terhubung dengan template sehingga tidak bisa dihapus.</item>
+    </plurals>
+    <string name="numbered">dinomori</string>
+    <string name="opening_balance">Saldo awal</string>
+    <string name="parse_error_file_not_found">Tidak dapat menemukan file %1$s</string>
+    <string name="parse_error_grisbi_version_not_supported">Grisbi File Version: %1$s tidak didukung</string>
+    <string name="parse_error_no_data_found">File tidak didukung.</string>
+    <string name="parse_error_other_exception">Error ditemukan: %1$s</string>
+    <string name="parse_error_parse_exception">Tidak dapat membaca file</string>
+    <string name="password_disabled_reenable">Proteksi password dimatikan. anda dapat mengaktifkan di pengaturan.</string>
+    <string name="password_lost">Lupa password</string>
+    <string name="password_not_valid">Password salah. silakan coba lagi!</string>
+    <string name="password_prompt">Masukkan password anda</string>
+    <string name="password_security_answer_not_valid">Jawaban salah. Coba lagi!</string>
+    <string name="payee">Penerima</string>
+    <string name="payer">Pengirim</string>
+    <string name="payer_or_payee">Penerima/Pengirim</string>
+    <!-- Plan for future and recurring transactions -->
+    <string name="plan">Rencana</string>
+    <!-- Label on the switch, where user decides if a plan should be executed automatically, or manually (i.e. user gets notification where he can cancel the execution or edit the instance -->
+    <string name="plan_automatic">otomatis</string>
+    <!-- this is the label for the calendar where plans for future and recurrent transactions are stored -->
+    <string name="plan_calendar_name">{app_name} planner</string>
+    <string name="planner_notification_channel_name">Rencana anda</string>
+    <string name="plan_event_deleted">The plan associated with this template has been deleted from the calendar.</string>
+    <!-- This message is shown, after a user decides to not apply a manual plan -->
+    <string name="plan_execution_canceled">Plan execution canceled</string>
+    <!-- Label on the switch, where user decides if a plan should be executed automatically, or manually (i.e. user gets notification where he can cancel the execution or edit the instance) -->
+    <string name="planner_create_calendar_failure">Unable to create local planner calendar</string>
+    <string name="planner_create_calendar_success">Local planner calendar successfully created</string>
+    <!-- payment methods -->
+    <string name="pm_cheque">Transfer</string>
+    <string name="pm_creditcard">Kartu kredit</string>
+    <string name="pm_deposit">Deposito</string>
+    <string name="pm_directdebit">Kartu debit</string>
+    <string name="pm_type_credit">Kartu kredit</string>
+    <string name="pm_type_debit">Kartu Debit</string>
+    <string name="pm_type_neutral">Netral</string>
+    <string name="pref_app_dir_title">Folder untuk backup dan ekspor</string>
+    <string name="pref_auto_fill_summary">Isikan data dari transaksi terakhir untuk penerima/pengirim yang sama</string>
+    <string name="pref_backup_summary">Buat cadangan database dan pengaturan.</string>
+    <string name="pref_sort_order_usages">Jumlah penggunaan</string>
+    <string name="pref_category_title_advanced">Advanced</string>
+    <string name="pref_category_title_export">Ekspor</string>
+    <string name="pref_category_title_import">Impor</string>
+    <string name="pref_category_title_manage">Atur</string>
+    <string name="pref_category_title_more_information">Informasi lain</string>
+    <string name="pref_category_title_security">Keamanan</string>
+    <string name="pref_category_title_ui">User interface</string>
+    <string name="pref_checkbox_enabled">Aktif</string>
+    <string name="pref_checkbox_disabled">Tidak aktif</string>
+    <!-- premium features refers to features of all three levels (Contrib, Extended, Professional -->
+    <string name="pref_contrib_purchase_summary">Purchase access to premium features.</string>
+    <string name="pref_contrib_purchase_title">Purchase key</string>
+    <string name="pref_contrib_purchase_title_upgrade">Upgrade key</string>
+    <string name="pref_contrib_purchase_title_in_app">In-App payment</string>
+    <string name="pref_custom_currency_title">Edit mata uang</string>
+    <!-- premium features refers to features of all three levels (Contrib, Extended, Professional -->
+    <string name="pref_enter_licence_summary" tools:ignore="UnusedResources">If you received a key, gain access to premium features.</string>
+    <string name="pref_enter_licence_title" tools:ignore="UnusedResources">Enter key</string>
+    <string name="pref_export_format_title">Format data</string>
+    <string name="pref_import_from_grisbi_summary">Impor kategori dan pihak dari file Grisbi XML</string>
+    <string name="pref_import_from_grisbi_title">Impor dari Grisbi</string>
+    <!-- %s is replaced with QIF or CSV -->
+    <string name="pref_import_summary">Impor transaksi, kategori, dan pihak dari file %s</string>
+    <!-- %s is replaced with QIF or CSV -->
+    <string name="pref_import_title">Impor %s</string>
+    <!-- Title of an entry on the Preferences Screen, that links to the My Expenses page on Mastodon, where news about new releases is published -->
+    <string name="pref_news_title">Berita</string>
+    <string name="pref_manage_accounts_title">Rekening Akun</string>
+    <string name="pref_manage_categories_summary">Tambah, edit, hapus kategori.</string>
+    <string name="pref_manage_categories_title">Kategori</string>
+    <string name="pref_manage_methods_summary">Buat dan edit metode pembayaran dan hubungkan dengan tipe akun.</string>
+    <string name="pref_manage_methods_title">Metode pembayaran</string>
+    <string name="pref_manage_parties_summary" tools:ignore="UnusedResources">Tambah, edit, hapus pihak (pengirim dan penerima).</string>
+    <string name="pref_manage_parties_title">Parties</string>
+    <string name="pref_manage_sync_backends_title">Server sinkronisasi</string>
+    <!-- %s will be replaced with list of backends -->
+    <string name="pref_manage_sync_backends_summary">Tambahkan server untuk sinkronisasi akun (%s).</string>
+    <string name="pref_more_info_dialog_title">Lisensi &amp; Pengembang</string>
+    <string name="pref_password_not_equal">Password tidak cocok</string>
+    <string name="pref_perform_protection_title">Proteksi</string>
+    <string name="pref_perform_share_title">Bagikan ekspor dan backup</string>
+    <!-- This entry is added to the list of available calendars, if no local calendar has been set up yet -->
+    <string name="pref_planning_calendar_create_local">Create new local planning calendar</string>
+    <string name="pref_planning_calendar_summary">Select the calendar where plans for future and recurring transactions are stored</string>
+    <string name="pref_protection_delay_seconds_summary">Beberapa detik sebelum aplikasi dikunci dengan password.</string>
+    <string name="pref_protection_delay_seconds_title">Waktu delay kunci</string>
+    <string name="pref_protection_enable_data_entry_from_widget_title">Input data dari widget dan pintasan</string>
+    <string name="pref_protection_enable_data_entry_from_widget_summary_on">Ijinkan tanpa password.</string>
+    <string name="pref_protection_enable_data_entry_from_widget_summary_off">Password di wajibkan.</string>
+    <string name="pref_qif_export_file_encoding_title">Encoding karakter</string>
+    <string name="pref_restore_summary">Pilih backup untuk mengembalikan database dan pengaturan.</string>
+    <string name="pref_restore_title">Kembalikan</string>
+    <string name="pref_security_question_summary">Ijinkan anda untuk membuka aplikasi, jika anda lupa password.</string>
+    <string name="pref_security_question_title">Pertanyaan keamanan</string>
+    <string name="pref_send_feedback_title">Kirim feedback</string>
+    <string name="pref_share_target_summary">Biarkan kosong jika anda akan memilih diantara beberapa aplikasi (Email, Dropbox, Google Docs, …)</string>
+    <string name="pref_share_target_title">Upload URL</string>
+    <string name="pref_shortcut_added">Pintasan telah ditambahkan ke layar depan</string>
+    <string name="pref_shortcut_not_added">Layar depan tidak tersedia untuk menempatkan pintasan.</string>
+    <string name="pref_shortcut_summary">Tambagkan pintasan ke layar depan.</string>
+    <string name="pref_ui_fontsize_title">Ukuran font</string>
+    <string name="pref_ui_home_screen_shortcuts">Pintasan layar depan</string>
+    <string name="pref_ui_language_default">Bawaan Sistem</string>
+    <!-- Title of the preference for selecting the UI language -->
+    <string name="pref_ui_language_title">Bahasa</string>
+    <string name="pref_ui_theme_dark">Gelap</string>
+    <string name="pref_ui_theme_light">Terang</string>
+    <string name="pref_ui_theme_title">Tema</string>
+    <string name="pref_visit_website_summary">Changelog and FAQ</string>
+    <string name="pref_visit_website_title">Kunjungi Website</string>
+    <string name="progress_dialog_deleting">Menghapus data</string>
+    <string name="progress_dialog_loading">Memuat data dari database</string>
+    <!-- %s is replaced with format (PDF, HTML) -->
+    <string name="progress_dialog_printing">Menggenerate %s</string>
+    <string name="qif_parse_result">Mengurai: %1$s akun; %2$s kategori and %3$s pihak</string>
+    <string name="qif_parse_failure_found_multiple_accounts">Multiple accounts found in QIF file.</string>
+    <string name="qif_parse_failure_found_multiple_accounts_cannot_merge">Tidak dapat digabungkan dengan akun lama.</string>
+    <string name="reference_number">Nomor Referensi</string>
+    <string name="restore_db_failure">Gagal mengembalikan database.</string>
+    <string name="restore_db_success">Berhasil mengembalikan database dari cadangan.</string>
+    <string name="restore_preferences_failure">Gagal mengembalikan pengaturan</string>
+    <string name="restore_backup_file_not_found">Tidak menemukan file %1$s pada arsip \"%2$s\"</string>
+    <string name="restore_preferences_success">Berhasil mengembalikan pengaturan dari cadangan.</string>
+    <string name="restore_calendar_success" tools:ignore="PluralsCandidate">%d plans berhasil dikembalikan dari cadangan</string>
+    <string name="save_transaction_and_new_success">Berhasil disimpan</string>
+    <string name="save_transaction_error">Tidak dapat menyimpan transaksi baru dari template.</string>
+    <plurals name="save_transaction_from_template_success">
+        <item quantity="one">Berhasil menyimban transaksi baru dari template.</item>
+        <item quantity="other">%1$d transaksi baru tersimpan dari template.</item>
+    </plurals>
+    <string name="save_transaction_template_deleted">Template berhasil dihapus</string>
+    <string name="select">Pilih</string>
+    <string name="select_category">Pilih kategori</string>
+    <string name="select_payee">Pilih pengirim/penerima</string>
+    <string name="share_scheme_not_supported">Skema %1$s tidak didukung</string>
+    <string name="share_sending">Kirim file yang diekspor</string>
+    <string name="split_parts_heading">Split parts</string>
+    <string name="split_transaction">Split transaksi</string>
+    <string name="status">Status</string>
+    <string name="status_cleared">cleared</string>
+    <string name="status_reconciled">reconsilasi</string>
+    <string name="status_uncreconciled">belum rekonsilasi</string>
+    <string name="status_void">void</string>
+    <string name="subcategory">Sub kategori</string>
+    <string name="sum_expenses">Pengeluaran</string>
+    <string name="sum_income">Pemasukan</string>
+    <string name="sum_transfer">Transfer</string>
+    <string name="tell_a_friend_message">Coba {app_name}, Pencatat keuangan harian {platform}, dari {website}</string>
+    <string name="thank_you">Terimakasih atas dukungan anda!</string>
+    <string name="time">Waktu</string>
+    <string name="title">Judul</string>
+    <string name="total_cleared">Total cleared</string>
+    <string name="total_reconciled">Total rekonsilasi</string>
+    <string name="transaction">Transaksi</string>
+    <string name="transfer">Transfer</string>
+    <string name="transfer_from_account">Dari</string>
+    <string name="transfer_to_account">Ke</string>
+    <string name="type">Tipe</string>
+    <string name="unsplit_amount">Unsplit saldo</string>
+
+
+
+    <string name="unsplit_amount_greater_than_zero">Masih ada sisa jumlah yang belum dibagi.</string>
+    <string name="warning_backup">Database dan preferensi akan disimpan ke \"%1$s\".</string>
+    <string name="continue_confirmation">Apakah Anda ingin melanjutkan?</string>
+    <string name="warning_delete_account">Akun \"%1$s\" akan dihapus dengan semua transaksinya.</string>
+    <plurals name="warning_delete_main_category">
+        <item quantity="one">Satu kategori yang dipilih memiliki subkategori, yang juga akan dihapus.</item>
+        <item quantity="other">%1$d kategori yang dipilih memiliki subkategori, yang juga akan dihapus.</item>
+    </plurals>
+    <string name="warning_delete_category_with_budget">Untuk setidaknya satu kategori yang dipilih, ada alokasi anggaran, yang juga akan dihapus.</string>
+    <plurals name="warning_delete_template">
+        <item quantity="one">Template yang dipilih akan dihapus.</item>
+        <item quantity="other">%1$d templat yang dipilih akan dihapus.</item>
+    </plurals>
+    <plurals name="warning_delete_transaction">
+        <item quantity="one">Transaksi yang dipilih akan dihapus.</item>
+        <item quantity="other">%1$d transaksi yang dipilih akan dihapus.</item>
+    </plurals>
+    <string name="move_category_success">Satu kategori berhasil dipindahkan.</string>
+    <string name="move_category_failure">Satu kategori tidak dipindahkan, karena label yang sama sudah ada di target.</string>
+    <string name="warning_delete_reconciled">Menghapus transaksi yang telah direkonsiliasi akan menyebabkan catatan Anda berbeda dari laporan mutasi bank.</string>
+    <string name="warning_balance_account">Harap bandingkan total bersih dengan saldo akhir di laporan mutasi bank Anda. Jika Anda melanjutkan, transaksi yang dihapus akan ditandai sebagai direkonsiliasi.</string>
+    <string name="warning_password_protected">Aplikasi dilindungi kata sandi.</string>
+    <string name="warning_widget_disabled">Anda harus mengaktifkan widget ini di setelan aplikasi.</string>
+    <string name="warning_instantiate_template_from_widget_password_protected">Instansiasi cepat template dari widget ini hanya berfungsi jika Anda mengizinkan entri data dari widget tanpa sandi di pengaturan aplikasi.</string>
+    <string name="warning_password_contrib">Menetapkan pertanyaan keamanan memungkinkan Anda membuka kunci aplikasi, jika Anda lupa sandi.</string>
+    <string name="warning_reset_account">Jika Anda melanjutkan, semua transaksi akun ini akan dihapus dari database dan tidak dapat dipulihkan.</string>
+    <string name="warning_reset_account_all">Jika Anda melanjutkan, untuk semua akun%1$s, transaksi akan dihapus dari database dan tidak dapat dipulihkan.</string>
+    <string name="warning_reset_account_matched">Jika Anda melanjutkan, transaksi yang cocok dengan filter saat ini akan dihapus dari database dan tidak dapat dipulihkan.</string>
+    <string name="warning_restore">Database dan preferensi akan dipulihkan dari file \"%1$s\". Data saat ini akan dihapus.</string>
+    <string name="warning_splitpartcategory_context">Transfer yang merupakan bagian dari pemisahan hanya dapat diedit dalam konteks pemisahan tersebut.</string>
+    <string name="validation_error_number_out_of_range" tools:ignore="PluralsCandidate">Harap tetapkan angka antara %1$d dan %2$d</string>
+    <string name="warning_change_fraction_digits_1">Jumlah dalam basis data perlu diperbarui agar sesuai dengan jumlah digit pecahan yang baru.</string>
+
+    <string name="warning_change_fraction_digits_2_multiplied" tools:ignore="PluralsCandidate">Jika jumlah tidak diperbarui, jumlahnya akan ditampilkan sebagai dikalikan dengan %d setelah perubahan.</string>
+    <string name="warning_change_fraction_digits_2_divided" tools:ignore="PluralsCandidate">Jika jumlah tidak diperbarui, jumlahnya akan ditampilkan sebagai dibagi dengan %d setelah perubahan.</string>
+    <string name="warning_change_fraction_digits_3">Jika jumlahnya diperbarui, Anda akan kehilangan informasi tentang bagian pecahannya.</string>
+    <string name="warning_change_fraction_digits_checkbox_label">Perbarui jumlah dalam basis data</string>
+    <string name="import_categories_success">%1$d kategori berhasil diimpor.</string>
+    <string name="import_parties_success">%1$s pihak berhasil diimpor</string>
+    <string name="import_accounts_success">%1$s akun berhasil diimpor</string>
+    <string name="import_transactions_success" tools:ignore="PluralsCandidate">%1$d transaksi berhasil diimpor ke akun %2$s</string>
+    <string name="import_accounts_none">Tidak ada akun yang diimpor</string>
+    <string name="import_categories_none">Tidak ada kategori yang diimpor</string>
+    <string name="import_parties_none">Tidak ada pihak yang mengimpor</string>
+    <string name="import_transactions_none">Tidak ada transaksi yang diimpor ke akun %1$s</string>
+    <string name="import_source_select_error">Harap berikan file dengan tipe %1$s</string>
+    <string name="menu_categories_setup_default">Siapkan kategori default</string>
+    <string name="menu_create_folder">Folder baru</string>
+    <string name="widget_title_accounts">Akun saya</string>
+    <string name="widget_title_templates">Template saya</string>
+    <string name="app_dir_not_accessible">Folder yang saat ini dipilih untuk pencadangan dan ekspor (%1$s) tidak dapat diakses. Silakan pilih yang lain.</string>
+    <string name="app_dir_not_compatible_with_nougat">URI yang saat ini dikonfigurasi untuk pencadangan dan ekspor (%1$s) tidak didukung pada Android Nougat. Silakan pilih folder lagi.</string>
+    <string name="search_amount">Telusuri jumlah</string>
+    <string name="search_category">Telusuri kategori</string>
+    <string name="search_comment">Telusuri catatan</string>
+    <string name="search_date">Telusuri tanggal</string>
+    <string name="search_status">Telusuri status</string>
+    <string name="search_payee">Telusuri penerima pembayaran/pembayar</string>
+    <string name="search_method">Cari metode</string>
+    <string name="search_tag">Telusuri tag</string>
+    <string name="and">dan</string>
+    <string name="between_and">antara %1$s dan %2$s</string>
+    <string name="before">sebelum %s</string>
+    <string name="after">setelah %s</string>
+    <string name="comparison_operator_equal">sama dengan</string>
+    <string name="comparison_operator_greater_than">lebih besar dari</string>
+    <string name="comparison_operator_lesser_than">kurang dari</string>
+    <string name="comparison_operator_between">antara</string>
+    <string name="comparison_operator_date_before">sebelum</string>
+    <string name="comparison_operator_date_after">setelah</string>
+    <string name="premium_failed_or_canceled" tools:ignore="UnusedResources">Pembelian gagal atau dibatalkan.</string>
+    <string name="hint_auto_fill">Haruskah data diisi secara otomatis dari transaksi terakhir untuk penerima/pembayar yang sama? Anda selalu dapat mengubah perilaku ini dari pengaturan.</string>
+    <string name="change_fraction_digits_result" tools:ignore="PluralsCandidate">%1$d akun dengan mata uang %2$s telah diperbarui.</string>
+    <string name="learn_more">Pelajari lebih lanjut</string>
+    <string name="import_source_file">Berkas</string>
+    <string name="restore_calendar_handling">penanganan data kalender</string>
+    <string name="restore_calendar_handling_configured">Pulihkan rencana ke kalender yang saat ini dikonfigurasi</string>
+    <string name="restore_calendar_handling_backup">Pulihkan rencana ke kalender yang diatur dalam cadangan jika tersedia</string>
+    <string name="restore_calendar_handling_ignore">Jangan pulihkan rencana</string>
+    <string name="restore_not_possible_target_calendar_missing">Kalender %s yang disetel di arsip cadangan tidak ada secara lokal. Pemulihan telah dibatalkan.</string>    
+
+    <string name="restore_not_possible_local_calendar_missing">Kalender perencanaan saat ini tidak tersedia.</string>
+    <string name="menu_view_picture">Lihat gambar</string>
+    <string name="menu_delete_picture">Hapus gambar</string>
+    <string name="menu_change_picture">Lampirkan gambar yang berbeda</string>
+    <string name="menu_distribution_show_pie_char">Tampilkan diagram lingkaran</string>
+    <string name="menu_distribution_aggreate">Pengeluaran dan pendapatan gabungan</string>
+    <!-- Basi mengacu pada gambar yang tersisa dari transaksi yang dihapus -->
+    <string name="pref_manage_stale_images_title">Gambar basi</string>
+    <string name="pref_manage_stale_images_summary">Kelola sisa gambar dari transaksi yang dihapus</string>
+    <string name="image_deleted">Gambar telah dihapus</string>
+    <string name="transaction_deleted">Transaksi telah dihapus</string>
+    <string name="account_deleted">Akun telah dihapus</string>
+    <string name="dialog_export_applied_to_filter">Hanya transaksi yang cocok dengan filter saat ini yang akan dipertimbangkan.</string>
+    <string name="export_handle_deleted_create_helper">Buat transaksi pembantu</string>
+    <string name="export_handle_deleted_update_balance">Perbarui saldo awal</string>
+    <string name="file_name">Nama file</string>
+    <string name="folder_name">Nama folder</string>
+    <string name="mark_void_instead_of_delete">Jangan hapus transaksi, tandai sebagai batal.</string>
+    <string name="menu_undelete_transaction">Batalkan penghapusan</string>
+    <string name="slash_forbidden_in_filename">/ karakter tidak diperbolehkan dalam nama file</string>
+    <string name="io_error_unable_to_create_file">Tidak dapat membuat file %1$s di folder %2$s</string>
+    <string name="export_to_format">Ekspor ke %s</string>
+    <string name="pref_csv_import_delimiter">Pembatas</string>
+    <string name="csv_import_preview">Pratinjau</string>
+    <string name="menu_parse">Parse</string>
+    <string name="csv_import_field_mapped_more_than_once">%s dipetakan lebih dari sekali.</string>
+    <string name="csv_import_records_failed" tools:ignore="PluralsCandidate">%d data tidak dapat diimpor.</string>
+    <string name="csv_import_records_discarded" tools:ignore="PluralsCandidate">%d record dibuang.</string>
+    <string name="csv_import_subcategory_requires_category">Jika Anda memetakan subkategori, Anda juga harus memetakan kategori.</string>
+    <string name="cvs_import_set_first_line_as_header">Apakah baris pertama harus diperlakukan sebagai baris header?</string>
+    <string name="csv_import_delimiter_comma">Koma</string>
+    <string name="csv_import_delimiter_semicolon">Titik koma</string>
+    <string name="csv_import_delimiter_tab">Tab</string>
+    <string name="csv_import_no_mapping_found_for_amount">Harap petakan satu kolom ke jumlah, pendapatan, atau pengeluaran.</string>
+    <string name="menu_show_transactions">Tampilkan transaksi</string>
+    <string name="pref_custom_decimal_format_title">Format angka</string>
+    <string name="pref_custom_decimal_format_summary">Jika Anda tidak puas dengan format default lokal Anda, sesuaikan dengan kebutuhan Anda. Biarkan kosong untuk memulihkan format default.</string>
+    <string name="pref_auto_backup_title">Cadangkan otomatis</string>
+    <string name="pref_auto_backup_summary">Backup database setiap hari pada waktu yang ditentukan (hanya jika data telah berubah).</string>
+    <string name="pref_auto_backup_time_title">Waktu pencadangan otomatis</string>
+    <string name="calendar_permission_required"><i>{app_name}</i> memerlukan izin untuk mengakses kalender Anda, guna membuat rencana untuk transaksi mendatang dan berulang.</string>
+    <string name="button_request_calendar_access" tools:ignore="UnusedResources">Berikan akses</string>
+    <string name="switch_on_text">Aktif</string>
+    <string name="switch_off_text">Mati</string>
+    <string name="menu_move">Pindahkan</string>
+    <string name="dialog_title_select_target">Pilih target</string>
+    <string name="transform_subcategory_to_main">Transformasi ke kategori utama</string>
+    <string name="preferences_week_start_day_title">Minggu dimulai</string>
+    <string name="preferences_month_start_date_title">Bulan dimulai pada</string>
+    <string name="pref_grouping_periods">Mengelompokkan periode</string>
+    <string name="exchange_rate">Nilai tukar</string>
+    <string name="date_format_hour">Jam</string>
+    <string name="date_format_minute">Menit</string>
+    <string name="menu_sort">Urut berdasarkan</string>
+
+    <string name="pref_sort_order_last_used">Terakhir digunakan</string>
+    <string name="pref_sort_order_custom">Kustom</string>
+    <string name="content_description_calculator">Kalkulator</string>
+    <string name="plan_instance_state_open">buka</string>
+    <string name="plan_instance_state_cancelled">dibatalkan</string>
+    <string name="plan_instance_state_applied">diterapkan</string>
+    <string name="progress_dialog_updating_split_parts">Memperbarui bagian yang terpisah</string>
+    <string name="warning_cannot_move_split_transaction">Transaksi pemisahan ini tidak dapat dipindahkan ke akun %1$s karena ada bagian transfer yang merujuk ke akun ini.</string>
+    <string name="content_description_calculator_clear_button">Reset semua</string>
+    <string name="content_description_calculator_delete_button">Hapus digit terakhir</string>
+    <string name="paypal_callback_info">Transaksi Anda telah selesai, dan tanda terima pembelian telah dikirimkan melalui email kepada Anda. Anda dapat masuk ke akun Anda di www.paypal.com untuk melihat rincian transaksi ini.</string>
+    <string name="search_transfer">Cari transfer</string>
+    <string name="pref_sort_order_next_instance">Contoh berikutnya</string>
+    <string name="crash_dialog_title">{app_name} mogok</string>
+    <string name="crash_dialog_text">Terjadi kesalahan tak terduga yang memaksa aplikasi berhenti. Tolong bantu kami memperbaiki ini dengan mengirimkan data kesalahan kepada kami, yang harus Anda lakukan adalah klik Oke.</string>
+    <string name="crash_dialog_comment_prompt">Anda dapat menambahkan komentar Anda tentang masalah di bawah ini:</string>
+    <string name="synchronization">Sinkronisasi</string>
+    <string name="synchronization_none">Tidak ada sinkronisasi</string>
+    <string name="hint_url">URL</string>
+    <string name="description_webdav_url">Masukkan URL ke folder khusus di server WebDAV Anda. {app_name} akan menyimpan datanya di dalam folder ini, tidak akan menyentuh apa pun di luarnya.</string>
+    <string name="description_webdav_trust_certificate">Situs web menggunakan sertifikat, yang tidak dipercaya oleh Android.</string>
+    <string name="hint_user_name">Nama pengguna</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="label_trust_certificate">Percayai sertifikat ini</string>
+    <string name="no_sync_backends">Tidak ada backend sinkronisasi</string>
+    <string name="menu_create_sync_backend">Backend sinkronisasi baru</string>
+    <string name="validate_error_not_empty">Tidak boleh kosong</string>
+    <string name="validate_error_webdav_invalid_certificate">Sertifikat tidak dapat dipercaya. Tampaknya tidak valid.</string>
+    <string name="validate_error_webdav_not_compliant">URL tidak mengarah ke sumber daya WebDAV.</string>
+    <string name="validate_error_webdav_404">URL tidak ada di server.</string>
+    <string name="url_not_valid">URL tidak valid</string>
+    <string name="menu_sync_unlink">Hentikan sinkronisasi</string>
+    <string name="menu_sync_link">Mulai menyinkronkan</string>
+    <string name="menu_sync_download">Unduh dan sinkronkan</string>
+    <string name="menu_sync_now">Sinkronkan sekarang</string>
+    <string name="pref_sync_frequency_title">Frekuensi sinkronisasi</string>
+    <string name="pref_sync_frequency_summary">Seberapa sering data harus disinkronkan (dalam jam)</string>
+    <string name="dialog_confirm_sync_unlink">Jika Anda membatalkan tautan akun ini dari %s, status sinkronisasi akan hilang. Menautkannya lagi nanti, membutuhkan sinkronisasi penuh untuk dijalankan lagi.</string>
+    <string name="dialog_sync_link">Akun dengan uuid %s ada di database lokal dan di backend jarak jauh. Saat Anda menautkan keduanya, Anda harus memutuskan, apakah pada awalnya Anda ingin mengunggah data lokal ke backend jarak jauh atau mengunduh data jarak jauh ke database lokal.</string>
+    <string name="dialog_command_sync_link_remote">Unduh dari jarak jauh</string>
+    <string name="dialog_command_sync_link_local">Unggah dari lokal</string>
+    <string name="dialog_synced_to_other">Akun dengan uuid %s sudah ada di basis data lokal dan ditautkan ke backend jarak jauh yang berbeda.</string>
+    <string name="menu_remove">Hapus</string>
+    <string name="dialog_confirm_sync_remove_backend">Backend jarak jauh %s akan dihapus. Ini tidak akan memengaruhi data yang disimpan secara lokal atau jarak jauh, tetapi status sinkronisasi akan hilang.</string>
+    <string name="dialog_confirm_sync_link_local">Data jarak jauh untuk akun ini akan dihapus. Pastikan tidak ada perangkat lain yang terhubung dengannya.</string>
+    <string name="dialog_confirm_sync_link_remote">Data lokal untuk akun ini akan dihapus.</string>
+    <string name="warning_limited_trial">Fitur %1$s dapat diuji hingga %2$s.</string>
+    <string name="warning_trial_limit_reached">Periode uji coba untuk fitur pengujian %s telah berakhir.</string>
+    <string name="warning_synchronization_folder_usage">Folder ini digunakan untuk menyinkronkan data antara instalasi {app_name} pada perangkat yang berbeda. Harap jangan mengubah isinya secara manual.</string>
+
+    <string name="warning_synchronization_select_parent" tools:ignore="UnusedResources">Folder yang Anda pilih sesuai dengan satu akun dari backend yang ada. Anda harus memilih folder induknya untuk menggunakan kembali backend ini.</string>
+    <string name="link_account_failure_2">Akun dengan uuid yang sama sudah ada di backend jarak jauh.</string>
+    <string name="link_account_failure_3">Konflik dapat diselesaikan secara manual dari menu konteks entri.</string>
+    <string name="progress_dialog_checking_sync_backend">Memverifikasi backend</string>
+    <string name="template">Template</string>
+    <string name="contrib_feature_synchronization_label" tools:ignore="UnusedResources">Sinkronisasi cloud</string>
+    <string name="all_contrib_key_features">Semua fitur Kunci Contrib</string>
+    <string name="all_extended_key_features">Semua fitur Kunci yang Diperpanjang</string>
+    <string name="upgrade_now">Tingkatkan</string>
+    <string name="pref_backup_cloud_title">Simpan di backend sinkronisasi</string>
+    <string name="pref_backup_cloud_summary">Selain penyimpanan lokal di perangkat, file cadangan dapat disalin ke backend jarak jauh.</string>
+    <string name="auto_backup_cloud_failure">Terjadi kesalahan saat mencoba menyimpan file cadangan %1$s di backend %2$s:</string>
+    <string name="auto_backup_cloud_success">File cadangan %1$s telah berhasil disimpan di backend %2$s.</string>
+    <string name="home_screen_shortcuts_nougate_info">Pintasan dapat ditambahkan dengan mengetuk lama ikon aplikasi di Layar Utama.</string>
+    <string name="currency_symbol">Simbol mata uang</string>
+    <string name="number_of_fraction_digits">Jumlah digit pecahan</string>
+    <string name="warning_auto_backup_deactivated">Pencadangan otomatis telah dinonaktifkan. Anda dapat mengaktifkannya lagi dari pengaturan setelah menyelesaikan masalah (mis. memilih folder lain untuk pencadangan).</string>
+    <string name="pref_tracking_summary">Izinkan kami mengumpulkan data anonim tentang pola penggunaan yang membantu kami merencanakan peningkatan.</string>
+    <string name="pref_tracking_title">Pengumpulan data penggunaan</string>
+    <string name="sync_database_error">Terjadi kesalahan database selama sinkronisasi.</string>
+    <string name="sync_io_error_cannot_connect">Tidak dapat tersambung ke backend sinkronisasi.</string>
+    <string name="sync_error_will_try_again_later">Akan coba lagi nanti.</string>
+    <string name="sync_io_exception_reset_account_data">Kesalahan saat menyetel ulang akun jarak jauh.</string>
+    <string name="sync_success_reset_account_data">Data jarak jauh untuk akun %s telah dihapus.</string>
+    <string name="sync_io_exception_setup_remote_account">Kesalahan saat menyiapkan akun jarak jauh.</string>
+    <string name="sync_io_exception_syncing">Kesalahan saat menyinkronkan perubahan dengan server.</string>
+    <string name="sync_io_exception_unlocking">Kesalahan saat melepas kunci dari backend jarak jauh.</string>
+    <string name="sync_io_exception_locking">Backend jarak jauh dikunci atau tidak dapat dikunci.</string>
+    <string name="synchronization_start">Memulai sinkronisasi untuk akun %s.</string>
+    <string name="synchronization_end_success">%1$d perubahan jarak jauh ditulis ke basis data lokal. %2$d perubahan lokal ditulis ke backend jarak jauh.</string>
+    <string name="synchronization_end_success_none">Tidak ada perubahan untuk disinkronkan.</string>
+    <string name="pref_webdav_timeout_title">Waktu Habis WebDAV (dalam detik)</string>
+    <string name="sync_state_restored">Status sinkronisasi dipulihkan untuk %d akun.</string>
+    <string name="sync_state_could_not_be_restored">Status sinkronisasi tidak dapat dipulihkan untuk %d akun.</string>
+    <string name="onboarding_ui_title">{app_name} penyesuaian preferensi</string>
+    <string name="onboarding_data_title">Biarkan kami menyiapkan akun pertama Anda</string>
+    <string name="onboarding_get_started">Mulai</string>
+    <string name="onboarding_more_options">Opsi Lainnya</string>
+    <string name="onboarding_restore_from_cloud">Pulihkan dari sinkronisasi cloud</string>
+    <string name="onboarding_restore_from_cloud_backup">Cadangan</string>
+    <string name="onboarding_restore_from_local">Pulihkan file cadangan lokal</string>
+    <string name="dialog_button_add">Tambahkan</string>
+    <string name="template_create_error">Kesalahan saat menyimpan template</string>
+    <string name="contributed_by">Kontribusi oleh %s</string>
+    <string name="pref_sync_notification_summary">Beri tahu tentang kemajuan sinkronisasi</string>
+    <string name="pref_debug_logging_summary">Tulis informasi debug ke log sistem</string>
+    <string name="plan_custom_recurrence_info">Harap simpan template terlebih dahulu. Rencana tersebut kemudian akan dibuka di aplikasi kalender, tempat Anda dapat menyetel perulangan khusus.</string>
+    <string name="picture">Gambar</string>
+    <string name="menu_create_template_for_split">Templat pemisahan baru</string>
+    <string name="progress_validating_licence">Memvalidasi lisensi</string>
+    
+    <string name="licence_validation_error_expired">Lisensi kedaluwarsa</string>
+    <string name="licence_validation_error_device_limit_exceeded">Batas perangkat terlampaui. Hapus lisensi dari perangkat lain.</string>
+    <string name="error">Kesalahan (%s)</string>
+    <string name="button_validate">Validasi</string>
+    <string name="licence_key">Kunci Lisensi</string>
+    <string name="licence_removal_information">Jika Anda tidak lagi memerlukan fungsionalitas premium di perangkat ini, Anda dapat menghapus kunci lisensi. Ini membebaskan kunci untuk aktivasi pada satu perangkat lain lagi. Kunci dapat diaktifkan hingga %d perangkat.</string>
+    <string name="progress_removing_licence">Menghapus lisensi</string>
+    <string name="licence_removal_success">Kunci lisensi berhasil dibebaskan dari perangkat ini.</string>
+    <string name="professional_key">Kunci Profesional</string>
+    <string name="n_months">%d bulan</string>
+    <string name="eu_vat_info">Untuk penduduk Uni Eropa, harga yang ditampilkan belum termasuk PPN.</string>
+    <string name="valid_until">Sampai %s</string>
+    <string name="extend_until">Perpanjang hingga %1$s untuk %2$s</string>
+    <string name="extended_upgrade_goodie_github">Tambahan %d bulan diberikan satu kali kepada pengguna yang telah memiliki Lisensi yang Diperpanjang</string>
+    <string name="switch_to_yearly" tools:ignore="UnusedResources">Beralih ke langganan tahunan</string>
+    <string name="switch_to_monthly" tools:ignore="UnusedResources">Beralih ke langganan bulanan</string>
+    <string name="extend_validity">Perpanjang validitas</string>
+    <string name="progress_dialog_fetching_data_from_sync_backend">Mengambil data dari backend jarak jauh. Ini mungkin membutuhkan waktu.</string>
+    <string name="donate_button_invoice">Faktur</string>
+    <string name="menu_sort_direction">Urutkan</string>
+    <string name="sort_direction_ascending">Terlama</string>
+    <string name="sort_direction_descending">Terbaru</string>
+    <string name="never">tidak pernah</string>
+    <string name="always">selalu</string>
+    <string name="auto_fill_account_from_aggregate_only">Hanya jika dimulai dari akun agregat.</string>
+    <string name="sync_auth_exception">Otorisasi gagal.</string>
+    <string name="sync_login_again">Silakan masuk lagi.</string>
+    <string name="sync_loading_accounts_from_backend">Memuat akun yang tersedia dari backend.</string>
+    <plurals name="delete_success">
+        <item quantity="one">Satu objek berhasil dihapus.</item>
+        <item quantity="other">%d objek berhasil dihapus.</item>
+    </plurals>
+    <string name="feature_deprecated">Tidak digunakan lagi</string>
+    <string name="pref_protection_device_lock_screen_title">Layar kunci perangkat</string>
+    <string name="pref_warning_only_one_protection">Sebelum Anda dapat menggunakan perlindungan sebesar %1$s, Anda harus menonaktifkan perlindungan sebesar %2$s.</string>
+    <string name="warning_device_lock_screen_not_set_up_1">Layar kunci perangkat aman belum disiapkan.</string>
+    <string name="warning_device_lock_screen_not_set_up_2">Buka \'Pengaturan -> Keamanan -> Kunci Layar\' untuk menyiapkan layar kunci.</string>
+    <string name="menu_history_show_balance">Tampilkan saldo</string>
+    <string name="menu_history_transfers">Sertakan transfer</string>
+    <string name="menu_history">Riwayat</string>
+    <string name="history_chart_out_label">Pengeluaran</string>
+    <string name="history_chart_in_label">Pendapatan</string>
+    <string name="menu_history_totals">Tampilkan total</string>
+    <string name="pref_home_currency_title">Mata uang domestik</string>
+    <string name="grand_total">Jumlah keseluruhan</string>
+    <string name="menu_original_amount">Jumlah awal</string>
+    <string name="menu_equivalent_amount">Jumlah yang setara</string>
+    <string name="home_currency_change_warning">Jika Anda mengubah mata uang asal, jumlah yang setara dan nilai tukar akan hilang, dan perlu ditentukan lagi.</string>
+    <string name="warning_split_transactions">Transaksi yang dipilih akan dikelompokkan menjadi satu transaksi terpisah. Informasi tanggalnya akan hilang, yaitu diganti dengan rata-ratanya.</string>
+    <string name="warning_ungroup_split_transactions">Transaksi pemisahan yang dipilih akan dipisahkan, yaitu bagian pemisahannya akan menjadi transaksi normal.</string>
+    <string name="menu_ungroup_split_transaction">Pisahkan grup</string>
+    <plurals name="ungroup_split_transaction_success">
+        <item quantity="one">Transaksi Terpisah berhasil dipisahkan.</item>
+        <item quantity="other">%1$d transaksi terpisah berhasil dipisahkan.</item>
+    </plurals>
+    <string name="ungroup_split_transaction_failure">Saat memisahkan transaksi terpisah, %1$d dari %2$d gagal.</string>
+    <string name="split_transaction_one_success">Transaksi berhasil diubah menjadi terpisah.</string>
+    <string name="split_transaction_one_error">Tidak dapat mengubah transaksi menjadi terpisah.</string>
+
+    <string name="split_transaction_group_success">%1$d transaksi berhasil dikelompokkan menjadi satu transaksi terpisah.</string>
+    <string name="split_transaction_group_error">Tidak dapat mengelompokkan transaksi ke dalam pemisahan.</string>
+    <string name="split_transaction_not_possible">Hanya transaksi yang memiliki akun, penerima pembayaran, dan status yang sama yang dapat dikelompokkan menjadi satu transaksi terpisah.</string>
+    <string name="pref_transaction_time_summary">Memungkinkan untuk mengatur waktu transaksi yang tepat.</string>
+    <string name="pref_value_date_summary">Izinkan untuk menetapkan tanggal nilai selain tanggal pemesanan. Waktu transaksi akan disembunyikan. Pengaturan ini tidak berlaku untuk akun kas.</string>
+    <string name="booking_date">Tanggal pemesanan</string>
+    <string name="value_date">Tanggal nilai</string>
+    <string name="licence_expires_n_days">Kunci profesional Anda akan kedaluwarsa dalam %d hari.</string>
+    <string name="licence_expires_tomorrow">Kunci profesional Anda akan kedaluwarsa besok.</string>
+    <string name="licence_expires_today">Kunci profesional Anda kedaluwarsa hari ini.</string>
+    <string name="licence_expired_yesterday">Kunci profesional Anda telah kedaluwarsa kemarin.</string>
+    <string name="licence_has_expired_n_days">Kunci profesional Anda telah kedaluwarsa %d hari yang lalu.</string>
+    <string name="pref_category_title_privacy">Privasi</string>
+    <string name="pref_ad_consent_title">Iklan hasil personalisasi</string>
+    <string name="ad_consent_non_personalized">Iklan yang tidak dipersonalisasi</string>
+    <string name="gdpr_consent_message">Kami bermitra dengan {ad_provider} untuk mempertahankan dukungan, pemeliharaan, dan pengembangan {app_name} dengan menampilkan iklan kepada Anda. Kami ingin meminta persetujuan Anda. Jika Anda memilih untuk tidak melihat iklan apa pun, harap bayar untuk versi bebas iklan.</string>
+    <string name="gdpr_consent_button_yes" tools:ignore="UnusedResources">Ya, lanjutkan melihat iklan</string>
+    <string name="gdpr_consent_button_no">Bayar untuk versi bebas iklan</string>
+    <string name="sort_order">Sortir urutan</string>
+    <string name="navigation_drawer_accounts_title">Kelola akun</string>
+    <string name="pref_sync_wifi_only_summary">Sinkronkan hanya saat menggunakan Wi-Fi</string>
+    <string name="pref_sync_changes_immediately_summary">Tulis perubahan lokal segera ke backend</string>
+    <string name="wifi_not_connected">Perangkat tidak tersambung ke Wi-Fi. Sinkronisasi ditunda.</string>
+    <string name="pref_translation_title">Terjemahan</string>
+    <string name="content_description_collapse">Ciutkan</string>
+    <string name="content_description_expand">Perluas</string>
+    <string name="goal_or_limit">Sasaran / Batas</string>
+    <string name="saving_goal">Menyimpan tujuan</string>
+    <string name="credit_limit">Batas kredit</string>
+    <string name="clear_all_filters">Hapus semua filter</string>
+    <string name="pref_scroll_to_current_date_summary">Setelah aplikasi dimulai, gulir daftar transaksi ke tanggal saat ini</string>
+    <string name="professional_key_fallback_info">Langganan Professional Key yang telah aktif setidaknya selama satu tahun dan tidak diperpanjang, akan diubah secara otomatis menjadi Extended Key yang tidak terbatas.</string>
+    <string name="menu_budget">Penganggaran</string>
+    <string name="dialog_title_edit_budget">Edit anggaran</string>
+    <string name="budget_table_header_budgeted">Dianggarkan</string>
+    <string name="budget_table_header_allocated">Dialokasikan</string>
+    <string name="budget_table_header_spent">Dibelanjakan</string>
+    <string name="budget_table_header_remainder">Sisa</string>
+    <string name="budget_allocated_amount">Jumlah yang dialokasikan</string>
+    <string name="budget_exceeded_error_1_1">Semua kecuali %s anggaran Anda telah dialokasikan ke kategori lain.</string>
+    <string name="budget_exceeded_error_1_2">Semua anggaran Anda telah dialokasikan ke kategori lain.</string>
+    <string name="budget_exceeded_error_2">Tingkatkan jumlah yang dianggarkan, atau hapus uang dari kategori lain.</string>
+    <string name="budget_under_allocated_error">%s telah dialokasikan ke kategori. Kecuali Anda mengeluarkan uang dari mereka, Anda setidaknya harus menganggarkan jumlah tersebut.</string>
+    <string name="sub_budget_exceeded_error_1_1">Semua kecuali %s dari jumlah yang dialokasikan ke kategori utama telah dialokasikan ke sub-kategori lain.</string>
+    <string name="sub_budget_exceeded_error_1_2">Semua jumlah yang dialokasikan ke kategori utama telah dialokasikan ke sub-kategori lain.</string>
+    <string name="sub_budget_exceeded_error_2">Tingkatkan jumlah yang dialokasikan ke kategori utama, atau keluarkan uang dari sub-kategori lain.</string>
+    <string name="sub_budget_under_allocated_error">%s telah dialokasikan ke sub-kategori. Kecuali jika Anda mengeluarkan uang dari mereka, Anda setidaknya harus mengalokasikan jumlah tersebut ke kategori utama.</string>
+    <string name="content_description_clear_method">Hapus metode</string>
+    <string name="content_description_clear_category">Hapus kategori</string>
+    <string name="currency_code">Kode</string>
+
+    <string name="dialog_title_new_currency">Mata uang baru</string>
+    <string name="currency_code_already_definded">Kode mata uang sudah ditentukan.</string>
+    <string name="currency_still_used">Mata uang sedang digunakan, tidak dapat dihapus.</string>
+    <string name="unmapped">Belum dipetakan</string>
+    <string name="unmapped_filter_only_single">Filter \'Unmapped\' tidak dapat dimasukkan ke dalam banyak pilihan</string>
+    <string name="upgrade_information_cloud_sync_storage_format">Dengan versi 2.9.8, cara data disimpan di backend sinkronisasi telah berubah. Tingkatkan versi ke versi ini di semua perangkat yang disinkronkan, sebelum memasukkan catatan baru apa pun di perangkat tersebut.</string>
+    <string name="pref_security_export_passphrase_title">Frasa sandi untuk pencadangan</string>
+    <string name="pref_security_export_passphrase_summary">Cadangan akan dienkripsi dengan frasa sandi ini</string>
+    <string name="backup_is_encrypted">File cadangan dienkripsi. Untuk mendekripsinya, Anda perlu menentukan frasa sandinya.</string>
+    <string name="backup_wrong_password">File cadangan tampaknya dienkripsi dengan frasa sandi yang berbeda.</string>
+    <string name="passphrase_for_synchronization">Masukkan frasa sandi, jika Anda ingin data sinkronisasi di backend ini dienkripsi.</string>
+    <string name="sync_backend_is_encrypted">Backend jarak jauh dienkripsi. Anda perlu menentukan frasa sandi.</string>
+    <string name="sync_backend_wrong_passphrase">Backend jarak jauh tampaknya dienkripsi dengan frasa sandi yang berbeda.</string>
+    <string name="sync_backend_is_not_encrypted">Backend jarak jauh tidak dienkripsi.</string>
+    <string name="warning_backup_protected">Arsip akan dilindungi oleh frasa sandi Anda.</string>
+    <string name="dialog_title_backup_protected">Cadangan (terenkripsi)</string>
+    <string name="input_label_passphrase">Frasa sandi</string>
+    <string name="button_label_no_encryption">Tanpa enkripsi</string>
+    <string name="joining_or">atau</string>
+    <string name="pref_account_list_fast_scroll_summary">Aktifkan gulir cepat untuk daftar akun. Dapat menyebabkan tampilan yang salah pada beberapa perangkat</string>
+    <string name="menu_hide">Sembunyikan</string>
+    <string name="menu_close">Tutup</string>
+    <string name="menu_reopen">Buka kembali</string>
+    <string name="menu_hidden_accounts">Akun tersembunyi</string>
+    <string name="button_label_show">Tampilkan</string>
+    <string name="content_description_encrypted">Dienkripsi</string>
+    <string name="content_description_closed">Tutup</string>
+    <string name="warning_synced_account_cannot_be_closed">Akun yang ditautkan ke backend sinkronisasi tidak dapat ditutup</string>
+    <string name="translated_by">Diterjemahkan oleh</string>
+    <string name="warning_no_account">Setidaknya satu akun harus terlihat dan terbuka untuk membuat transaksi baru.</string>
+    <string name="content_description_dates_are_linked">Tanggal pemesanan dan tanggal nilai diperbarui bersamaan</string>
+    <string name="content_description_dates_are_not_linked">Tanggal pemesanan dan tanggal nilai tidak diperbarui bersamaan</string>
+    <string name="icon">Ikon</string>
+    <string name="pref_debug_title">Debug</string>
+    <string name="roadmap_vote">Pilihan Peta Jalan</string>
+    <string name="warning_account_for_transaction_is_closed">Setidaknya salah satu transaksi yang dipilih tidak dapat diedit:</string>
+    <string name="object_sealed">Objek mengacu pada akun yang ditutup.</string>
+    <string name="content_description_download_exchange_rate">Unduh nilai tukar</string>
+    <string name="exchange_rate_not_supported">Penyedia nilai tukar yang dikonfigurasi tidak memberikan nilai tukar %1$s : %2$s. Anda dapat mencoba memilih yang lain di setelan.</string>
+    <string name="pref_category_exchange_rates">Nilai tukar</string>
+    <string name="pref_exchange_rate_provider_summary">Pilih penyedia untuk mengunduh nilai tukar</string>
+    <string name="pref_exchange_rate_provider_title">Penyedia Nilai Tukar</string>
+    <string name="pref_openexchangerates_app_id_summary">Silakan daftarkan akun gratis di OpenExchangeRates dan berikan ID Aplikasi Anda</string>
+    <string name="pref_plan_executor_time_title">Waktu pemberitahuan perencana</string>
+    <string name="synchronization_select_folder_dialog_title">Pilih folder yang ada atau buat yang baru</string>
+    <string name="discover_feature_expense_income_switch" tools:ignore="UnusedResources">Gunakan tombol alih ini untuk mencatat pendapatan.</string>
+    <string name="menu_create_budget">Anggaran baru</string>
+    <string name="budget_onetime">Satu kali</string>
+    <string name="dialog_confirm_discard_new_budget">Buang anggaran baru?</string>
+    <string name="budget_duration_from">Dari</string>
+    <string name="budget_duration_to">Kepada</string>
+    <string name="no_budgets">Tentukan anggaran pertama Anda dengan mengetuk tombol +.</string>
+    <string name="budget_date_end_after_start">Tanggal akhir anggaran harus jatuh setelah tanggal mulainya.</string>
+
+    <string name="menu_budget_allocated_only">Tampilkan hanya kategori dengan alokasi</string>
+    <string name="budget_filter_all_categories">Semua kategori</string>
+    <string name="budget_filter_all_parties">Semua pihak</string>
+    <string name="budget_filter_all_methods">Semua metode</string>
+    <string name="budget_filter_all_states">Semua status</string>
+    <string name="budget_filter_all_tags">Semua tag</string>
+    <string name="budget_filter_all_accounts">Semua akun</string>
+    <string name="budget_form_label_filter">Filter</string>
+    <string name="dialog_title_warning_delete_budget">Hapus anggaran?</string>
+    <string name="warning_delete_budget">Anggaran \"%1$s\" akan dihapus.</string>
+    <string name="menu_edit_budget">Edit anggaran</string>
+    <string name="onboarding_privacy_title">Data Anda tetap berada di tangan Anda</string>
+    <string name="onboarding_privacy_intro">Data keuangan Anda tidak dikirim ke server mana pun, baik dioperasikan oleh kami maupun oleh pihak ketiga mana pun.</string>
+
+    <string name="app_restart_required">Konfigurasi baru memerlukan mulai ulang aplikasi agar berlaku.</string>
+    <string name="checkbox_is_default">Default</string>
+    <string name="menu_remap">Remap</string>
+    <string name="dialog_title_confirm_remap">Ubah pemetaan (%s) ?</string>
+    <string name="remap_category">Semua transaksi yang dipilih akan dipetakan ke kategori %s.</string>
+    <string name="remap_payee">Semua transaksi yang dipilih akan dipetakan ke pembayar/penerima pembayaran %s.</string>
+    <string name="remap_method">Semua transaksi yang dipilih akan dipetakan ke metode %s.</string>
+    <string name="remap_account">Semua transaksi yang dipilih akan dipetakan ke akun %s.</string>
+    <string name="remapping_result">Transaksi yang dipilih telah dipetakan ulang.</string>
+    <string name="clone_and_remap_result">Transaksi yang dipilih telah digandakan dan dipetakan ulang.</string>
+    <string name="remap_empty_list">Tidak ada item yang ditemukan, yang dapat dipetakan ke semua transaksi yang dipilih.</string>
+    <string name="button_label_clone_and_remap">Clone dan remap</string>
+    <string name="pref_clone_with_current_date_summary_on">Transaksi kloning memiliki tanggal saat ini</string>
+    <string name="pref_clone_with_current_date_summary_off">Transaksi kloning menyimpan tanggal asli</string>
+    <string name="pref_protection_screenshot_information">Dengan mengaktifkan perlindungan perangkat, tangkapan layar dinonaktifkan.</string>
+    <string name="tags_create_or_select">Buat atau pilih tag</string>
+    <string name="content_description_tags_confirm">Konfirmasi</string>
+    <string name="tags">Tag</string>
+    <string name="pref_manage_tags_summary">Tambah, edit, hapus tag.</string>
+    <string name="dialog_title_warning_delete_tag">Hapus tag?</string>
+    <string name="menu_edit_tag">Edit tag</string>
+    <string name="menu_tag">Tag</string>
+    <string name="dialog_multi_tag">Semua transaksi yang dipilih akan diberi tag dengan %s.</string>
+    <string name="dialog_multi_tag_clear">Semua tag akan dihapus dari transaksi yang dipilih.</string>
+    <plurals name="warning_delete_tag">
+        <item quantity="one">Tag %1$s dipetakan ke satu transaksi. Haruskah itu dihapus?</item>
+        <item quantity="other">Tag %1$s dipetakan ke %2$d transaksi. Haruskah itu dihapus?</item>
+    </plurals>
+    <string name="dialog_multi_tag_append">Tambahkan tag baru ke tag yang ada</string>
+    <string name="dialog_multi_tag_replace">Ganti tag yang ada dengan tag baru</string>
+    <string name="new_tag_hint">Masukkan tag baru</string>
+    <string name="language_download_requested">Terjemahan untuk bahasa %s diminta dari Play Store</string>
+    <string name="pref_planner_manual_time_title">Waktu untuk transaksi terjadwal yang diterapkan secara manual</string>
+    <string name="pref_planner_manual_time_noon">12 siang (siang)</string>
+    <string name="pref_planner_manual_time_current">Waktu pendaftaran</string>
+    <string name="title_scan_receipt_feature">Pindai tanda terima</string>
+    <string name="feature_download_requested">Fitur %s diminta dari Play Store.</string>
+    <string name="feature_downloaded">Fitur %s telah dipasang.</string>
+    <string name="menu_scan_mode">Mode pemindaian</string>
+    <string name="button_scan">Pindai</string>
+    <string name="pref_ocr_total_indicators_title">Indikator untuk jumlah total</string>
+    <string name="pref_ocr_total_indicators_summary">Daftar string, yang mengidentifikasi nilai total dalam tanda terima. Letakkan setiap nilai pada baris baru. Biarkan kosong untuk memulihkan nilai default.</string>
+    <string name="pref_ocr_date_formats_title">Format Tanggal</string>
+    <string name="pref_ocr_time_formats_title">Format Waktu</string>
+    <string name="pref_criterion_futur_title">Kriteria untuk transaksi mendatang</string>
+    <string name="pref_criterion_future_end_of_day">Akhir hari</string>
+    <string name="pref_criterion_future_current">Waktu saat ini</string>
+    <string name="pref_category_title_features">Fitur</string>
+    <string name="scan_result_no_data">Tidak ada data</string>
+    <string name="scan_result_multiple_candidates_dialog_title">Beberapa kandidat ditemukan. Silakan pilih:</string>
+    <string name="scan_result_no_amount">Tidak ada jumlah yang ditemukan</string>
+    <string name="scan_result_no_date">Tidak ada tanggal yang ditemukan</string>
+    <string name="scan_result_no_payee">Tidak ada penerima pembayaran yang ditemukan</string>
+    <string name="button_download">Unduh</string>
+    <string name="pref_feature_uninstall_title">Minta penghapusan fitur dan bahasa</string>
+    <string name="pref_feature_uninstall_summary">Play Store mencoba menghapus modul tersebut di latar belakang.</string>
+    <string name="pref_feature_uninstall_languages_title">Bahasa</string>
+    <string name="select_package">Silakan pilih paket lisensi.</string>
+    <string name="discover_feature_fab_long_press" tools:ignore="UnusedResources">Ketuk dan tahan tombol aksi mengambang untuk langsung membuka formulir untuk transfer, transaksi terpisah, atau pendapatan.</string>
+
+
+    <!-- Label untuk kontrol penggeser yang memungkinkan untuk mengonfigurasi rencana yang akan dieksekusi (ditambahkan ke buku besar) jumlah hari sebelumnya -->
+    <string name="advance_exexcution_in_days">Eksekusi lanjutan (dalam hari)</string>
+    <string name="warning_balance_account_delete">Jika Anda melanjutkan, semua transaksi yang direkonsiliasi dari akun ini akan dihapus dari database dan Anda tidak akan dapat memulihkannya.</string>
+    <!-- Saat pengguna membuka templat dari formulir transaksi, data yang ada akan dibuang. Pesan ini muncul di dialgoue to confirm the action -->
+    <string name="confirmation_load_template_discard_data">Data formulir yang ada akan dibuang.</string>
+    <string name="pref_clone_with_current_date_title">Tanggal transaksi kloning</string>
+    <string name="template_default_action_without_amount_hint">Templat tanpa jumlah harus disimpan dengan tindakan default \'Edit\'</string>
+    <string name="plan_automatic_without_amount_hint">Rencana tanpa jumlah tidak boleh disimpan dengan eksekusi rencana otomatis</string>
+    <string name="content_description_edit_plan">Edit rencana di aplikasi kalender</string>
+    <string name="reset_equivalent_amounts_success">Jumlah yang setara telah disetel ulang</string>
+    <string name="menu_save_and_new_content_description">Simpan data, biarkan formulir terbuka untuk membuat transaksi baru dengan data yang sama.</string>
+    <!-- Judul preferensi di mana pengguna dapat memilih antara Ml Kit dan Tesseract sebagai Mesin untuk pengenalan karakter Optik -->
+    <string name="pref_ocr_engine_title">Mesin untuk pengenalan teks</string>
+    <!-- Judul preferensi tempat pengguna dapat memilih bahasa untuk pengenalan teks dengan Tesseract -->
+    <string name="pref_tesseract_language_title">Bahasa untuk Tesseract</string>
+    <!-- %s diganti dengan bahasa -->
+    <string name="tesseract_download_confirmation">Apakah Anda ingin mengunduh data pengenalan teks untuk %s?</string>
+    <!-- %s diganti dengan bahasa -->
+    <string name="download_completed">Unduhan (%s) telah selesai.</string>
+    <!-- %s diganti dengan informasi mesin atau aplikasi yang digunakan untuk menjalankan pengenalan teks -->
+    <string name="ocr_recognition_info">Menjalankan pengenalan teks dengan %s</string>
+    <string name="ocr_download_info">Kemampuan pengenalan teks disediakan oleh aplikasi eksternal.</string>
+    <!-- %s diganti dengan judul preferensi untuk menyetel frasa sandi untuk pencadangan (pref_security_export_passphrase_title) -->
+    <string name="warning_unencrypted_backup">Sementara data Anda dilindungi dari akses tidak sah di perangkat ini, cadangan dibuat tanpa enkripsi, kecuali jika Anda mengonfigurasi %s.</string>
+    <!-- Judul sakelar preferensi yang memungkinkan untuk mengonfigurasi tampilan tajuk grup. Jika diaktifkan, jumlah pendapatan/pengeluaran/transfer ditampilkan -->
+    <string name="pref_group_header_show_details_summary">Tampilkan jumlah detail di header grup</string>
+    <!-- Judul item menu dan dialog yang memungkinkan untuk menyesuaikan saldo saat ini. Pengguna dapat memasukkan saldo baru, dan formulir transaksi dibuka dengan jumlah yang telah diarsipkan ke selisih antara saldo lama dan baru -->
+    <string name="new_balance">Saldo baru</string>
+    <string name="title_webui">Antarmuka Pengguna Web</string>
+    <string name="single_feature_info">Atau, Anda dapat membeli akses tak terbatas hanya ke fitur ini.</string>
+    <!-- Ini mengacu pada rencana yang berulang setiap hari terakhir dalam sebulan. Itu ditampilkan di sebelah kotak centang yang memungkinkan pengguna untuk memilih jenis perulangan ini. -->
+    <string name="recurrence_last_day_of_month">Hari terakhir</string>
+    <string name="warning_link_transfer">Dua transaksi yang dipilih akan ditautkan sebagai transfer. Informasi penerima pembayaran/Pembayar dan kategori akan dihapus.</string>
+    <!-- Ini adalah judul entri pada layar konfigurasi untuk widget akun. Memungkinkan untuk memutuskan nomor mana yang harus ditampilkan untuk setiap akun: saldo saat ini atau total (termasuk transaksi mendatang) -->
+    <string name="account_widget_configuration_sum">Jenis jumlah yang ditampilkan</string>
+    <string name="account_widget_configuration_sum_total">Sertakan transaksi mendatang</string>
+    <!-- Judul dialog yang memungkinkan untuk mengonfigurasi widget akun -->
+    <string name="account_widget_configuration">Konfigurasi widget akun</string>
+    <!-- Judul entri menu yang memungkinkan untuk menggabungkan entri duplikat di tabel pihak (penerima/pembayar) -->
+    <string name="menu_merge">Gabungkan</string>
+    <!-- Saat pengguna memilih pihak duplikat untuk digabungkan, dia melihat prompt ini memintanya untuk memilih nama mana yang harus dipilih untuk pihak yang digabungkan -->
+    <string name="merge_parties_select">Pilih nama pihak yang digabungkan:</string>
+    <!-- Ini adalah label untuk bidang akun. Tag aktif secara otomatis ditambahkan ke transaksi baru saat akun dipilih. -->
+    <string name="active_tags">Tag Aktif</string>
+
+
+    <!-- Ini digunakan pada judul email yang digunakan pengguna untuk meminta tagihan pembayaran melalui transfer bank -->
+    <string name="request_for_invoice">Permintaan Faktur</string>
+    <!-- Mengaktifkan Fokus pada bidang Penerima Pembayaran untuk Pengisian Otomatis -->
+    <string name="auto_fill_focus">Tetapkan Fokus pada Penerima Pembayaran</string>
+    <!-- Peringatan ini ditampilkan saat pengguna memanggil perintah Reset atau Cancel pada transaksi terjadwal, untuk suatu tanggal
+    di mana transaksi telah dibuat. -->
+    <string name="warning_plan_instance_delete">Transaksi yang dibuat untuk tanggal yang dipilih akan dihapus.</string>
+    <string name="crash_reports_user_info">{app_name} akan mengirimkan laporan tentang aplikasi mogok secara otomatis ke pengembangnya, yang memungkinkan mereka memperbaiki masalah lebih cepat.</string>
+    <string name="pref_category_title_crash_reports">Laporan kerusakan</string>
+    <string name="pref_enable_acra">Izinkan pengiriman otomatis laporan kerusakan</string>
+    <string name="pref_acra_user_email">Email pengguna untuk disertakan dalam laporan kerusakan</string>
+    <string name="pref_acra_user_email_summary">Masukkan alamat email Anda jika Anda bersedia membantu proses debug dan izinkan kami menghubungi Anda.</string>
+    <string name="backup_save_to_sync_backend">Simpan ke %s</string>
+    <!-- Ini digunakan secara berulang dalam entri Changelog -->
+    <string name="ui_refinement">Penyempurnaan antarmuka pengguna</string>
+    <!-- Ini digunakan secara berulang dalam entri Changelog -->
+    <string name="bug_fixes" tools:ignore="UnusedResources">Perbaikan bug</string>
+    <!-- Ini digunakan secara berulang dalam entri Changelog -->
+    <string name="performance_enhancement" tools:ignore="UnusedResources">Peningkatan kinerja</string>
+    <!-- Ini digunakan secara berulang dalam entri Changelog -->
+    <string name="stability_improvements" tools:ignore="UnusedResources">Peningkatan stabilitas</string>
+    <string name="new_version">Versi baru</string>
+    <string name="menu_new_debt">Hutang baru</string>
+    <string name="debt_owes_me">%s berutang kepada saya</string>
+    <string name="debt_I_owe">Saya berutang %s</string>
+    <!-- Muncul di formulir transaksi sebagai label untuk kotak centang yang memungkinkan untuk menautkan transaksi ke utang -->
+    <string name="debt">Hutang</string>
+    <string name="debts">Hutang</string>
+    <!-- Ketika pengguna ingin menghapus pihak yang utangnya ditentukan, kami meminta konfirmasi. -->
+    <string name="warning_party_delete_debt">Saat menghapus pihak ini, hutang yang ditentukan untuknya juga akan dihapus.</string>
+    <string name="dialog_confirm_discard_new_debt">Buang utang baru?</string>
+    <string name="dialog_title_delete_debt">Hapus utang?</string>
+    <plurals name="debt_mapped_transactions">
+        <item quantity="one">Hutang "%1$s" memiliki %2$d transaksi yang dipetakan.</item>
+        <item quantity="other">Utang "%1$s" memiliki %2$d transaksi yang dipetakan.</item>
+    </plurals>
+    <string name="object_sealed_debt">Objek mengacu pada hutang tertutup.</string>
+    <string name="debt_managment">Pengelolaan utang</string>
+    <string name="title_activity_debt_overview">Ikhtisar Utang</string>
+    <!-- Label untuk kotak centang pada dialog ekspor. Jika dicentang, semua akun akan digabungkan menjadi satu file -->
+    <string name="cb_label_merge_accounts">Gabungkan akun</string>
+    <!-- Judul preferensi di mana pengguna dapat memilih skrip untuk pengenalan teks dengan MlKit (saat ini Latin, China, Devanagari, Jepang, Korea) -->
+    <string name="pref_mlkit_script_title">Skrip untuk MlKit</string>
+    <!-- Saat pengguna mengimpor kategori standar, ini melaporkan jumlah kasus, di mana kategori sudah ditentukan, tetapi tanpa ikon. -->
+    <plurals name="import_categories_icons_updated">
+        <item quantity="one">Satu kategori telah diperbarui dengan ikon.</item>
+        <item quantity="other">%1$d kategori diperbarui dengan ikon.</item>
+    </plurals>
+    <!-- Fitur baru di versi 3.3.6 #1 (https://github.com/mtotschnig/MyExpenses/issues/870)-->
+    <string name="whats_new_336_1">Bagikan ringkasan utang</string>
+    <!-- Fitur baru di versi 3.3.6 #2 (https://github.com/mtotschnig/MyExpenses/issues/889) -->
+    <string name="whats_new_336_2">Tag untuk bagian terpisah</string>
+    <string name="setup_completed">Penyiapan selesai</string>
+    <!-- Fitur baru di versi 3.3.8 -->
+    <string name="whats_new_338">Hierarki kategori dalam yang sewenang-wenang</string>
+    <string name="menu_parent_category_selection">Pilih kategori induk dengan ketukan singkat</string>
+    <string name="dialog_title_purge_backups">Hapus cadangan lama</string>
+    <string name="purge_backups">File cadangan lama berikut ini akan dihapus:</string>
+    <plurals name="purge_backup_success">
+        <item quantity="one">Satu file cadangan lama dihapus.</item>
+        <item quantity="other">%d file cadangan lama dihapus.</item>
+    </plurals>
+    <plurals name="purge_backup_failure">
+        <item quantity="one">Satu file cadangan lama tidak dapat dihapus.</item>
+        <item quantity="other">%d file cadangan lama tidak dapat dihapus.</item>
+    </plurals>
+
+    <!-- Ini adalah judul preferensi untuk fitur "Bersihkan cadangan lama". Jika ada lebih banyak cadangan yang ditemukan daripada jumlah ini, semua kecuali cadangan terbaru akan dihapus.-->
+    <string name="pref_purge_backup_keep_title">Jumlah maksimum file cadangan terbaru yang akan disimpan</string>
+    <string name="pref_purge_backup_require_confirmation_summary">Tampilkan prompt konfirmasi sebelum file dibersihkan</string>
+    <!-- Ringkasan untuk entri pada layar preferensi yang menyiapkan pesan dengan file log yang dilampirkan untuk keperluan debugging. -->
+    <string name="pref_debug_logging_share_summary">Berbagi file log</string>
+    <!-- Fitur baru di versi 3.4.0 -->
+    <string name="whats_new_340">Bidang catatan memungkinkan beberapa baris.</string>
+    <!-- {akun} diganti dengan label akun -->
+    <string name="webui_warning_move_transaction">Transaksi akan dipindahkan ke akun "{account}".</string>
+    <string name="pref_csv_export_split_categories_summary">Gunakan kolom terpisah untuk setiap tingkat hierarki kategori</string>
+    <string name="pref_csv_export_split_amount_summary">Gunakan kolom terpisah untuk pemasukan dan pengeluaran</string>
+    <string name="pref_csv_export_split_date_time_summary">Gunakan kolom terpisah untuk tanggal dan waktu</string>
+    <!-- Fitur baru di versi 3.4.4 -->
+    <string name="whats_new_344">Ikon untuk kategori</string>
+    <!-- Ditampilkan setelah validasi formulir di bawah bidang teks wajib jika pengguna tidak memberikan nilai -->
+    <string name="required">Diperlukan</string>
+    <!-- Ini adalah label untuk kotak centang yang memungkinkan untuk mengubah anggaran hanya untuk satu periode (tahun, bulan, minggu, hari). %s akan diganti dengan deskripsi periode, mis. Agustus 2022 -->
+    <string name="budget_only_current_period">Tetapkan hanya untuk %s</string>
+    <!-- Perputaran mengacu pada perputaran anggaran dari satu periode ke periode berikutnya, mis. untuk anggaran bulanan dari satu bulan ke bulan berikutnya. -->
+    <string name="budget_table_header_rollover">Alirkan</string>
+    <string name="rollover_edit_invalid">Jumlah rollover yang ditetapkan ke suatu kategori dan rollover yang ditetapkan ke subkategori tidak boleh melebihi sisanya.</string>
+    <string name="dialog_confirm_rollover_delete">Semua jumlah putaran untuk periode ini akan dihapus.</string>
+</resources>

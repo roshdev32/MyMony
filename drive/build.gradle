@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.dynamic-feature'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+android {
+    compileSdk project.compileSdkVersion
+
+    defaultConfig {
+        missingDimensionStrategy 'textRecognition', 'extern'
+        minSdk project.minSdkVersion
+    }
+}
+
+dependencies {
+    implementation project(":myExpenses")
+    implementation 'frankiesardo:icepick:3.2.0'
+    kapt 'frankiesardo:icepick-processor:3.2.0'
+
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    implementation('com.google.http-client:google-http-client-gson:1.42.0')  {
+        exclude module: 'httpclient'
+        exclude module: 'commons-logging'
+    }
+    implementation('com.google.http-client:google-http-client-android:1.42.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.api-client:google-api-client-android:1.35.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.apis:google-api-services-drive:v3-rev20211107-1.32.1') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+    kapt "com.google.dagger:dagger-compiler:$daggerVersion"
+    implementation "com.google.dagger:dagger:$daggerVersion"
+}

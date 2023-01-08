@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+     android-source/packages/apps/UnifiedEmail/res/values/strings.xmlls
+-->
+<resources>
+    <string name="drawer_open">"Åbn navigationsskuffen"</string>
+    <string name="drawer_close">"Luk navigationsskuffen"</string>
+    <string name="saving">"Gemmer…"</string>
+    <string name="default_action">"Standardhandling"</string>
+    <string name="full_name">"Navn"</string>
+    <string name="postal_country">"Land"</string>
+    <string name="toast_text_copied">"Kopieret tekst"</string>
+    <string name="copy_text">"Kopier til udklipsholder"</string>
+    <string name="stop">"Stop"</string>
+    <string name="no_network">"Der er ingen netværksforbindelse."</string>
+    <string name="button_label_continue">Fortsæt</string>
+    <string name="autofill">"Autofyld"</string>
+    <string name="discard">"Kassér"</string>
+    <string name="dialog_dismiss">"Luk"</string>
+    <string name="response_yes">"Ja"</string>
+    <string name="response_no">"Nej"</string>
+    <string name="add_widget">"Tilføj widget."</string>
+    <string name="calendar">"Kalender"</string>
+    <string name="permissions_label">"Tilladelser"</string>
+    <string name="time_format">"Tidsformat"</string>
+    <string name="setup">"Konfiguration"</string>
+    <string name="clear_cache">"Ryd cache"</string>
+    <string name="customize">"Tilpas"</string>
+</resources>
+

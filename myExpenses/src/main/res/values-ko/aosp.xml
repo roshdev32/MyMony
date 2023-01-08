@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+     android-source/packages/apps/UnifiedEmail/res/values/strings.xmlls
+-->
+<resources>
+    <string name="drawer_open">"내비게이션 폴더 열기"</string>
+    <string name="drawer_close">"내비게이션 폴더 닫기"</string>
+    <string name="saving">"저장 중…"</string>
+    <string name="default_action">"기본 작업"</string>
+    <string name="full_name">"이름"</string>
+    <string name="postal_country">"국가"</string>
+    <string name="toast_text_copied">"텍스트 복사됨"</string>
+    <string name="copy_text">"클립보드에 복사"</string>
+    <string name="stop">"중지"</string>
+    <string name="no_network">"네트워크에 연결되어 있지 않습니다."</string>
+    <string name="button_label_continue">계속</string>
+    <string name="autofill">"자동완성"</string>
+    <string name="discard">"취소"</string>
+    <string name="dialog_dismiss">"닫기"</string>
+    <string name="response_yes">"예"</string>
+    <string name="response_no">"아니요"</string>
+    <string name="add_widget">"위젯 추가"</string>
+    <string name="calendar">"캘린더"</string>
+    <string name="permissions_label">"권한"</string>
+    <string name="time_format">"시간 형식"</string>
+    <string name="setup">"설정"</string>
+    <string name="clear_cache">"캐시 지우기"</string>
+    <string name="customize">"맞춤설정"</string>
+</resources>
+

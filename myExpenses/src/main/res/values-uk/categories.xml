@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources, InconsistentArrays">
+    <!-- Main category -->
+    <string name="Main_1">Інші доходи</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_1">Допомога по безробіттю</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_2">Допомога на сім\'ю</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_3">Податковий кредит</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_4">Азартні ігри</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_5">Взаємне страхування</string>
+    <!-- Subcategory under "Other income" -->
+    <string name="Sub_1_6">Соціальний захист</string>
+    <!-- Main category -->
+    <string name="Main_2">Вихід на пенсію</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_1">Пенсійний фонд</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_2">Пенсія</string>
+    <!-- Subcategory under "Retirement" -->
+    <string name="Sub_2_3">Додаткова пенсія</string>
+    <!-- Main category -->
+    <string name="Main_3">Інвестиційний дохід</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_1">Дивіденди</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_2">Відсотки</string>
+    <!-- Subcategory under "Investment income" -->
+    <string name="Sub_3_3">Приріст капіталу</string>
+    <!-- Main category -->
+    <string name="Main_4">Зарплата</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_1">Понаднормова робота</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_2">Відпускні</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_3">Інші премії</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_4">Винагорода за успіх</string>
+    <!-- Subcategory under "Salary" -->
+    <string name="Sub_4_5">Чиста зарплата</string>
+    <!-- Main category -->
+    <string name="Main_5">Інший дохід</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_1">Подарунки</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_2">Повернення коштів</string>
+    <!-- Subcategory under "Misc. income" -->
+    <string name="Sub_5_3">Продаж вживаних товарів</string>
+    <!-- Main category -->
+    <string name="Main_6">Їжа</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_1">Бар</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_2">Пекарня</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_3">Їдальня</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_4">Солодощі</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_5">Продукти</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_6">Ресторан</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_7">Самообслуговування</string>
+    <!-- Subcategory under "Food" -->
+    <string name="Sub_6_8">Супермаркет</string>
+    <!-- Main category -->
+    <string name="Main_7">Домашні тварини</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_1">Їжа</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_2">Різні аксесуари</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_3">Догляд та гігієна</string>
+    <!-- Subcategory under "Pets" -->
+    <string name="Sub_7_4">Ветеринарний хірург</string>
+    <!-- Main category -->
+    <string name="Main_8">Страхування</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_1">Автомобіль</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_2">Здоров\'я</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_3">Будинок</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_4">Цивільна відповідальність</string>
+    <!-- Subcategory under "Insurance" -->
+    <string name="Sub_8_5">Життя</string>
+    <!-- Main category -->
+    <string name="Main_9">Автомобіль</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_1">Паливо</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_2">Ремонт</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_3">Технічне обслуговування</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_4">Автостоянка</string>
+    <!-- Subcategory under "Car" -->
+    <string name="Sub_9_5">Штрафи</string>
+    <!-- Main category -->
+    <string name="Main_10">Подарунки</string>
+    <!-- Main category -->
+    <string name="Main_11">Діти</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_1">Медсестра</string>
+    <!-- Subcategory under "Children" -->
+    <string name="Sub_11_2">Навчання</string>
+    <!-- Main category -->
+    <string name="Main_12">Навчання</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_1">Уроки</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_2">Шкільні внески</string>
+    <!-- Subcategory under "Studies" -->
+    <string name="Sub_12_3">Книги</string>
+    <!-- Main category -->
+    <string name="Main_13">Фінансові витрати</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_1">Банківські стягнення</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_2">Кредит / Іпотека</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_3">Комунальні платежі</string>
+    <!-- Subcategory under "Financial expenses" -->
+    <string name="Sub_13_4">Відшкодування</string>
+    <!-- Main category -->
+    <string name="Main_14">Професійні витрати</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_1">Без можливості відшкодування</string>
+    <!-- Subcategory under "Professional expenses" -->
+    <string name="Sub_14_2">З можливістю відшкодування</string>
+    <!-- Main category -->
+    <string name="Main_15">Податки</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_1">Податок на прибуток</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_2">Земельний податок</string>
+    <!-- Subcategory under "Taxes" -->
+    <string name="Sub_15_3">Податок з продажів</string>
+    <!-- Main category -->
+    <string name="Main_16">Житло</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_1">Готель</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_2">Оренда</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_3">Телевізор</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_4">Меблі</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_5">Комунальні платежі</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_6">Опалення</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_7">Декор</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_8">Вода</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_9">Електрика</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_10">Побутова техніка</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_11">Обладнання</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_12">Газ</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_13">Сад</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_14">Упорядник дому</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_15">Телефон</string>
+    <!-- Subcategory under "Housing" -->
+    <string name="Sub_16_16">Мобільний телефон</string>
+    <!-- Main category -->
+    <string name="Main_17">Відпочинок</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_1">Більярд</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_2">Боулінг</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_3">Фільми</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_4">Нічний клуб</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_5">IT</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_6">Ігри</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_7">Книги</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_8">Парки</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_9">Концерти</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_10">Спорт</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_11">Відео</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_12">Подорожі</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_13">Обладнання</string>
+    <!-- Subcategory under "Leisures" -->
+    <string name="Sub_17_14">Музеї / Виставки</string>
+    <!-- Main category -->
+    <string name="Main_18">Кредит / Іпотека</string>
+    <!-- Subcategory under "Loan/Mortgage" -->
+    <string name="Sub_18_1">Капітал</string>
+    <!-- Main category -->
+    <string name="Main_19">Здоров\'я</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_1">Страхування</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_2">Стоматолог</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_3">Лікарня</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_4">Лікувальна фізкультура</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_5">Лікар</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_6">Офтальмолог</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_7">Остеопат</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_8">Фармацевт</string>
+    <!-- Subcategory under "Health" -->
+    <string name="Sub_19_9">Соціальний захист</string>
+    <!-- Main category -->
+    <string name="Main_20">Догляд</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_1">Перукарня</string>
+    <!-- Subcategory under "Care" -->
+    <string name="Sub_20_2">Одяг</string>
+    <!-- Main category -->
+    <string name="Main_21">Транспорт</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_1">Автобус</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_2">Метро</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_3">Платна дорога</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_4">Потяг</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_5">Трамвай</string>
+    <!-- Subcategory under "Transport" -->
+    <string name="Sub_21_6">Літак</string>
+    <!-- Main category -->
+    <string name="Main_22">Свята</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_1">Житло</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_2">Візити</string>
+    <!-- Subcategory under "Holidays" -->
+    <string name="Sub_22_3">Подорожі</string>
+</resources>

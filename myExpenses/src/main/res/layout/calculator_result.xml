@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textfield_default"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    tools:showIn="@layout/calculator">
+
+    <TextView
+        android:id="@+id/op"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-5sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:text="+" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/op"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-5sp"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:text="123.45" />
+</RelativeLayout>

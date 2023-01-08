@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.totschnig.myexpenses.ui.ExpansionPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/drawerWidth"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:animateLayoutChanges="true"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <FrameLayout
+        android:id="@+id/expansionTrigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/drawer_padding">
+
+        <TextView
+            style="@style/newHeadingStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/navigation_drawer_accounts_title" />
+
+        <!-- HEADER INDICATOR -->
+        <include layout="@layout/expansion_handle" />
+
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/expansionContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:visibility="gone"
+        app:elevation="0dp"
+        app:menu="@menu/accounts" />
+
+    <se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView
+        android:id="@+id/accountList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/drawerBackground"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:fastScrollEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" />
+</org.totschnig.myexpenses.ui.ExpansionPanel>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+-->
+<resources>
+    <!-- packages/apps/UnifiedEmail/res/values/strings.xml -->
+    <string name="drawer_open">Buka navigasi</string>
+    <string name="drawer_close">Tutup navigasi</string>
+    <string name="saving">Menyimpan&#8230;</string>
+    <!-- prefDialogTitle_removal_action -->
+    <string name="default_action">"Aksi bawaan"</string>
+    <!-- packages/apps/ContactsCommon/res/values/strings.xml -->
+    <string name="full_name">Nama</string>
+    <string name="postal_country">Negara</string>
+    <!-- packages/apps/Contacts/res/values/strings.xml -->
+    <string name="toast_text_copied">Teks disalin</string>
+    <string name="copy_text">Salin ke clipboard</string>
+    <!--  packages/apps/DeskClock/res/values/strings.xml name="timer_stop" -->
+    <string name="stop">Berhenti</string>
+    <!-- packages/apps/Settings/res/values/strings.xml name="vpn_no_network" -->
+    <string name="no_network">Tidak ada koneksi jaringan.</string>
+    <!-- Settings name="encryption_continue_button" -->
+    <string name="button_label_continue">Lanjutkan</string>
+    <!-- AndroidSDK/platforms/android-30/data/res autofill_this_form -->
+    <string name="autofill">Isi otomatis</string>
+    <!--  packages/apps/SoundRecorder/res/values/strings.xml-->
+    <string name="discard">Batal</string>
+    <!--  packages/apps/Camera2/res/values/strings.xml-->
+    <string name="dialog_dismiss">Tutup</string>
+    <!--  packages/apps/Calendar/res/values/strings.xml-->
+    <string name="response_yes">Ya</string>
+    <string name="response_no">Tidak</string>
+    <!-- platform_frameworks_base/core/res/res/values/strings.xml name="keyguard_accessibility_add_widget"-->
+    <string name="add_widget">Tambahkan widget</string>
+    <!-- platform_packages_providers_calendarprovider/res/values/string.xml name="provider_label"-->
+    <string name="calendar">Kalender</string>
+    <!-- platform_packages_apps_settings/res/values/strings.xml -->
+    <string name="permissions_label">Perijinan</string>
+    <!-- name = time_format_category_title -->
+    <string name="time_format">Format waktu</string>
+    <!-- MusicFX -->
+    <string name="setup">"Mempersiapkan"</string>
+    <!-- platform_packages_apps_settings/res/values/strings.xml name="clear_cache_btn_text" -->
+    <string name="clear_cache">Hapus cache</string>
+    <!--TvSettings/Settings/res/values/strings.xml restricted_profile_customize_restrictions -->
+    <string name="customize">Sesuaikan</string>
+</resources>
+
